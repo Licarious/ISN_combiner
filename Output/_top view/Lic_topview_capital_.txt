@@ -1,0 +1,3531 @@
+﻿			################# MODULE SLOT: Heavy Battery #################
+			containerWindowType = {
+				name = "fixed_ship_battery_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "nrm_capital_battery_11_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_11_2x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_11_2x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=395 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=368 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_11_3x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_11_3x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_11_3x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=395 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=368 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_11_4x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_11_4x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_11_3x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_11_4x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_12_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_12_2x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_12_2x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=395 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=368 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_12_3x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_12_3x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_12_3x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=395 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=368 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_12_4x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_12_4x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_12_3x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_12_4x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_13_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_13_2x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_13_2x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=395 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=368 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_13_3x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_13_3x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_13_3x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=395 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=368 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_13_4x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_13_4x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_13_3x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_13_4x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_14_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_14_2x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_14_2x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=395 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=368 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_14_3x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_14_3x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_14_3x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=395 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=368 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_14_4x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_14_4x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_14_3x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_14_4x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_15_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_15_2x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_15_2x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=395 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=368 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_15_3x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_15_3x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_15_3x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=395 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=368 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_15_4x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_15_4x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_15_3x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_15_4x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_16_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_16_2x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_16_2x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=395 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=368 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_16_3x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_16_3x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_16_3x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=395 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=368 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_16_4x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_16_4x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_16_3x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_16_4x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_18_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_18_2x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_18_2x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=395 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=368 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_18_3x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_18_3x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_18_3x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=395 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=368 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_18_4x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_18_4x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_18_3x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_18_4x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_20_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_20_2x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_20_2x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=395 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=368 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_20_3x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_20_3x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_20_3x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=395 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=332 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=368 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_20_4x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_20_4x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_20_3x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_20_4x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad"
+						position = { x=365 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin"
+						position = { x=332 y=0 }
+					}
+				}
+			}
+
+			################# MODULE SLOT: Heavy Battery Rear #################
+			containerWindowType = {
+				name = "fixed_ship_battery_rear_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "nrm_capital_battery_11_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_11_2x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_11_2x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=194 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_11_2x4"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=194 y=0 }
+					}
+					iconType = {
+						name = "image4"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=161 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_11_3x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_11_3x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_11_3x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=194 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_11_4x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_11_4x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_11_3x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_11_4x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_12_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_12_2x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_12_2x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=194 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_12_2x4"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=194 y=0 }
+					}
+					iconType = {
+						name = "image4"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=161 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_12_3x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_12_3x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_12_3x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=194 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_12_4x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_12_4x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_12_3x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_12_4x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_13_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_13_2x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_13_2x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=194 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_13_2x4"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=194 y=0 }
+					}
+					iconType = {
+						name = "image4"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=161 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_13_3x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_13_3x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_13_3x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=194 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_13_4x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_13_4x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_13_3x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_13_4x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_14_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_14_2x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_14_2x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=194 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_14_2x4"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=194 y=0 }
+					}
+					iconType = {
+						name = "image4"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=161 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_14_3x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_14_3x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_14_3x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=194 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_14_4x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_14_4x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_14_3x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_14_4x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_15_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_15_2x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_15_2x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=194 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_15_2x4"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=194 y=0 }
+					}
+					iconType = {
+						name = "image4"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=161 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_15_3x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_15_3x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_15_3x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=194 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_15_4x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_15_4x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_15_3x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_15_4x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_16_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_16_2x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_16_2x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=194 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_16_2x4"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=194 y=0 }
+					}
+					iconType = {
+						name = "image4"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=161 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_16_3x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_16_3x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_16_3x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=194 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_16_4x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_16_4x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_16_3x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_16_4x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_18_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_18_2x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_18_2x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=194 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_18_2x4"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=194 y=0 }
+					}
+					iconType = {
+						name = "image4"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=161 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_18_3x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_18_3x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_18_3x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=194 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_18_4x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_18_4x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_18_3x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_18_4x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_20_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_20_2x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_20_2x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=194 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_20_2x4"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=194 y=0 }
+					}
+					iconType = {
+						name = "image4"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=161 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_20_3x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_20_3x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_20_3x3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image3"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=194 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_20_4x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_20_4x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_20_3x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_20_4x1_2x1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=77 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_battery_11_2x2_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=161 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_12_2x2_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=161 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_11_2x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_11_2x1_CV_long"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_long"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_11_3x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_11_3x1_CV_long"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_long"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_11_4x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_12_2x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_12_2x1_CV_long"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_long"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_12_3x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_12_3x1_CV_long"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_long"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_12_4x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_13_2x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_13_2x1_CV_long"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_long"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_13_3x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_13_3x1_CV_long"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_long"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_13_4x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_14_2x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_14_2x1_CV_long"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_long"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_14_3x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_14_3x1_CV_long"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_long"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_14_4x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_15_2x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_15_2x1_CV_long"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_long"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_15_3x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_15_3x1_CV_long"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_long"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_15_4x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_16_2x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_16_2x1_CV_long"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_long"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_16_3x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_16_3x1_CV_long"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_long"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_16_4x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_18_2x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_18_2x1_CV_long"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_long"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_18_3x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_18_3x1_CV_long"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_long"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_18_4x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_20_2x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_20_2x1_CV_long"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_long"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_20_3x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_20_3x1_CV_long"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_long"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_20_4x1_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_quad_rear"
+						position = { x=110 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_13_2x2_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=161 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_14_2x2_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=161 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_15_2x2_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=161 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_16_2x2_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=161 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_18_2x2_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=161 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_battery_20_2x2_CV"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+					iconType = {
+						name = "image1"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=110 y=0 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
+						position = { x=161 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "nrm_capital_flightdeck"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_short"
+						position = { x=0 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_capital_flightdeck_long"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "flight_deck"
+						spriteType = "GFX_SM_heavy_flight_deck_long"
+						position = { x=0 y=0 }
+					}
+				}
+			}

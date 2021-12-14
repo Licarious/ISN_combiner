@@ -1,0 +1,133 @@
+equipment_modules = {
+	nrm_submarine_deckgun_3_x2 = {
+		category = nrm_submarine_deckgun_3-4_x2
+		gui_category = nrm_submarine_deckgun
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_submarine_deckgun_3
+
+		manpower = 4
+		add_stats = {
+			build_cost_ic = 10.5
+			max_strength = 0.21000000000000002
+			lg_attack = 1.4
+			supply_consumption = 0.0
+			surface_visibility = 0.0
+			sub_visibility = 0.0
+		}
+		add_average_stats = {
+			lg_armor_piercing = 3.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.00675
+			reliability = -0.012
+			naval_speed = -0.00864
+			fuel_consumption = 0.00675
+		}
+		critical_parts = { damaged_light_guns }
+	}
+	nrm_submarine_deckgun_4_x2 = {
+		category = nrm_submarine_deckgun_3-4_x2
+		gui_category = nrm_submarine_deckgun
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_submarine_deckgun_4
+
+		manpower = 8
+		add_stats = {
+			build_cost_ic = 27.3
+			max_strength = 0.63
+			lg_attack = 2.6
+			supply_consumption = 0.0
+			surface_visibility = 0.0
+			sub_visibility = 0.0
+		}
+		add_average_stats = {
+			lg_armor_piercing = 5.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.016
+			reliability = -0.016
+			naval_speed = -0.02048
+			fuel_consumption = 0.016
+		}
+		critical_parts = { damaged_light_guns }
+	}
+	nrm_submarine_deckgun_5_x2 = {
+		category = nrm_submarine_deckgun_5-6_x2
+		gui_category = nrm_submarine_deckgun
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_submarine_deckgun_5
+
+		manpower = 12
+		add_stats = {
+			build_cost_ic = 52.5
+			max_strength = 1.6800000000000002
+			lg_attack = 3.8
+			supply_consumption = 0.002
+			surface_visibility = 0.0
+			sub_visibility = 0.0
+		}
+		add_average_stats = {
+			lg_armor_piercing = 6.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.03125
+			reliability = -0.02
+			naval_speed = -0.04
+			fuel_consumption = 0.03125
+		}
+		critical_parts = { damaged_light_guns }
+	}
+	nrm_submarine_deckgun_6_x2 = {
+		category = nrm_submarine_deckgun_5-6_x2
+		gui_category = nrm_submarine_deckgun
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_submarine_deckgun_6
+
+		manpower = 18
+		add_stats = {
+			build_cost_ic = 90.3
+			max_strength = 3.3600000000000003
+			lg_attack = 4.4
+			supply_consumption = 0.002
+			surface_visibility = 0.0
+			sub_visibility = 0.0
+		}
+		add_average_stats = {
+			lg_armor_piercing = 10.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.054
+			reliability = -0.024
+			naval_speed = -0.06912
+			fuel_consumption = 0.054
+		}
+		critical_parts = { damaged_light_guns }
+	}
+	nrm_submarine_deckgun_8_x2 = {
+		category = nrm_submarine_deckgun_8_x2
+		gui_category = nrm_submarine_deckgun
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_submarine_deckgun_8
+
+		manpower = 32
+		add_stats = {
+			build_cost_ic = 214.20000000000002
+			max_strength = 10.709999999999999
+			hg_attack = 5.2
+			lg_attack = 1.7680000000000002
+			supply_consumption = 0.004
+			surface_visibility = 0.0
+			sub_visibility = 0.0
+		}
+		add_average_stats = {
+			hg_armor_piercing = 14.0
+			lg_armor_piercing = 14.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.128
+			reliability = -0.032
+			naval_speed = -0.16384
+			fuel_consumption = 0.128
+		}
+		critical_parts = { damaged_heavy_guns }
+	}

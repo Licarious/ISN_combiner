@@ -1,0 +1,281 @@
+
+add_namespace = lic_tech_sub_handout
+
+country_event = {
+	id = lic_tech_sub_handout.1
+	title = lic_tech_sub_handout.1.t
+	desc = lic_tech_sub_handout.1.desc
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				has_tech = nrm_battery_improved_dp_4
+			}
+			set_technology = { popup = no nrm_battery_improved_dp_4_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_advanced_dp_4
+			}
+			set_technology = { popup = no nrm_battery_advanced_dp_4_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_improved_dp_5h
+			}
+			set_technology = { popup = no nrm_battery_improved_dp_5h_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_advanced_dp_5h
+			}
+			set_technology = { popup = no nrm_battery_advanced_dp_5h_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_improved_dp_5
+			}
+			set_technology = { popup = no nrm_battery_improved_dp_5_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_advanced_dp_5
+			}
+			set_technology = { popup = no nrm_battery_advanced_dp_5_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_advanced_dp_6
+			}
+			set_technology = { popup = no nrm_battery_advanced_dp_6_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_modern_dp_6
+			}
+			set_technology = { popup = no nrm_battery_modern_dp_6_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_improved_5h
+			}
+			set_technology = { popup = no nrm_battery_improved_5h_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_advanced_5h
+			}
+			set_technology = { popup = no nrm_battery_advanced_5h_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_improved_4
+			}
+			set_technology = { popup = no nrm_battery_improved_4_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_advanced_4
+			}
+			set_technology = { popup = no nrm_battery_advanced_4_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_improved_5
+			}
+			set_technology = { popup = no nrm_battery_improved_5_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_advanced_5
+			}
+			set_technology = { popup = no nrm_battery_advanced_5_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_early_6
+			}
+			set_technology = { popup = no nrm_battery_early_6_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_improved_6
+			}
+			set_technology = { popup = no nrm_battery_improved_6_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_advanced_6
+			}
+			set_technology = { popup = no nrm_battery_advanced_6_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_modern_6
+			}
+			set_technology = { popup = no nrm_battery_modern_6_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_early_8
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_early_8_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_improved_8
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_improved_8_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_advanced_8
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_advanced_8_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_modern_8
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_modern_8_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_early_11
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_early_11_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_improved_11
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_improved_11_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_advanced_11
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_advanced_11_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_early_12
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_early_12_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_improved_12
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_improved_12_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_advanced_12
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_advanced_12_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_early_13
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_early_13_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_improved_13
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_improved_13_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_advanced_13
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_advanced_13_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_early_14
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_early_14_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_improved_14
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_improved_14_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_advanced_14
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_advanced_14_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_early_15
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_early_15_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_improved_15
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_improved_15_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_advanced_15
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_advanced_15_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_early_16
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_early_16_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_improved_16
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_improved_16_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_advanced_16
+				not = { has_idea = MTG_naval_treaty_adherent }
+			}
+			set_technology = { popup = no nrm_battery_advanced_16_submarine_turret = 1 }
+		}
+		if = {
+			limit = {
+				has_tech = nrm_battery_basic
+			}
+			set_technology = { popup = no nrm_battery_basic_submarine_turret = 1 }
+		}
+	}
+}

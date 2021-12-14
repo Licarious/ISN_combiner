@@ -1,0 +1,763 @@
+
+add_namespace = lic_tech_sub
+
+#nrm_battery_improved_dp_4_submarine_turret
+country_event = {
+	id = lic_tech_sub.1
+	title = lic_tech_sub.1.t
+	desc = lic_tech_sub.1.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_improved_dp_4_submarine_turret } 
+		has_tech = nrm_battery_improved_dp_4
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_improved_dp_4_submarine_turret = 1 }
+	}
+}
+#nrm_battery_advanced_dp_4_submarine_turret
+country_event = {
+	id = lic_tech_sub.2
+	title = lic_tech_sub.2.t
+	desc = lic_tech_sub.2.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_advanced_dp_4_submarine_turret } 
+		has_tech = nrm_battery_advanced_dp_4
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_advanced_dp_4_submarine_turret = 1 }
+	}
+}
+#nrm_battery_improved_dp_5h_submarine_turret
+country_event = {
+	id = lic_tech_sub.3
+	title = lic_tech_sub.3.t
+	desc = lic_tech_sub.3.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_improved_dp_5h_submarine_turret } 
+		has_tech = nrm_battery_improved_dp_5h
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_improved_dp_5h_submarine_turret = 1 }
+	}
+}
+#nrm_battery_advanced_dp_5h_submarine_turret
+country_event = {
+	id = lic_tech_sub.4
+	title = lic_tech_sub.4.t
+	desc = lic_tech_sub.4.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_advanced_dp_5h_submarine_turret } 
+		has_tech = nrm_battery_advanced_dp_5h
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_advanced_dp_5h_submarine_turret = 1 }
+	}
+}
+#nrm_battery_improved_dp_5_submarine_turret
+country_event = {
+	id = lic_tech_sub.5
+	title = lic_tech_sub.5.t
+	desc = lic_tech_sub.5.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_improved_dp_5_submarine_turret } 
+		has_tech = nrm_battery_improved_dp_5
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_improved_dp_5_submarine_turret = 1 }
+	}
+}
+#nrm_battery_advanced_dp_5_submarine_turret
+country_event = {
+	id = lic_tech_sub.6
+	title = lic_tech_sub.6.t
+	desc = lic_tech_sub.6.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_advanced_dp_5_submarine_turret } 
+		has_tech = nrm_battery_advanced_dp_5
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_advanced_dp_5_submarine_turret = 1 }
+	}
+}
+#nrm_battery_advanced_dp_6_submarine_turret
+country_event = {
+	id = lic_tech_sub.7
+	title = lic_tech_sub.7.t
+	desc = lic_tech_sub.7.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_advanced_dp_6_submarine_turret } 
+		has_tech = nrm_battery_advanced_dp_6
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_advanced_dp_6_submarine_turret = 1 }
+	}
+}
+#nrm_battery_modern_dp_6_submarine_turret
+country_event = {
+	id = lic_tech_sub.8
+	title = lic_tech_sub.8.t
+	desc = lic_tech_sub.8.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_modern_dp_6_submarine_turret } 
+		has_tech = nrm_battery_modern_dp_6
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_modern_dp_6_submarine_turret = 1 }
+	}
+}
+#nrm_battery_improved_5h_submarine_turret
+country_event = {
+	id = lic_tech_sub.9
+	title = lic_tech_sub.9.t
+	desc = lic_tech_sub.9.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_improved_5h_submarine_turret } 
+		has_tech = nrm_battery_improved_5h
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_improved_5h_submarine_turret = 1 }
+	}
+}
+#nrm_battery_advanced_5h_submarine_turret
+country_event = {
+	id = lic_tech_sub.10
+	title = lic_tech_sub.10.t
+	desc = lic_tech_sub.10.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_advanced_5h_submarine_turret } 
+		has_tech = nrm_battery_advanced_5h
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_advanced_5h_submarine_turret = 1 }
+	}
+}
+#nrm_battery_improved_4_submarine_turret
+country_event = {
+	id = lic_tech_sub.11
+	title = lic_tech_sub.11.t
+	desc = lic_tech_sub.11.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_improved_4_submarine_turret } 
+		has_tech = nrm_battery_improved_4
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_improved_4_submarine_turret = 1 }
+	}
+}
+#nrm_battery_advanced_4_submarine_turret
+country_event = {
+	id = lic_tech_sub.12
+	title = lic_tech_sub.12.t
+	desc = lic_tech_sub.12.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_advanced_4_submarine_turret } 
+		has_tech = nrm_battery_advanced_4
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_advanced_4_submarine_turret = 1 }
+	}
+}
+#nrm_battery_improved_5_submarine_turret
+country_event = {
+	id = lic_tech_sub.13
+	title = lic_tech_sub.13.t
+	desc = lic_tech_sub.13.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_improved_5_submarine_turret } 
+		has_tech = nrm_battery_improved_5
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_improved_5_submarine_turret = 1 }
+	}
+}
+#nrm_battery_advanced_5_submarine_turret
+country_event = {
+	id = lic_tech_sub.14
+	title = lic_tech_sub.14.t
+	desc = lic_tech_sub.14.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_advanced_5_submarine_turret } 
+		has_tech = nrm_battery_advanced_5
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_advanced_5_submarine_turret = 1 }
+	}
+}
+#nrm_battery_early_6_submarine_turret
+country_event = {
+	id = lic_tech_sub.15
+	title = lic_tech_sub.15.t
+	desc = lic_tech_sub.15.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_early_6_submarine_turret } 
+		has_tech = nrm_battery_early_6
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_early_6_submarine_turret = 1 }
+	}
+}
+#nrm_battery_improved_6_submarine_turret
+country_event = {
+	id = lic_tech_sub.16
+	title = lic_tech_sub.16.t
+	desc = lic_tech_sub.16.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_improved_6_submarine_turret } 
+		has_tech = nrm_battery_improved_6
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_improved_6_submarine_turret = 1 }
+	}
+}
+#nrm_battery_advanced_6_submarine_turret
+country_event = {
+	id = lic_tech_sub.17
+	title = lic_tech_sub.17.t
+	desc = lic_tech_sub.17.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_advanced_6_submarine_turret } 
+		has_tech = nrm_battery_advanced_6
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_advanced_6_submarine_turret = 1 }
+	}
+}
+#nrm_battery_modern_6_submarine_turret
+country_event = {
+	id = lic_tech_sub.18
+	title = lic_tech_sub.18.t
+	desc = lic_tech_sub.18.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_modern_6_submarine_turret } 
+		has_tech = nrm_battery_modern_6
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_modern_6_submarine_turret = 1 }
+	}
+}
+#nrm_battery_early_8_submarine_turret
+country_event = {
+	id = lic_tech_sub.19
+	title = lic_tech_sub.19.t
+	desc = lic_tech_sub.19.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_early_8_submarine_turret } 
+		has_tech = nrm_battery_early_8
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_early_8_submarine_turret = 1 }
+	}
+}
+#nrm_battery_improved_8_submarine_turret
+country_event = {
+	id = lic_tech_sub.20
+	title = lic_tech_sub.20.t
+	desc = lic_tech_sub.20.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_improved_8_submarine_turret } 
+		has_tech = nrm_battery_improved_8
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_improved_8_submarine_turret = 1 }
+	}
+}
+#nrm_battery_advanced_8_submarine_turret
+country_event = {
+	id = lic_tech_sub.21
+	title = lic_tech_sub.21.t
+	desc = lic_tech_sub.21.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_advanced_8_submarine_turret } 
+		has_tech = nrm_battery_advanced_8
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_advanced_8_submarine_turret = 1 }
+	}
+}
+#nrm_battery_modern_8_submarine_turret
+country_event = {
+	id = lic_tech_sub.22
+	title = lic_tech_sub.22.t
+	desc = lic_tech_sub.22.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_modern_8_submarine_turret } 
+		has_tech = nrm_battery_modern_8
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_modern_8_submarine_turret = 1 }
+	}
+}
+#nrm_battery_early_11_submarine_turret
+country_event = {
+	id = lic_tech_sub.23
+	title = lic_tech_sub.23.t
+	desc = lic_tech_sub.23.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_early_11_submarine_turret } 
+		has_tech = nrm_battery_early_11
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_early_11_submarine_turret = 1 }
+	}
+}
+#nrm_battery_improved_11_submarine_turret
+country_event = {
+	id = lic_tech_sub.24
+	title = lic_tech_sub.24.t
+	desc = lic_tech_sub.24.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_improved_11_submarine_turret } 
+		has_tech = nrm_battery_improved_11
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_improved_11_submarine_turret = 1 }
+	}
+}
+#nrm_battery_advanced_11_submarine_turret
+country_event = {
+	id = lic_tech_sub.25
+	title = lic_tech_sub.25.t
+	desc = lic_tech_sub.25.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_advanced_11_submarine_turret } 
+		has_tech = nrm_battery_advanced_11
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_advanced_11_submarine_turret = 1 }
+	}
+}
+#nrm_battery_early_12_submarine_turret
+country_event = {
+	id = lic_tech_sub.26
+	title = lic_tech_sub.26.t
+	desc = lic_tech_sub.26.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_early_12_submarine_turret } 
+		has_tech = nrm_battery_early_12
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_early_12_submarine_turret = 1 }
+	}
+}
+#nrm_battery_improved_12_submarine_turret
+country_event = {
+	id = lic_tech_sub.27
+	title = lic_tech_sub.27.t
+	desc = lic_tech_sub.27.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_improved_12_submarine_turret } 
+		has_tech = nrm_battery_improved_12
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_improved_12_submarine_turret = 1 }
+	}
+}
+#nrm_battery_advanced_12_submarine_turret
+country_event = {
+	id = lic_tech_sub.28
+	title = lic_tech_sub.28.t
+	desc = lic_tech_sub.28.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_advanced_12_submarine_turret } 
+		has_tech = nrm_battery_advanced_12
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_advanced_12_submarine_turret = 1 }
+	}
+}
+#nrm_battery_early_13_submarine_turret
+country_event = {
+	id = lic_tech_sub.29
+	title = lic_tech_sub.29.t
+	desc = lic_tech_sub.29.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_early_13_submarine_turret } 
+		has_tech = nrm_battery_early_13
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_early_13_submarine_turret = 1 }
+	}
+}
+#nrm_battery_improved_13_submarine_turret
+country_event = {
+	id = lic_tech_sub.30
+	title = lic_tech_sub.30.t
+	desc = lic_tech_sub.30.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_improved_13_submarine_turret } 
+		has_tech = nrm_battery_improved_13
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_improved_13_submarine_turret = 1 }
+	}
+}
+#nrm_battery_advanced_13_submarine_turret
+country_event = {
+	id = lic_tech_sub.31
+	title = lic_tech_sub.31.t
+	desc = lic_tech_sub.31.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_advanced_13_submarine_turret } 
+		has_tech = nrm_battery_advanced_13
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_advanced_13_submarine_turret = 1 }
+	}
+}
+#nrm_battery_early_14_submarine_turret
+country_event = {
+	id = lic_tech_sub.32
+	title = lic_tech_sub.32.t
+	desc = lic_tech_sub.32.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_early_14_submarine_turret } 
+		has_tech = nrm_battery_early_14
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_early_14_submarine_turret = 1 }
+	}
+}
+#nrm_battery_improved_14_submarine_turret
+country_event = {
+	id = lic_tech_sub.33
+	title = lic_tech_sub.33.t
+	desc = lic_tech_sub.33.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_improved_14_submarine_turret } 
+		has_tech = nrm_battery_improved_14
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_improved_14_submarine_turret = 1 }
+	}
+}
+#nrm_battery_advanced_14_submarine_turret
+country_event = {
+	id = lic_tech_sub.34
+	title = lic_tech_sub.34.t
+	desc = lic_tech_sub.34.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_advanced_14_submarine_turret } 
+		has_tech = nrm_battery_advanced_14
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_advanced_14_submarine_turret = 1 }
+	}
+}
+#nrm_battery_early_15_submarine_turret
+country_event = {
+	id = lic_tech_sub.35
+	title = lic_tech_sub.35.t
+	desc = lic_tech_sub.35.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_early_15_submarine_turret } 
+		has_tech = nrm_battery_early_15
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_early_15_submarine_turret = 1 }
+	}
+}
+#nrm_battery_improved_15_submarine_turret
+country_event = {
+	id = lic_tech_sub.36
+	title = lic_tech_sub.36.t
+	desc = lic_tech_sub.36.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_improved_15_submarine_turret } 
+		has_tech = nrm_battery_improved_15
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_improved_15_submarine_turret = 1 }
+	}
+}
+#nrm_battery_advanced_15_submarine_turret
+country_event = {
+	id = lic_tech_sub.37
+	title = lic_tech_sub.37.t
+	desc = lic_tech_sub.37.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_advanced_15_submarine_turret } 
+		has_tech = nrm_battery_advanced_15
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_advanced_15_submarine_turret = 1 }
+	}
+}
+#nrm_battery_early_16_submarine_turret
+country_event = {
+	id = lic_tech_sub.38
+	title = lic_tech_sub.38.t
+	desc = lic_tech_sub.38.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_early_16_submarine_turret } 
+		has_tech = nrm_battery_early_16
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_early_16_submarine_turret = 1 }
+	}
+}
+#nrm_battery_improved_16_submarine_turret
+country_event = {
+	id = lic_tech_sub.39
+	title = lic_tech_sub.39.t
+	desc = lic_tech_sub.39.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_improved_16_submarine_turret } 
+		has_tech = nrm_battery_improved_16
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_improved_16_submarine_turret = 1 }
+	}
+}
+#nrm_battery_advanced_16_submarine_turret
+country_event = {
+	id = lic_tech_sub.40
+	title = lic_tech_sub.40.t
+	desc = lic_tech_sub.40.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_advanced_16_submarine_turret } 
+		has_tech = nrm_battery_advanced_16
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_advanced_16_submarine_turret = 1 }
+	}
+}
+#nrm_battery_basic_submarine_turret
+country_event = {
+	id = lic_tech_sub.41
+	title = lic_tech_sub.41.t
+	desc = lic_tech_sub.41.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_submarine_turrets
+		not = { has_tech = nrm_battery_basic_submarine_turret } 
+		has_tech = nrm_battery_basic
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { nrm_battery_basic_submarine_turret = 1 }
+	}
+}

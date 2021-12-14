@@ -1,0 +1,577 @@
+﻿
+			################# MODULE SLOT: Forward Conning Tower (Fixed Battery) #################
+			containerWindowType = {
+				name = "fixed_ship_battery_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Anti Air ####
+				containerWindowType = {
+					name = "nrm_submarine_AA"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_anti_air_F"
+						position = { x=251 y=-17 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_HAA"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_anti_air_F"
+						position = { x=251 y=-17 }
+					}
+				}
+				#### MODULE: Hangers ####
+				containerWindowType = {
+					name = "nrm_submarine_FP"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_hanger_1_F"
+						position = { x=161 y=-18 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_cvl"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_hanger_1_F"
+						position = { x=161 y=-18 }
+					}
+				}
+				#### MODULE: Guns ####
+				containerWindowType = {
+					name = "nrm_submarine_battery_light_x2m"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_light_battery_F"
+						position = { x=284 y=-9 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_RP_submarine_light_battery_FS"
+						position = { x=253 y=-17 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_battery_light_x2h"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_light_battery_F"
+						position = { x=284 y=-9 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_RP_submarine_light_battery_FS"
+						position = { x=253 y=-17 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_battery_medium"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_medium_battery_F"
+						position = { x=224 y=-20 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_battery_light"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_light_battery_F"
+						position = { x=284 y=-9 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_battery_heavy"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_LF_submarine_heavy_battery_F"
+						position = { x=0 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_deckgun_3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_deckgun_F"
+						position = { x=284 y=-10 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_deckgun_4"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_deckgun_F"
+						position = { x=284 y=-10 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_deckgun_5"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_deckgun_F"
+						position = { x=284 y=-10 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_deckgun_6"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_deckgun_F"
+						position = { x=284 y=-10 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_deckgun_8"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_deckgun_F"
+						position = { x=284 y=-10 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_deckgun_3-4_x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_deckgun_F"
+						position = { x=284 y=-10 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_RP_submarine_deckgun_FS"
+						position = { x=253 y=-17 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_deckgun_5-6_x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_deckgun_F"
+						position = { x=284 y=-10 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_RP_submarine_deckgun_FS"
+						position = { x=253 y=-17 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_deckgun_8_x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_deckgun_F"
+						position = { x=284 y=-10 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_RP_submarine_deckgun_FS"
+						position = { x=253 y=-17 }
+					}
+				}
+		}
+			################# MODULE SLOT: Rear Conning Tower (Custom 2) #################
+			containerWindowType = {
+				name = "custom_slot_2"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Blanks ####
+				containerWindowType = {
+					name = "nrm_submarine_SNK"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_nrm_blank"
+						position = { x=100 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_ML"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_nrm_blank"
+						position = { x=100 y=0 }
+					}
+				}
+				#### MODULE: Anti Air ####
+				containerWindowType = {
+					name = "nrm_submarine_AA"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_anti_air_R"
+						position = { x=186 y=-3 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_HAA"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_anti_air_R"
+						position = { x=186 y=-3 }
+					}
+				}
+				#### MODULE: Hangers ####
+				containerWindowType = {
+					name = "nrm_submarine_FP"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_hanger_1_R"
+						position = { x=161 y=-24 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_cvl"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_hanger_1_R"
+						position = { x=161 y=-24 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_cv"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_hanger_2_R"
+						position = { x=161 y=-18 }
+					}
+				}
+				#### MODULE: Guns ####
+				containerWindowType = {
+					name = "nrm_submarine_battery_light_x2m"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_light_battery_R"
+						position = { x=155 y=-9 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_RP_submarine_light_battery_RS"
+						position = { x=186 y=-3 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_battery_light_x2h"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_light_battery_R"
+						position = { x=155 y=-9 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_RP_submarine_light_battery_RS"
+						position = { x=186 y=-3 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_battery_medium"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_medium_battery_R"
+						position = { x=148 y=-20 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_battery_light"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_light_battery_R"
+						position = { x=155 y=-9 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_deckgun_3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_deckgun_R"
+						position = { x=153 y=-11 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_deckgun_4"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_deckgun_R"
+						position = { x=153 y=-11 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_deckgun_5"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_deckgun_R"
+						position = { x=153 y=-11 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_deckgun_6"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_deckgun_R"
+						position = { x=153 y=-11 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_deckgun_8"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_deckgun_R"
+						position = { x=153 y=-11 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_deckgun_3-4_x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_deckgun_R"
+						position = { x=153 y=-11 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_RP_deckgun_RS"
+						position = { x=186 y=-3 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_deckgun_5-6_x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_deckgun_R"
+						position = { x=153 y=-11 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_RP_deckgun_RS"
+						position = { x=186 y=-3 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_deckgun_8_x2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_deckgun_R"
+						position = { x=153 y=-11 }
+					}
+					iconType = {
+						name = "image2"
+						spriteType = "GFX_SM_RP_deckgun_RS"
+						position = { x=186 y=-3 }
+					}
+				}
+		}
+			################# MODULE SLOT: Fan Tail (Custom 3) #################
+			containerWindowType = {
+				name = "custom_slot_3"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Blanks ####
+				containerWindowType = {
+					name = "nrm_submarine_SNK"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_nrm_blank"
+						position = { x=100 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_ML"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_nrm_blank"
+						position = { x=100 y=0 }
+					}
+				}
+				#### MODULE: Guns ####
+				containerWindowType = {
+					name = "nrm_submarine_battery_light"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_light_battery_R"
+						position = { x=100 y=-8 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_deckgun_3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_deckgun_R"
+						position = { x=103 y=-11 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_deckgun_4"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_deckgun_R"
+						position = { x=103 y=-11 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_deckgun_5"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_deckgun_R"
+						position = { x=103 y=-11 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_deckgun_6"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_deckgun_R"
+						position = { x=103 y=-11 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_deckgun_8"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_deckgun_R"
+						position = { x=103 y=-11 }
+					}
+				}
+		}
+			################# MODULE SLOT: Anti Air #################
+			containerWindowType = {
+				name = "fixed_ship_anti_air_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Anti Air ####
+				containerWindowType = {
+					name = "nrm_submarine_AA"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_anti_air_RS"
+						position = { x=200 y=-8 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_HAA"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_RP_submarine_anti_air_RS"
+						position = { x=200 y=-8 }
+					}
+				}
+		}
+			################# MODULE SLOT: Custom 1 #################
+			containerWindowType = {
+				name = "custom_slot_1"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Blanks ####
+				containerWindowType = {
+					name = "nrm_submarine_SNK"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_nrm_blank"
+						position = { x=100 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "nrm_submarine_ML"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_nrm_blank"
+						position = { x=100 y=0 }
+					}
+				}
+		}

@@ -1,0 +1,384 @@
+technologies = {
+
+	nrm_battery_improved_dp_4_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_DP_4_2_x06
+			nrm_submarine_battery_DP_4_2_x03
+			nrm_submarine_battery_DP_4_2_x04
+			nrm_submarine_battery_DP_4_2_x02
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_advanced_dp_4_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_DP_4_3_x06
+			nrm_submarine_battery_DP_4_3_x03
+			nrm_submarine_battery_DP_4_3_x04
+			nrm_submarine_battery_DP_4_3_x02
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_improved_dp_5h_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_DP_5h_2_x06
+			nrm_submarine_battery_DP_5h_2_x03
+			nrm_submarine_battery_DP_5h_2_x04
+			nrm_submarine_battery_DP_5h_2_x02
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_advanced_dp_5h_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_DP_5h_3_x06
+			nrm_submarine_battery_DP_5h_3_x03
+			nrm_submarine_battery_DP_5h_3_x04
+			nrm_submarine_battery_DP_5h_3_x02
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_improved_dp_5_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_DP_5_2_x06
+			nrm_submarine_battery_DP_5_2_x03
+			nrm_submarine_battery_DP_5_2_x04
+			nrm_submarine_battery_DP_5_2_x02
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_advanced_dp_5_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_DP_5_3_x06
+			nrm_submarine_battery_DP_5_3_x03
+			nrm_submarine_battery_DP_5_3_x04
+			nrm_submarine_battery_DP_5_3_x02
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_advanced_dp_6_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_DP_6_3_x03
+			nrm_submarine_battery_DP_6_3_x02
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_modern_dp_6_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_DP_6_4_x03
+			nrm_submarine_battery_DP_6_4_x02
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_improved_5h_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_5h_2_x04
+			nrm_submarine_battery_5h_2_x06
+			nrm_submarine_battery_5h_2_x02
+			nrm_submarine_battery_5h_2_x03
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_advanced_5h_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_5h_3_x04
+			nrm_submarine_battery_5h_3_x06
+			nrm_submarine_battery_5h_3_x02
+			nrm_submarine_battery_5h_3_x03
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_improved_4_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_4_2_x04
+			nrm_submarine_battery_4_2_x06
+			nrm_submarine_battery_4_2_x02
+			nrm_submarine_battery_4_2_x03
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_advanced_4_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_4_3_x04
+			nrm_submarine_battery_4_3_x06
+			nrm_submarine_battery_4_3_x02
+			nrm_submarine_battery_4_3_x03
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_improved_5_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_5_2_x04
+			nrm_submarine_battery_5_2_x06
+			nrm_submarine_battery_5_2_x02
+			nrm_submarine_battery_5_2_x03
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_advanced_5_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_5_3_x04
+			nrm_submarine_battery_5_3_x06
+			nrm_submarine_battery_5_3_x02
+			nrm_submarine_battery_5_3_x03
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_early_6_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_6_1_x02
+			nrm_submarine_battery_6_1_x03
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_improved_6_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_6_2_x02
+			nrm_submarine_battery_6_2_x03
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_advanced_6_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_6_3_x02
+			nrm_submarine_battery_6_3_x03
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_modern_6_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_6_4_x02
+			nrm_submarine_battery_6_4_x03
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_early_8_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_8_1_x02
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_improved_8_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_8_2_x02
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_advanced_8_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_8_3_x02
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_modern_8_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_8_4_x02
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_early_11_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_11_1_x01
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_improved_11_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_11_2_x01
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_advanced_11_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_11_3_x01
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_early_12_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_12_1_x01
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_improved_12_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_12_2_x01
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_advanced_12_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_12_3_x01
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_early_13_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_13_1_x01
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_improved_13_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_13_2_x01
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_advanced_13_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_13_3_x01
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_early_14_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_14_1_x01
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_improved_14_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_14_2_x01
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_advanced_14_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_14_3_x01
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_early_15_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_15_1_x01
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_improved_15_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_15_2_x01
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_advanced_15_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_15_3_x01
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_early_16_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_16_1_x01
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_improved_16_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_16_2_x01
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_advanced_16_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_16_3_x01
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nrm_battery_basic_submarine_turret = {
+		enable_equipment_modules = {
+			nrm_submarine_battery_5_1_x04
+			nrm_submarine_battery_4_1_x04
+			nrm_submarine_battery_5_1_x06
+			nrm_submarine_battery_4_1_x06
+			nrm_submarine_battery_5h_1_x04
+			nrm_submarine_battery_5h_1_x06
+			nrm_submarine_battery_5_1_x02
+			nrm_submarine_battery_4_1_x02
+			nrm_submarine_battery_5_1_x03
+			nrm_submarine_battery_4_1_x03
+			nrm_submarine_battery_5h_1_x02
+			nrm_submarine_battery_5h_1_x03
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

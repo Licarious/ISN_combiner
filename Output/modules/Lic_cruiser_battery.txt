@@ -1,0 +1,2811 @@
+equipment_modules = {
+
+	nrm_cruiser_battery_5_1_x02 = {
+		category = nrm_cruiser_battery_5_x02
+		gui_category = nrm_cruiser_battery_x02
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 25
+		add_stats = {
+			build_cost_ic = 50.0
+			max_strength = 1.5
+			lg_attack = 1.9
+			supply_consumption = 0.0028
+			surface_visibility = 0.1
+		}
+		add_average_stats = {
+			lg_armor_piercing = 5.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.003125
+			reliability = -0.02
+			naval_speed = -0.0025
+			fuel_consumption = 0.0125
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 760.0
+
+	}
+	nrm_cruiser_battery_5_1_x03 = {
+		category = nrm_cruiser_battery_5_x03
+		gui_category = nrm_cruiser_battery_x03
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 37
+		add_stats = {
+			build_cost_ic = 75.0
+			max_strength = 2.5
+			lg_attack = 2.8
+			supply_consumption = 0.0042
+			surface_visibility = 0.15
+		}
+		add_average_stats = {
+			lg_armor_piercing = 5.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0046875
+			reliability = -0.03
+			naval_speed = -0.00375
+			fuel_consumption = 0.01875
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 765.0
+
+	}
+	nrm_cruiser_battery_5_2_x02 = {
+		category = nrm_cruiser_battery_5_x02
+		gui_category = nrm_cruiser_battery_x02
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_5_1_x02
+
+		manpower = 25
+		add_stats = {
+			build_cost_ic = 50.0
+			max_strength = 1.5
+			lg_attack = 2.1
+			supply_consumption = 0.0028
+			surface_visibility = 0.1
+		}
+		add_average_stats = {
+			lg_armor_piercing = 6.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.003125
+			reliability = -0.02
+			naval_speed = -0.0025
+			fuel_consumption = 0.0125
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 760.0
+
+	}
+	nrm_cruiser_battery_5_2_x03 = {
+		category = nrm_cruiser_battery_5_x03
+		gui_category = nrm_cruiser_battery_x03
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_5_1_x03
+
+		manpower = 37
+		add_stats = {
+			build_cost_ic = 75.0
+			max_strength = 2.5
+			lg_attack = 3.15
+			supply_consumption = 0.0042
+			surface_visibility = 0.15
+		}
+		add_average_stats = {
+			lg_armor_piercing = 6.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0046875
+			reliability = -0.03
+			naval_speed = -0.00375
+			fuel_consumption = 0.01875
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 765.0
+
+	}
+	nrm_cruiser_battery_5_3_x02 = {
+		category = nrm_cruiser_battery_5_x02
+		gui_category = nrm_cruiser_battery_x02
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_5_2_x02
+
+		manpower = 25
+		add_stats = {
+			build_cost_ic = 50.0
+			max_strength = 1.5
+			lg_attack = 2.35
+			supply_consumption = 0.0028
+			surface_visibility = 0.1
+		}
+		add_average_stats = {
+			lg_armor_piercing = 8.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.003125
+			reliability = -0.02
+			naval_speed = -0.0025
+			fuel_consumption = 0.0125
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 760.0
+
+	}
+	nrm_cruiser_battery_5_3_x03 = {
+		category = nrm_cruiser_battery_5_x03
+		gui_category = nrm_cruiser_battery_x03
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_5_2_x03
+
+		manpower = 37
+		add_stats = {
+			build_cost_ic = 75.0
+			max_strength = 2.5
+			lg_attack = 3.5
+			supply_consumption = 0.0042
+			surface_visibility = 0.15
+		}
+		add_average_stats = {
+			lg_armor_piercing = 7.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0046875
+			reliability = -0.03
+			naval_speed = -0.00375
+			fuel_consumption = 0.01875
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 765.0
+
+	}
+	nrm_cruiser_battery_5h_1_x02 = {
+		category = nrm_cruiser_battery_5h_x02
+		gui_category = nrm_cruiser_battery_x02
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 30
+		add_stats = {
+			build_cost_ic = 66.5
+			max_strength = 2.0
+			lg_attack = 2.1
+			supply_consumption = 0.00345
+			surface_visibility = 0.133
+		}
+		add_average_stats = {
+			lg_armor_piercing = 7.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.004159375
+			reliability = -0.022
+			naval_speed = -0.0033275
+			fuel_consumption = 0.0166375
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 763.3
+
+	}
+	nrm_cruiser_battery_5h_1_x03 = {
+		category = nrm_cruiser_battery_5h_x03
+		gui_category = nrm_cruiser_battery_x03
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 45
+		add_stats = {
+			build_cost_ic = 100.0
+			max_strength = 3.0
+			lg_attack = 3.1
+			supply_consumption = 0.00515
+			surface_visibility = 0.2
+		}
+		add_average_stats = {
+			lg_armor_piercing = 7.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0062390625
+			reliability = -0.033
+			naval_speed = -0.00499125
+			fuel_consumption = 0.02495625
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 770.0
+
+	}
+	nrm_cruiser_battery_5h_2_x02 = {
+		category = nrm_cruiser_battery_5h_x02
+		gui_category = nrm_cruiser_battery_x02
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_5h_1_x02
+
+		manpower = 30
+		add_stats = {
+			build_cost_ic = 66.5
+			max_strength = 2.0
+			lg_attack = 2.35
+			supply_consumption = 0.00345
+			surface_visibility = 0.133
+		}
+		add_average_stats = {
+			lg_armor_piercing = 8.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.004159375
+			reliability = -0.022
+			naval_speed = -0.0033275
+			fuel_consumption = 0.0166375
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 763.3
+
+	}
+	nrm_cruiser_battery_5h_2_x03 = {
+		category = nrm_cruiser_battery_5h_x03
+		gui_category = nrm_cruiser_battery_x03
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_5h_1_x03
+
+		manpower = 45
+		add_stats = {
+			build_cost_ic = 100.0
+			max_strength = 3.0
+			lg_attack = 3.5
+			supply_consumption = 0.00515
+			surface_visibility = 0.2
+		}
+		add_average_stats = {
+			lg_armor_piercing = 8.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0062390625
+			reliability = -0.033
+			naval_speed = -0.00499125
+			fuel_consumption = 0.02495625
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 770.0
+
+	}
+	nrm_cruiser_battery_5h_3_x02 = {
+		category = nrm_cruiser_battery_5h_x02
+		gui_category = nrm_cruiser_battery_x02
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_5h_2_x02
+
+		manpower = 30
+		add_stats = {
+			build_cost_ic = 66.5
+			max_strength = 2.0
+			lg_attack = 2.6
+			supply_consumption = 0.00345
+			surface_visibility = 0.133
+		}
+		add_average_stats = {
+			lg_armor_piercing = 9.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.004159375
+			reliability = -0.022
+			naval_speed = -0.0033275
+			fuel_consumption = 0.0166375
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 763.3
+
+	}
+	nrm_cruiser_battery_5h_3_x03 = {
+		category = nrm_cruiser_battery_5h_x03
+		gui_category = nrm_cruiser_battery_x03
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_5h_2_x03
+
+		manpower = 45
+		add_stats = {
+			build_cost_ic = 100.0
+			max_strength = 3.0
+			lg_attack = 3.9
+			supply_consumption = 0.00515
+			surface_visibility = 0.2
+		}
+		add_average_stats = {
+			lg_armor_piercing = 9.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0062390625
+			reliability = -0.033
+			naval_speed = -0.00499125
+			fuel_consumption = 0.02495625
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 770.0
+
+	}
+	nrm_cruiser_battery_6_1_x02 = {
+		category = nrm_cruiser_battery_6_x02
+		gui_category = nrm_cruiser_battery_x02
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 36
+		add_stats = {
+			build_cost_ic = 86.5
+			max_strength = 2.5
+			lg_attack = 2.15
+			supply_consumption = 0.00415
+			surface_visibility = 0.173
+		}
+		add_average_stats = {
+			lg_armor_piercing = 9.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0054
+			reliability = -0.024
+			naval_speed = -0.00432
+			fuel_consumption = 0.0216
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 767.3
+
+	}
+	nrm_cruiser_battery_6_1_x03 = {
+		category = nrm_cruiser_battery_6_x03
+		gui_category = nrm_cruiser_battery_x03
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 54
+		add_stats = {
+			build_cost_ic = 129.5
+			max_strength = 4.0
+			lg_attack = 3.25
+			supply_consumption = 0.0062
+			surface_visibility = 0.259
+		}
+		add_average_stats = {
+			lg_armor_piercing = 9.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0081
+			reliability = -0.036
+			naval_speed = -0.00648
+			fuel_consumption = 0.0324
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 775.9
+
+	}
+	nrm_cruiser_battery_6_2_x02 = {
+		category = nrm_cruiser_battery_6_x02
+		gui_category = nrm_cruiser_battery_x02
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_6_1_x02
+
+		manpower = 36
+		add_stats = {
+			build_cost_ic = 86.5
+			max_strength = 2.5
+			lg_attack = 2.45
+			supply_consumption = 0.00415
+			surface_visibility = 0.173
+		}
+		add_average_stats = {
+			lg_armor_piercing = 10.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0054
+			reliability = -0.024
+			naval_speed = -0.00432
+			fuel_consumption = 0.0216
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 767.3
+
+	}
+	nrm_cruiser_battery_6_2_x03 = {
+		category = nrm_cruiser_battery_6_x03
+		gui_category = nrm_cruiser_battery_x03
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_6_1_x03
+
+		manpower = 54
+		add_stats = {
+			build_cost_ic = 129.5
+			max_strength = 4.0
+			lg_attack = 3.65
+			supply_consumption = 0.0062
+			surface_visibility = 0.259
+		}
+		add_average_stats = {
+			lg_armor_piercing = 10.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0081
+			reliability = -0.036
+			naval_speed = -0.00648
+			fuel_consumption = 0.0324
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 775.9
+
+	}
+	nrm_cruiser_battery_6_3_x02 = {
+		category = nrm_cruiser_battery_6_x02
+		gui_category = nrm_cruiser_battery_x02
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_6_2_x02
+
+		manpower = 36
+		add_stats = {
+			build_cost_ic = 86.5
+			max_strength = 2.5
+			lg_attack = 2.7
+			supply_consumption = 0.00415
+			surface_visibility = 0.173
+		}
+		add_average_stats = {
+			lg_armor_piercing = 11.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0054
+			reliability = -0.024
+			naval_speed = -0.00432
+			fuel_consumption = 0.0216
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 767.3
+
+	}
+	nrm_cruiser_battery_6_3_x03 = {
+		category = nrm_cruiser_battery_6_x03
+		gui_category = nrm_cruiser_battery_x03
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_6_2_x03
+
+		manpower = 54
+		add_stats = {
+			build_cost_ic = 129.5
+			max_strength = 4.0
+			lg_attack = 4.05
+			supply_consumption = 0.0062
+			surface_visibility = 0.259
+		}
+		add_average_stats = {
+			lg_armor_piercing = 11.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0081
+			reliability = -0.036
+			naval_speed = -0.00648
+			fuel_consumption = 0.0324
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 775.9
+
+	}
+	nrm_cruiser_battery_6_4_x02 = {
+		category = nrm_cruiser_battery_6_x02
+		gui_category = nrm_cruiser_battery_x02
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_6_3_x02
+
+		manpower = 36
+		add_stats = {
+			build_cost_ic = 86.5
+			max_strength = 2.5
+			lg_attack = 3.4
+			supply_consumption = 0.00415
+			surface_visibility = 0.173
+		}
+		add_average_stats = {
+			lg_armor_piercing = 11.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0054
+			reliability = -0.024
+			naval_speed = -0.00432
+			fuel_consumption = 0.0216
+		}
+		build_cost_resources = {
+			chromium = 1
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 767.3
+
+	}
+	nrm_cruiser_battery_6_4_x03 = {
+		category = nrm_cruiser_battery_6_x03
+		gui_category = nrm_cruiser_battery_x03
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_6_3_x03
+
+		manpower = 54
+		add_stats = {
+			build_cost_ic = 129.5
+			max_strength = 4.0
+			lg_attack = 5.1
+			supply_consumption = 0.0062
+			surface_visibility = 0.259
+		}
+		add_average_stats = {
+			lg_armor_piercing = 11.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0081
+			reliability = -0.036
+			naval_speed = -0.00648
+			fuel_consumption = 0.0324
+		}
+		build_cost_resources = {
+			chromium = 1
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 775.9
+
+	}
+	nrm_cruiser_battery_8_1_x02 = {
+		category = nrm_cruiser_battery_8_x02
+		gui_category = nrm_cruiser_battery_x02
+		sfx = sfx_ui_sd_module_turret
+
+		add_equipment_type = capital_ship
+
+		manpower = 42
+		add_stats = {
+			build_cost_ic = 205.0
+			max_strength = 6.5
+			hg_attack = 2.35
+			lg_attack = 1.0
+			supply_consumption = 0.00555
+			surface_visibility = 0.41
+		}
+		add_average_stats = {
+			hg_armor_piercing = 14.0
+			lg_armor_piercing = 14.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0128
+			reliability = -0.032
+			naval_speed = -0.01024
+			fuel_consumption = 0.0512
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 791.0
+
+	}
+	nrm_cruiser_battery_8_1_x03 = {
+		category = nrm_cruiser_battery_8_x03
+		gui_category = nrm_cruiser_battery_x03
+		sfx = sfx_ui_sd_module_turret
+
+		add_equipment_type = capital_ship
+
+		manpower = 64
+		add_stats = {
+			build_cost_ic = 307.0
+			max_strength = 9.5
+			hg_attack = 3.5
+			lg_attack = 1.5
+			supply_consumption = 0.0083
+			surface_visibility = 0.614
+		}
+		add_average_stats = {
+			hg_armor_piercing = 14.0
+			lg_armor_piercing = 14.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0192
+			reliability = -0.048
+			naval_speed = -0.01536
+			fuel_consumption = 0.0768
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 811.4
+
+	}
+	nrm_cruiser_battery_8_2_x02 = {
+		category = nrm_cruiser_battery_8_x02
+		gui_category = nrm_cruiser_battery_x02
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_8_1_x02
+
+		add_equipment_type = capital_ship
+
+		manpower = 42
+		add_stats = {
+			build_cost_ic = 205.0
+			max_strength = 6.5
+			hg_attack = 2.6
+			lg_attack = 1.1
+			supply_consumption = 0.00555
+			surface_visibility = 0.41
+		}
+		add_average_stats = {
+			hg_armor_piercing = 15.5
+			lg_armor_piercing = 15.5
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0128
+			reliability = -0.032
+			naval_speed = -0.01024
+			fuel_consumption = 0.0512
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 791.0
+
+	}
+	nrm_cruiser_battery_8_2_x03 = {
+		category = nrm_cruiser_battery_8_x03
+		gui_category = nrm_cruiser_battery_x03
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_8_1_x03
+
+		add_equipment_type = capital_ship
+
+		manpower = 64
+		add_stats = {
+			build_cost_ic = 307.0
+			max_strength = 9.5
+			hg_attack = 3.95
+			lg_attack = 1.7
+			supply_consumption = 0.0083
+			surface_visibility = 0.614
+		}
+		add_average_stats = {
+			hg_armor_piercing = 15.5
+			lg_armor_piercing = 15.5
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0192
+			reliability = -0.048
+			naval_speed = -0.01536
+			fuel_consumption = 0.0768
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 811.4
+
+	}
+	nrm_cruiser_battery_8_3_x02 = {
+		category = nrm_cruiser_battery_8_x02
+		gui_category = nrm_cruiser_battery_x02
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_8_2_x02
+
+		add_equipment_type = capital_ship
+
+		manpower = 42
+		add_stats = {
+			build_cost_ic = 205.0
+			max_strength = 6.5
+			hg_attack = 2.9
+			lg_attack = 1.25
+			supply_consumption = 0.00555
+			surface_visibility = 0.41
+		}
+		add_average_stats = {
+			hg_armor_piercing = 17.0
+			lg_armor_piercing = 17.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0128
+			reliability = -0.032
+			naval_speed = -0.01024
+			fuel_consumption = 0.0512
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 791.0
+
+	}
+	nrm_cruiser_battery_8_3_x03 = {
+		category = nrm_cruiser_battery_8_x03
+		gui_category = nrm_cruiser_battery_x03
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_8_2_x03
+
+		add_equipment_type = capital_ship
+
+		manpower = 64
+		add_stats = {
+			build_cost_ic = 307.0
+			max_strength = 9.5
+			hg_attack = 4.35
+			lg_attack = 1.85
+			supply_consumption = 0.0083
+			surface_visibility = 0.614
+		}
+		add_average_stats = {
+			hg_armor_piercing = 17.0
+			lg_armor_piercing = 17.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0192
+			reliability = -0.048
+			naval_speed = -0.01536
+			fuel_consumption = 0.0768
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 811.4
+
+	}
+	nrm_cruiser_battery_8_4_x02 = {
+		category = nrm_cruiser_battery_8_x02
+		gui_category = nrm_cruiser_battery_x02
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_8_3_x02
+
+		add_equipment_type = capital_ship
+
+		manpower = 42
+		add_stats = {
+			build_cost_ic = 205.0
+			max_strength = 6.5
+			hg_attack = 4.3
+			lg_attack = 1.85
+			supply_consumption = 0.00555
+			surface_visibility = 0.41
+		}
+		add_average_stats = {
+			hg_armor_piercing = 17.0
+			lg_armor_piercing = 17.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0128
+			reliability = -0.032
+			naval_speed = -0.01024
+			fuel_consumption = 0.0512
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 791.0
+
+	}
+	nrm_cruiser_battery_8_4_x03 = {
+		category = nrm_cruiser_battery_8_x03
+		gui_category = nrm_cruiser_battery_x03
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_8_3_x03
+
+		add_equipment_type = capital_ship
+
+		manpower = 64
+		add_stats = {
+			build_cost_ic = 307.0
+			max_strength = 9.5
+			hg_attack = 6.45
+			lg_attack = 2.75
+			supply_consumption = 0.0083
+			surface_visibility = 0.614
+		}
+		add_average_stats = {
+			hg_armor_piercing = 17.0
+			lg_armor_piercing = 17.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0192
+			reliability = -0.048
+			naval_speed = -0.01536
+			fuel_consumption = 0.0768
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 811.4
+
+	}
+	nrm_cruiser_battery_DP_5_2_x03 = {
+		category = nrm_cruiser_battery_DP_5_x03
+		gui_category = nrm_cruiser_battery_DP_x03
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 37
+		add_stats = {
+			build_cost_ic = 101.5
+			max_strength = 2.5
+			lg_attack = 3.3
+			anti_air_attack = 2.5
+			supply_consumption = 0.0042
+			surface_visibility = 0.203
+		}
+		add_average_stats = {
+			lg_armor_piercing = 6.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0046875
+			reliability = -0.03
+			naval_speed = -0.00375
+			fuel_consumption = 0.01875
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 770.3
+
+	}
+	nrm_cruiser_battery_DP_5_2_x04 = {
+		category = nrm_cruiser_battery_DP_5_x04
+		gui_category = nrm_cruiser_battery_DP_x04
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 50
+		add_stats = {
+			build_cost_ic = 135.0
+			max_strength = 3.0
+			lg_attack = 4.4
+			anti_air_attack = 3.3
+			supply_consumption = 0.00565
+			surface_visibility = 0.27
+		}
+		add_average_stats = {
+			lg_armor_piercing = 6.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.00625
+			reliability = -0.04
+			naval_speed = -0.005
+			fuel_consumption = 0.025
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 777.0
+
+	}
+	nrm_cruiser_battery_DP_5_2_x02 = {
+		category = nrm_cruiser_battery_DP_5_x02
+		gui_category = nrm_cruiser_battery_DP_x02
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 25
+		add_stats = {
+			build_cost_ic = 67.5
+			max_strength = 1.5
+			lg_attack = 2.2
+			anti_air_attack = 1.65
+			supply_consumption = 0.002825
+			surface_visibility = 0.135
+		}
+		add_average_stats = {
+			lg_armor_piercing = 6.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.003125
+			reliability = -0.02
+			naval_speed = -0.0025
+			fuel_consumption = 0.0125
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 388.5
+
+	}
+	nrm_cruiser_battery_DP_5_3_x03 = {
+		category = nrm_cruiser_battery_DP_5_x03
+		gui_category = nrm_cruiser_battery_DP_x03
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_DP_5_2_x03
+
+		manpower = 37
+		add_stats = {
+			build_cost_ic = 101.5
+			max_strength = 2.5
+			lg_attack = 3.65
+			anti_air_attack = 2.7
+			supply_consumption = 0.0042
+			surface_visibility = 0.203
+		}
+		add_average_stats = {
+			lg_armor_piercing = 7.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0046875
+			reliability = -0.03
+			naval_speed = -0.00375
+			fuel_consumption = 0.01875
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 770.3
+
+	}
+	nrm_cruiser_battery_DP_5_3_x04 = {
+		category = nrm_cruiser_battery_DP_5_x04
+		gui_category = nrm_cruiser_battery_DP_x04
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_DP_5_2_x04
+
+		manpower = 50
+		add_stats = {
+			build_cost_ic = 135.0
+			max_strength = 3.0
+			lg_attack = 4.85
+			anti_air_attack = 3.6
+			supply_consumption = 0.00565
+			surface_visibility = 0.27
+		}
+		add_average_stats = {
+			lg_armor_piercing = 7.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.00625
+			reliability = -0.04
+			naval_speed = -0.005
+			fuel_consumption = 0.025
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 777.0
+
+	}
+	nrm_cruiser_battery_DP_5_3_x02 = {
+		category = nrm_cruiser_battery_DP_5_x02
+		gui_category = nrm_cruiser_battery_DP_x02
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_DP_5_2_x02
+
+		manpower = 25
+		add_stats = {
+			build_cost_ic = 67.5
+			max_strength = 1.5
+			lg_attack = 2.425
+			anti_air_attack = 1.8
+			supply_consumption = 0.002825
+			surface_visibility = 0.135
+		}
+		add_average_stats = {
+			lg_armor_piercing = 7.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.003125
+			reliability = -0.02
+			naval_speed = -0.0025
+			fuel_consumption = 0.0125
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 388.5
+
+	}
+	nrm_cruiser_battery_DP_5h_2_x03 = {
+		category = nrm_cruiser_battery_DP_5h_x03
+		gui_category = nrm_cruiser_battery_DP_x03
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 45
+		add_stats = {
+			build_cost_ic = 135.0
+			max_strength = 3.0
+			lg_attack = 3.7
+			anti_air_attack = 1.85
+			supply_consumption = 0.00515
+			surface_visibility = 0.27
+		}
+		add_average_stats = {
+			lg_armor_piercing = 8.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0062390625
+			reliability = -0.033
+			naval_speed = -0.00499125
+			fuel_consumption = 0.02495625
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 777.0
+
+	}
+	nrm_cruiser_battery_DP_5h_2_x04 = {
+		category = nrm_cruiser_battery_DP_5h_x04
+		gui_category = nrm_cruiser_battery_DP_x04
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 60
+		add_stats = {
+			build_cost_ic = 179.5
+			max_strength = 4.0
+			lg_attack = 4.95
+			anti_air_attack = 2.5
+			supply_consumption = 0.0069
+			surface_visibility = 0.359
+		}
+		add_average_stats = {
+			lg_armor_piercing = 8.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.00831875
+			reliability = -0.044
+			naval_speed = -0.006655
+			fuel_consumption = 0.033275
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 785.9
+
+	}
+	nrm_cruiser_battery_DP_5h_2_x02 = {
+		category = nrm_cruiser_battery_DP_5h_x02
+		gui_category = nrm_cruiser_battery_DP_x02
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 30
+		add_stats = {
+			build_cost_ic = 89.75
+			max_strength = 2.0
+			lg_attack = 2.475
+			anti_air_attack = 1.25
+			supply_consumption = 0.00345
+			surface_visibility = 0.1795
+		}
+		add_average_stats = {
+			lg_armor_piercing = 8.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.004159375
+			reliability = -0.022
+			naval_speed = -0.0033275
+			fuel_consumption = 0.0166375
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 392.95
+
+	}
+	nrm_cruiser_battery_DP_5h_3_x03 = {
+		category = nrm_cruiser_battery_DP_5h_x03
+		gui_category = nrm_cruiser_battery_DP_x03
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_DP_5h_2_x03
+
+		manpower = 45
+		add_stats = {
+			build_cost_ic = 135.0
+			max_strength = 3.0
+			lg_attack = 4.15
+			anti_air_attack = 2.45
+			supply_consumption = 0.00515
+			surface_visibility = 0.27
+		}
+		add_average_stats = {
+			lg_armor_piercing = 9.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0062390625
+			reliability = -0.033
+			naval_speed = -0.00499125
+			fuel_consumption = 0.02495625
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 777.0
+
+	}
+	nrm_cruiser_battery_DP_5h_3_x04 = {
+		category = nrm_cruiser_battery_DP_5h_x04
+		gui_category = nrm_cruiser_battery_DP_x04
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_DP_5h_2_x04
+
+		manpower = 60
+		add_stats = {
+			build_cost_ic = 179.5
+			max_strength = 4.0
+			lg_attack = 5.5
+			anti_air_attack = 3.25
+			supply_consumption = 0.0069
+			surface_visibility = 0.359
+		}
+		add_average_stats = {
+			lg_armor_piercing = 9.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.00831875
+			reliability = -0.044
+			naval_speed = -0.006655
+			fuel_consumption = 0.033275
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 785.9
+
+	}
+	nrm_cruiser_battery_DP_5h_3_x02 = {
+		category = nrm_cruiser_battery_DP_5h_x02
+		gui_category = nrm_cruiser_battery_DP_x02
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_DP_5h_2_x02
+
+		manpower = 30
+		add_stats = {
+			build_cost_ic = 89.75
+			max_strength = 2.0
+			lg_attack = 2.75
+			anti_air_attack = 1.625
+			supply_consumption = 0.00345
+			surface_visibility = 0.1795
+		}
+		add_average_stats = {
+			lg_armor_piercing = 9.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.004159375
+			reliability = -0.022
+			naval_speed = -0.0033275
+			fuel_consumption = 0.0166375
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 392.95
+
+	}
+	nrm_cruiser_battery_DP_6_3_x03 = {
+		category = nrm_cruiser_battery_DP_6_x03
+		gui_category = nrm_cruiser_battery_DP_x03
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 54
+		add_stats = {
+			build_cost_ic = 175.0
+			max_strength = 4.0
+			lg_attack = 4.05
+			anti_air_attack = 2.15
+			supply_consumption = 0.0062
+			surface_visibility = 0.35
+		}
+		add_average_stats = {
+			lg_armor_piercing = 11.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0081
+			reliability = -0.036
+			naval_speed = -0.00648
+			fuel_consumption = 0.0324
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 785.0
+
+	}
+	nrm_cruiser_battery_DP_6_3_x04 = {
+		category = nrm_cruiser_battery_DP_6_x04
+		gui_category = nrm_cruiser_battery_DP_x04
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 72
+		add_stats = {
+			build_cost_ic = 233.5
+			max_strength = 5.5
+			lg_attack = 5.4
+			anti_air_attack = 2.9
+			supply_consumption = 0.0083
+			surface_visibility = 0.467
+		}
+		add_average_stats = {
+			lg_armor_piercing = 11.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0108
+			reliability = -0.048
+			naval_speed = -0.00864
+			fuel_consumption = 0.0432
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 796.7
+
+	}
+	nrm_cruiser_battery_DP_6_3_x02 = {
+		category = nrm_cruiser_battery_DP_6_x02
+		gui_category = nrm_cruiser_battery_DP_x02
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 36
+		add_stats = {
+			build_cost_ic = 116.75
+			max_strength = 2.75
+			lg_attack = 2.7
+			anti_air_attack = 1.45
+			supply_consumption = 0.00415
+			surface_visibility = 0.2335
+		}
+		add_average_stats = {
+			lg_armor_piercing = 11.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0054
+			reliability = -0.024
+			naval_speed = -0.00432
+			fuel_consumption = 0.0216
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 398.35
+
+	}
+	nrm_cruiser_battery_DP_6_4_x03 = {
+		category = nrm_cruiser_battery_DP_6_x03
+		gui_category = nrm_cruiser_battery_DP_x03
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_DP_6_3_x03
+
+		manpower = 54
+		add_stats = {
+			build_cost_ic = 175.0
+			max_strength = 4.0
+			lg_attack = 5.1
+			anti_air_attack = 2.8
+			supply_consumption = 0.0062
+			surface_visibility = 0.35
+		}
+		add_average_stats = {
+			lg_armor_piercing = 11.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0081
+			reliability = -0.036
+			naval_speed = -0.00648
+			fuel_consumption = 0.0324
+		}
+		build_cost_resources = {
+			chromium = 1
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 785.0
+
+	}
+	nrm_cruiser_battery_DP_6_4_x04 = {
+		category = nrm_cruiser_battery_DP_6_x04
+		gui_category = nrm_cruiser_battery_DP_x04
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_DP_6_3_x04
+
+		manpower = 72
+		add_stats = {
+			build_cost_ic = 233.5
+			max_strength = 5.5
+			lg_attack = 6.85
+			anti_air_attack = 3.75
+			supply_consumption = 0.0083
+			surface_visibility = 0.467
+		}
+		add_average_stats = {
+			lg_armor_piercing = 11.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0108
+			reliability = -0.048
+			naval_speed = -0.00864
+			fuel_consumption = 0.0432
+		}
+		build_cost_resources = {
+			chromium = 1
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 796.7
+
+	}
+	nrm_cruiser_battery_DP_6_4_x02 = {
+		category = nrm_cruiser_battery_DP_6_x02
+		gui_category = nrm_cruiser_battery_DP_x02
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_DP_6_3_x02
+
+		manpower = 36
+		add_stats = {
+			build_cost_ic = 116.75
+			max_strength = 2.75
+			lg_attack = 3.425
+			anti_air_attack = 1.875
+			supply_consumption = 0.00415
+			surface_visibility = 0.2335
+		}
+		add_average_stats = {
+			lg_armor_piercing = 11.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0054
+			reliability = -0.024
+			naval_speed = -0.00432
+			fuel_consumption = 0.0216
+		}
+		build_cost_resources = {
+			chromium = 1
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 398.35
+
+	}
+	nrm_cruiser_battery_PB_11_1_2x1 = {
+		category = nrm_cruiser_battery_PB_11_2x1
+		gui_category = nrm_cruiser_battery_PB_2x1
+		sfx = sfx_ui_sd_module_turret
+
+		add_equipment_type = capital_ship
+
+		manpower = 60
+		add_stats = {
+			build_cost_ic = 296.0
+			max_strength = 8.5
+			hg_attack = 4.5
+			supply_consumption = 0.0094
+			surface_visibility = 0.592
+		}
+		add_average_stats = {
+			hg_armor_piercing = 22.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0232925
+			reliability = -0.044
+			naval_speed = -0.0288
+			fuel_consumption = 0.1331
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 809.2
+
+	}
+	nrm_cruiser_battery_PB_11_1_3x1 = {
+		category = nrm_cruiser_battery_PB_11_3x1
+		gui_category = nrm_cruiser_battery_PB_3x1
+		sfx = sfx_ui_sd_module_turret
+
+		add_equipment_type = capital_ship
+
+		manpower = 91
+		add_stats = {
+			build_cost_ic = 443.5
+			max_strength = 12.5
+			hg_attack = 6.75
+			supply_consumption = 0.0141
+			surface_visibility = 0.887
+		}
+		add_average_stats = {
+			hg_armor_piercing = 22.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.03493875
+			reliability = -0.066
+			naval_speed = -0.0432
+			fuel_consumption = 0.19965
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 838.7
+
+	}
+	nrm_cruiser_battery_PB_11_1_4x1 = {
+		category = nrm_cruiser_battery_PB_11_4x1
+		gui_category = nrm_cruiser_battery_PB_4x1
+		sfx = sfx_ui_sd_module_turret
+
+		add_equipment_type = capital_ship
+
+		manpower = 121
+		add_stats = {
+			build_cost_ic = 591.5
+			max_strength = 16.5
+			hg_attack = 9.0
+			supply_consumption = 0.01875
+			surface_visibility = 1.183
+		}
+		add_average_stats = {
+			hg_armor_piercing = 22.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.046585
+			reliability = -0.088
+			naval_speed = -0.0576
+			fuel_consumption = 0.2662
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 868.3
+
+	}
+	nrm_cruiser_battery_PB_11_2_2x1 = {
+		category = nrm_cruiser_battery_PB_11_2x1
+		gui_category = nrm_cruiser_battery_PB_2x1
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_PB_11_1_2x1
+
+		add_equipment_type = capital_ship
+
+		manpower = 60
+		add_stats = {
+			build_cost_ic = 296.0
+			max_strength = 8.5
+			hg_attack = 5.05
+			supply_consumption = 0.0094
+			surface_visibility = 0.592
+		}
+		add_average_stats = {
+			hg_armor_piercing = 24.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0232925
+			reliability = -0.044
+			naval_speed = -0.0288
+			fuel_consumption = 0.1331
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 809.2
+
+	}
+	nrm_cruiser_battery_PB_11_2_3x1 = {
+		category = nrm_cruiser_battery_PB_11_3x1
+		gui_category = nrm_cruiser_battery_PB_3x1
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_PB_11_1_3x1
+
+		add_equipment_type = capital_ship
+
+		manpower = 91
+		add_stats = {
+			build_cost_ic = 443.5
+			max_strength = 12.5
+			hg_attack = 7.6
+			supply_consumption = 0.0141
+			surface_visibility = 0.887
+		}
+		add_average_stats = {
+			hg_armor_piercing = 24.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.03493875
+			reliability = -0.066
+			naval_speed = -0.0432
+			fuel_consumption = 0.19965
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 838.7
+
+	}
+	nrm_cruiser_battery_PB_11_2_4x1 = {
+		category = nrm_cruiser_battery_PB_11_4x1
+		gui_category = nrm_cruiser_battery_PB_4x1
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_PB_11_1_4x1
+
+		add_equipment_type = capital_ship
+
+		manpower = 121
+		add_stats = {
+			build_cost_ic = 591.5
+			max_strength = 16.5
+			hg_attack = 10.1
+			supply_consumption = 0.01875
+			surface_visibility = 1.183
+		}
+		add_average_stats = {
+			hg_armor_piercing = 24.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.046585
+			reliability = -0.088
+			naval_speed = -0.0576
+			fuel_consumption = 0.2662
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 868.3
+
+	}
+	nrm_cruiser_battery_PB_11_3_2x1 = {
+		category = nrm_cruiser_battery_PB_11_2x1
+		gui_category = nrm_cruiser_battery_PB_2x1
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_PB_11_2_2x1
+
+		add_equipment_type = capital_ship
+
+		manpower = 60
+		add_stats = {
+			build_cost_ic = 296.0
+			max_strength = 8.5
+			hg_attack = 5.6
+			supply_consumption = 0.0094
+			surface_visibility = 0.592
+		}
+		add_average_stats = {
+			hg_armor_piercing = 26.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0232925
+			reliability = -0.044
+			naval_speed = -0.0288
+			fuel_consumption = 0.1331
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 809.2
+
+	}
+	nrm_cruiser_battery_PB_11_3_3x1 = {
+		category = nrm_cruiser_battery_PB_11_3x1
+		gui_category = nrm_cruiser_battery_PB_3x1
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_PB_11_2_3x1
+
+		add_equipment_type = capital_ship
+
+		manpower = 91
+		add_stats = {
+			build_cost_ic = 443.5
+			max_strength = 12.5
+			hg_attack = 8.4
+			supply_consumption = 0.0141
+			surface_visibility = 0.887
+		}
+		add_average_stats = {
+			hg_armor_piercing = 26.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.03493875
+			reliability = -0.066
+			naval_speed = -0.0432
+			fuel_consumption = 0.19965
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 838.7
+
+	}
+	nrm_cruiser_battery_PB_11_3_4x1 = {
+		category = nrm_cruiser_battery_PB_11_4x1
+		gui_category = nrm_cruiser_battery_PB_4x1
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_PB_11_2_4x1
+
+		add_equipment_type = capital_ship
+
+		manpower = 121
+		add_stats = {
+			build_cost_ic = 591.5
+			max_strength = 16.5
+			hg_attack = 11.25
+			supply_consumption = 0.01875
+			surface_visibility = 1.183
+		}
+		add_average_stats = {
+			hg_armor_piercing = 26.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.046585
+			reliability = -0.088
+			naval_speed = -0.0576
+			fuel_consumption = 0.2662
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 868.3
+
+	}
+	nrm_cruiser_battery_PB_12_1_2x1 = {
+		category = nrm_cruiser_battery_PB_12_2x1
+		gui_category = nrm_cruiser_battery_PB_2x1
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_PB_11_3_2x1
+
+		add_equipment_type = capital_ship
+
+		manpower = 72
+		add_stats = {
+			build_cost_ic = 384.0
+			max_strength = 11.0
+			hg_attack = 5.2
+			supply_consumption = 0.0115
+			surface_visibility = 0.768
+		}
+		add_average_stats = {
+			hg_armor_piercing = 24.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.03024
+			reliability = -0.048
+			naval_speed = -0.03255208333333335
+			fuel_consumption = 0.1728
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 826.8
+
+	}
+	nrm_cruiser_battery_PB_12_1_3x1 = {
+		category = nrm_cruiser_battery_PB_12_3x1
+		gui_category = nrm_cruiser_battery_PB_3x1
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_PB_11_3_3x1
+
+		add_equipment_type = capital_ship
+
+		manpower = 108
+		add_stats = {
+			build_cost_ic = 576.0
+			max_strength = 16.0
+			hg_attack = 7.8
+			supply_consumption = 0.0173
+			surface_visibility = 1.152
+		}
+		add_average_stats = {
+			hg_armor_piercing = 24.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.04536
+			reliability = -0.072
+			naval_speed = -0.048828125
+			fuel_consumption = 0.2592
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 865.2
+
+	}
+	nrm_cruiser_battery_PB_12_1_4x1 = {
+		category = nrm_cruiser_battery_PB_12_4x1
+		gui_category = nrm_cruiser_battery_PB_4x1
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_PB_11_3_4x1
+
+		add_equipment_type = capital_ship
+
+		manpower = 144
+		add_stats = {
+			build_cost_ic = 768.0
+			max_strength = 21.5
+			hg_attack = 10.35
+			supply_consumption = 0.02305
+			surface_visibility = 1.536
+		}
+		add_average_stats = {
+			hg_armor_piercing = 24.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.06048
+			reliability = -0.096
+			naval_speed = -0.0651041666666665
+			fuel_consumption = 0.3456
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 903.6
+
+	}
+	nrm_cruiser_battery_PB_12_2_2x1 = {
+		category = nrm_cruiser_battery_PB_12_2x1
+		gui_category = nrm_cruiser_battery_PB_2x1
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_PB_12_1_2x1
+
+		add_equipment_type = capital_ship
+
+		manpower = 72
+		add_stats = {
+			build_cost_ic = 384.0
+			max_strength = 11.0
+			hg_attack = 5.85
+			supply_consumption = 0.0115
+			surface_visibility = 0.768
+		}
+		add_average_stats = {
+			hg_armor_piercing = 26.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.03024
+			reliability = -0.048
+			naval_speed = -0.03255208333333335
+			fuel_consumption = 0.1728
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 826.8
+
+	}
+	nrm_cruiser_battery_PB_12_2_3x1 = {
+		category = nrm_cruiser_battery_PB_12_3x1
+		gui_category = nrm_cruiser_battery_PB_3x1
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_PB_12_1_3x1
+
+		add_equipment_type = capital_ship
+
+		manpower = 108
+		add_stats = {
+			build_cost_ic = 576.0
+			max_strength = 16.0
+			hg_attack = 8.75
+			supply_consumption = 0.0173
+			surface_visibility = 1.152
+		}
+		add_average_stats = {
+			hg_armor_piercing = 26.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.04536
+			reliability = -0.072
+			naval_speed = -0.048828125
+			fuel_consumption = 0.2592
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 865.2
+
+	}
+	nrm_cruiser_battery_PB_12_2_4x1 = {
+		category = nrm_cruiser_battery_PB_12_4x1
+		gui_category = nrm_cruiser_battery_PB_4x1
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_PB_12_1_4x1
+
+		add_equipment_type = capital_ship
+
+		manpower = 144
+		add_stats = {
+			build_cost_ic = 768.0
+			max_strength = 21.5
+			hg_attack = 11.65
+			supply_consumption = 0.02305
+			surface_visibility = 1.536
+		}
+		add_average_stats = {
+			hg_armor_piercing = 26.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.06048
+			reliability = -0.096
+			naval_speed = -0.0651041666666665
+			fuel_consumption = 0.3456
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 903.6
+
+	}
+	nrm_cruiser_battery_PB_12_3_2x1 = {
+		category = nrm_cruiser_battery_PB_12_2x1
+		gui_category = nrm_cruiser_battery_PB_2x1
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_PB_12_2_2x1
+
+		add_equipment_type = capital_ship
+
+		manpower = 72
+		add_stats = {
+			build_cost_ic = 384.0
+			max_strength = 11.0
+			hg_attack = 6.5
+			supply_consumption = 0.0115
+			surface_visibility = 0.768
+		}
+		add_average_stats = {
+			hg_armor_piercing = 28.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.03024
+			reliability = -0.048
+			naval_speed = -0.03255208333333335
+			fuel_consumption = 0.1728
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 826.8
+
+	}
+	nrm_cruiser_battery_PB_12_3_3x1 = {
+		category = nrm_cruiser_battery_PB_12_3x1
+		gui_category = nrm_cruiser_battery_PB_3x1
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_PB_12_2_3x1
+
+		add_equipment_type = capital_ship
+
+		manpower = 108
+		add_stats = {
+			build_cost_ic = 576.0
+			max_strength = 16.0
+			hg_attack = 9.7
+			supply_consumption = 0.0173
+			surface_visibility = 1.152
+		}
+		add_average_stats = {
+			hg_armor_piercing = 28.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.04536
+			reliability = -0.072
+			naval_speed = -0.048828125
+			fuel_consumption = 0.2592
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 865.2
+
+	}
+	nrm_cruiser_battery_PB_12_3_4x1 = {
+		category = nrm_cruiser_battery_PB_12_4x1
+		gui_category = nrm_cruiser_battery_PB_4x1
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_PB_12_2_4x1
+
+		add_equipment_type = capital_ship
+
+		manpower = 144
+		add_stats = {
+			build_cost_ic = 768.0
+			max_strength = 21.5
+			hg_attack = 12.95
+			supply_consumption = 0.02305
+			surface_visibility = 1.536
+		}
+		add_average_stats = {
+			hg_armor_piercing = 28.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.06048
+			reliability = -0.096
+			naval_speed = -0.0651041666666665
+			fuel_consumption = 0.3456
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 874.4
+
+	}
+	nrm_cruiser_battery_5_1_x05 = {
+		category = nrm_cruiser_battery_5_x05
+		gui_category = nrm_cruiser_battery_x05
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 62
+		add_stats = {
+			build_cost_ic = 125.0
+			max_strength = 4.0
+			lg_attack = 4.699999999999999
+			supply_consumption = 0.006999999999999999
+			surface_visibility = 0.25
+		}
+		add_average_stats = {
+			lg_armor_piercing = 5.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0078125
+			reliability = -0.05
+			naval_speed = -0.00625
+			fuel_consumption = 0.03125
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1525.0
+
+	}
+	nrm_cruiser_battery_5_2_x05 = {
+		category = nrm_cruiser_battery_5_x05
+		gui_category = nrm_cruiser_battery_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_5_1_x05
+
+		manpower = 62
+		add_stats = {
+			build_cost_ic = 125.0
+			max_strength = 4.0
+			lg_attack = 5.25
+			supply_consumption = 0.006999999999999999
+			surface_visibility = 0.25
+		}
+		add_average_stats = {
+			lg_armor_piercing = 6.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0078125
+			reliability = -0.05
+			naval_speed = -0.00625
+			fuel_consumption = 0.03125
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1525.0
+
+	}
+	nrm_cruiser_battery_DP_5_2_x05 = {
+		category = nrm_cruiser_battery_DP_5_x05
+		gui_category = nrm_cruiser_battery_DP_x05
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 62
+		add_stats = {
+			build_cost_ic = 151.5
+			max_strength = 4.0
+			lg_attack = 5.4
+			anti_air_attack = 2.5
+			supply_consumption = 0.006999999999999999
+			surface_visibility = 0.30300000000000005
+		}
+		add_average_stats = {
+			lg_armor_piercing = 6.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0078125
+			reliability = -0.05
+			naval_speed = -0.00625
+			fuel_consumption = 0.03125
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1530.3
+
+	}
+	nrm_cruiser_battery_5_3_x05 = {
+		category = nrm_cruiser_battery_5_x05
+		gui_category = nrm_cruiser_battery_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_5_2_x05
+
+		manpower = 62
+		add_stats = {
+			build_cost_ic = 125.0
+			max_strength = 4.0
+			lg_attack = 5.85
+			supply_consumption = 0.006999999999999999
+			surface_visibility = 0.25
+		}
+		add_average_stats = {
+			lg_armor_piercing = 7.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0078125
+			reliability = -0.05
+			naval_speed = -0.00625
+			fuel_consumption = 0.03125
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1525.0
+
+	}
+	nrm_cruiser_battery_DP_5_3_x05 = {
+		category = nrm_cruiser_battery_DP_5_x05
+		gui_category = nrm_cruiser_battery_DP_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_DP_5_2_x05
+
+		manpower = 62
+		add_stats = {
+			build_cost_ic = 151.5
+			max_strength = 4.0
+			lg_attack = 6.0
+			anti_air_attack = 2.7
+			supply_consumption = 0.006999999999999999
+			surface_visibility = 0.30300000000000005
+		}
+		add_average_stats = {
+			lg_armor_piercing = 7.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0078125
+			reliability = -0.05
+			naval_speed = -0.00625
+			fuel_consumption = 0.03125
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1530.3
+
+	}
+	nrm_cruiser_battery_5h_1_x05 = {
+		category = nrm_cruiser_battery_5h_x05
+		gui_category = nrm_cruiser_battery_x05
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 75
+		add_stats = {
+			build_cost_ic = 166.5
+			max_strength = 5.0
+			lg_attack = 5.2
+			supply_consumption = 0.0086
+			surface_visibility = 0.333
+		}
+		add_average_stats = {
+			lg_armor_piercing = 7.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0103984375
+			reliability = -0.055
+			naval_speed = -0.00831875
+			fuel_consumption = 0.04159375
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1533.3
+
+	}
+	nrm_cruiser_battery_5h_2_x05 = {
+		category = nrm_cruiser_battery_5h_x05
+		gui_category = nrm_cruiser_battery_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_5h_1_x05
+
+		manpower = 75
+		add_stats = {
+			build_cost_ic = 166.5
+			max_strength = 5.0
+			lg_attack = 5.85
+			supply_consumption = 0.0086
+			surface_visibility = 0.333
+		}
+		add_average_stats = {
+			lg_armor_piercing = 8.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0103984375
+			reliability = -0.055
+			naval_speed = -0.00831875
+			fuel_consumption = 0.04159375
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1533.3
+
+	}
+	nrm_cruiser_battery_DP_5h_2_x05 = {
+		category = nrm_cruiser_battery_DP_5h_x05
+		gui_category = nrm_cruiser_battery_DP_x05
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 75
+		add_stats = {
+			build_cost_ic = 201.5
+			max_strength = 5.0
+			lg_attack = 6.050000000000001
+			anti_air_attack = 1.85
+			supply_consumption = 0.0086
+			surface_visibility = 0.403
+		}
+		add_average_stats = {
+			lg_armor_piercing = 8.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0103984375
+			reliability = -0.055
+			naval_speed = -0.00831875
+			fuel_consumption = 0.04159375
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1540.3
+
+	}
+	nrm_cruiser_battery_5h_3_x05 = {
+		category = nrm_cruiser_battery_5h_x05
+		gui_category = nrm_cruiser_battery_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_5h_2_x05
+
+		manpower = 75
+		add_stats = {
+			build_cost_ic = 166.5
+			max_strength = 5.0
+			lg_attack = 6.5
+			supply_consumption = 0.0086
+			surface_visibility = 0.333
+		}
+		add_average_stats = {
+			lg_armor_piercing = 9.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0103984375
+			reliability = -0.055
+			naval_speed = -0.00831875
+			fuel_consumption = 0.04159375
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1533.3
+
+	}
+	nrm_cruiser_battery_DP_5h_3_x05 = {
+		category = nrm_cruiser_battery_DP_5h_x05
+		gui_category = nrm_cruiser_battery_DP_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_DP_5h_2_x05
+
+		manpower = 75
+		add_stats = {
+			build_cost_ic = 201.5
+			max_strength = 5.0
+			lg_attack = 6.75
+			anti_air_attack = 2.45
+			supply_consumption = 0.0086
+			surface_visibility = 0.403
+		}
+		add_average_stats = {
+			lg_armor_piercing = 9.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0103984375
+			reliability = -0.055
+			naval_speed = -0.00831875
+			fuel_consumption = 0.04159375
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1540.3
+
+	}
+	nrm_cruiser_battery_6_1_x05 = {
+		category = nrm_cruiser_battery_6_x05
+		gui_category = nrm_cruiser_battery_x05
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 90
+		add_stats = {
+			build_cost_ic = 216.0
+			max_strength = 6.5
+			lg_attack = 5.4
+			supply_consumption = 0.01035
+			surface_visibility = 0.432
+		}
+		add_average_stats = {
+			lg_armor_piercing = 9.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0135
+			reliability = -0.06
+			naval_speed = -0.0108
+			fuel_consumption = 0.054
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1543.1999999999998
+
+	}
+	nrm_cruiser_battery_6_2_x05 = {
+		category = nrm_cruiser_battery_6_x05
+		gui_category = nrm_cruiser_battery_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_6_1_x05
+
+		manpower = 90
+		add_stats = {
+			build_cost_ic = 216.0
+			max_strength = 6.5
+			lg_attack = 6.1
+			supply_consumption = 0.01035
+			surface_visibility = 0.432
+		}
+		add_average_stats = {
+			lg_armor_piercing = 10.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0135
+			reliability = -0.06
+			naval_speed = -0.0108
+			fuel_consumption = 0.054
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1543.1999999999998
+
+	}
+	nrm_cruiser_battery_6_3_x05 = {
+		category = nrm_cruiser_battery_6_x05
+		gui_category = nrm_cruiser_battery_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_6_2_x05
+
+		manpower = 90
+		add_stats = {
+			build_cost_ic = 216.0
+			max_strength = 6.5
+			lg_attack = 6.75
+			supply_consumption = 0.01035
+			surface_visibility = 0.432
+		}
+		add_average_stats = {
+			lg_armor_piercing = 11.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0135
+			reliability = -0.06
+			naval_speed = -0.0108
+			fuel_consumption = 0.054
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1543.1999999999998
+
+	}
+	nrm_cruiser_battery_DP_6_3_x05 = {
+		category = nrm_cruiser_battery_DP_6_x05
+		gui_category = nrm_cruiser_battery_DP_x05
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 90
+		add_stats = {
+			build_cost_ic = 261.5
+			max_strength = 6.5
+			lg_attack = 6.75
+			anti_air_attack = 2.15
+			supply_consumption = 0.01035
+			surface_visibility = 0.5229999999999999
+		}
+		add_average_stats = {
+			lg_armor_piercing = 11.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0135
+			reliability = -0.06
+			naval_speed = -0.0108
+			fuel_consumption = 0.054
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1552.3
+
+	}
+	nrm_cruiser_battery_6_4_x05 = {
+		category = nrm_cruiser_battery_6_x05
+		gui_category = nrm_cruiser_battery_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_6_3_x05
+
+		manpower = 90
+		add_stats = {
+			build_cost_ic = 216.0
+			max_strength = 6.5
+			lg_attack = 8.5
+			supply_consumption = 0.01035
+			surface_visibility = 0.432
+		}
+		add_average_stats = {
+			lg_armor_piercing = 11.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0135
+			reliability = -0.06
+			naval_speed = -0.0108
+			fuel_consumption = 0.054
+		}
+		build_cost_resources = {
+			chromium = 1
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1543.1999999999998
+
+	}
+	nrm_cruiser_battery_DP_6_4_x05 = {
+		category = nrm_cruiser_battery_DP_6_x05
+		gui_category = nrm_cruiser_battery_DP_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_DP_6_3_x05
+
+		manpower = 90
+		add_stats = {
+			build_cost_ic = 261.5
+			max_strength = 6.5
+			lg_attack = 8.5
+			anti_air_attack = 2.8
+			supply_consumption = 0.01035
+			surface_visibility = 0.5229999999999999
+		}
+		add_average_stats = {
+			lg_armor_piercing = 11.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0135
+			reliability = -0.06
+			naval_speed = -0.0108
+			fuel_consumption = 0.054
+		}
+		build_cost_resources = {
+			chromium = 1
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1552.3
+
+	}
+	nrm_cruiser_battery_8_1_x05 = {
+		category = nrm_cruiser_battery_8_x05
+		gui_category = nrm_cruiser_battery_x05
+		sfx = sfx_ui_sd_module_turret
+
+		add_equipment_type = capital_ship
+
+		manpower = 106
+		add_stats = {
+			build_cost_ic = 512.0
+			max_strength = 16.0
+			hg_attack = 5.85
+			lg_attack = 2.5
+			supply_consumption = 0.013850000000000001
+			surface_visibility = 1.024
+		}
+		add_average_stats = {
+			hg_armor_piercing = 14.0
+			lg_armor_piercing = 14.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.032
+			reliability = -0.08
+			naval_speed = -0.0256
+			fuel_consumption = 0.128
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 1602.4
+
+	}
+	nrm_cruiser_battery_8_2_x05 = {
+		category = nrm_cruiser_battery_8_x05
+		gui_category = nrm_cruiser_battery_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_8_1_x05
+
+		add_equipment_type = capital_ship
+
+		manpower = 106
+		add_stats = {
+			build_cost_ic = 512.0
+			max_strength = 16.0
+			hg_attack = 6.550000000000001
+			lg_attack = 2.8
+			supply_consumption = 0.013850000000000001
+			surface_visibility = 1.024
+		}
+		add_average_stats = {
+			hg_armor_piercing = 15.5
+			lg_armor_piercing = 15.5
+		}
+		multiply_stats = {
+			build_cost_ic = 0.032
+			reliability = -0.08
+			naval_speed = -0.0256
+			fuel_consumption = 0.128
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 1602.4
+
+	}
+	nrm_cruiser_battery_8_3_x05 = {
+		category = nrm_cruiser_battery_8_x05
+		gui_category = nrm_cruiser_battery_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_8_2_x05
+
+		add_equipment_type = capital_ship
+
+		manpower = 106
+		add_stats = {
+			build_cost_ic = 512.0
+			max_strength = 16.0
+			hg_attack = 7.25
+			lg_attack = 3.1
+			supply_consumption = 0.013850000000000001
+			surface_visibility = 1.024
+		}
+		add_average_stats = {
+			hg_armor_piercing = 17.0
+			lg_armor_piercing = 17.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.032
+			reliability = -0.08
+			naval_speed = -0.0256
+			fuel_consumption = 0.128
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 1602.4
+
+	}
+	nrm_cruiser_battery_8_4_x05 = {
+		category = nrm_cruiser_battery_8_x05
+		gui_category = nrm_cruiser_battery_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_8_3_x05
+
+		add_equipment_type = capital_ship
+
+		manpower = 106
+		add_stats = {
+			build_cost_ic = 512.0
+			max_strength = 16.0
+			hg_attack = 10.75
+			lg_attack = 4.6
+			supply_consumption = 0.013850000000000001
+			surface_visibility = 1.024
+		}
+		add_average_stats = {
+			hg_armor_piercing = 17.0
+			lg_armor_piercing = 17.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.032
+			reliability = -0.08
+			naval_speed = -0.0256
+			fuel_consumption = 0.128
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 1602.4
+
+	}
+	nrm_cruiser_battery_5_2_x05 = {
+		category = nrm_cruiser_battery_5_x05
+		gui_category = nrm_cruiser_battery_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_5_1_x05
+
+		manpower = 62
+		add_stats = {
+			build_cost_ic = 142.5
+			max_strength = 4.0
+			lg_attack = 5.35
+			anti_air_attack = 1.65
+			supply_consumption = 0.007025
+			surface_visibility = 0.28500000000000003
+		}
+		add_average_stats = {
+			lg_armor_piercing = 6.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0078125
+			reliability = -0.05
+			naval_speed = -0.00625
+			fuel_consumption = 0.03125
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1153.5
+
+	}
+	nrm_cruiser_battery_DP_5_2_x05 = {
+		category = nrm_cruiser_battery_DP_5_x05
+		gui_category = nrm_cruiser_battery_DP_x05
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 62
+		add_stats = {
+			build_cost_ic = 169.0
+			max_strength = 4.0
+			lg_attack = 5.5
+			anti_air_attack = 4.15
+			supply_consumption = 0.007025
+			surface_visibility = 0.338
+		}
+		add_average_stats = {
+			lg_armor_piercing = 6.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0078125
+			reliability = -0.05
+			naval_speed = -0.00625
+			fuel_consumption = 0.03125
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1158.8
+
+	}
+	nrm_cruiser_battery_5_3_x05 = {
+		category = nrm_cruiser_battery_5_x05
+		gui_category = nrm_cruiser_battery_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_5_2_x05
+
+		manpower = 62
+		add_stats = {
+			build_cost_ic = 142.5
+			max_strength = 4.0
+			lg_attack = 5.925
+			anti_air_attack = 1.8
+			supply_consumption = 0.007025
+			surface_visibility = 0.28500000000000003
+		}
+		add_average_stats = {
+			lg_armor_piercing = 7.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0078125
+			reliability = -0.05
+			naval_speed = -0.00625
+			fuel_consumption = 0.03125
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1153.5
+
+	}
+	nrm_cruiser_battery_DP_5_3_x05 = {
+		category = nrm_cruiser_battery_DP_5_x05
+		gui_category = nrm_cruiser_battery_DP_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_DP_5_2_x05
+
+		manpower = 62
+		add_stats = {
+			build_cost_ic = 169.0
+			max_strength = 4.0
+			lg_attack = 6.074999999999999
+			anti_air_attack = 4.5
+			supply_consumption = 0.007025
+			surface_visibility = 0.338
+		}
+		add_average_stats = {
+			lg_armor_piercing = 7.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0078125
+			reliability = -0.05
+			naval_speed = -0.00625
+			fuel_consumption = 0.03125
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1158.8
+
+	}
+	nrm_cruiser_battery_5h_2_x05 = {
+		category = nrm_cruiser_battery_5h_x05
+		gui_category = nrm_cruiser_battery_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_5h_1_x05
+
+		manpower = 75
+		add_stats = {
+			build_cost_ic = 189.75
+			max_strength = 5.0
+			lg_attack = 5.975
+			anti_air_attack = 1.25
+			supply_consumption = 0.0086
+			surface_visibility = 0.3795
+		}
+		add_average_stats = {
+			lg_armor_piercing = 8.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0103984375
+			reliability = -0.055
+			naval_speed = -0.00831875
+			fuel_consumption = 0.04159375
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1162.95
+
+	}
+	nrm_cruiser_battery_DP_5h_2_x05 = {
+		category = nrm_cruiser_battery_DP_5h_x05
+		gui_category = nrm_cruiser_battery_DP_x05
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 75
+		add_stats = {
+			build_cost_ic = 224.75
+			max_strength = 5.0
+			lg_attack = 6.175000000000001
+			anti_air_attack = 3.1
+			supply_consumption = 0.0086
+			surface_visibility = 0.4495
+		}
+		add_average_stats = {
+			lg_armor_piercing = 8.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0103984375
+			reliability = -0.055
+			naval_speed = -0.00831875
+			fuel_consumption = 0.04159375
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1169.95
+
+	}
+	nrm_cruiser_battery_5h_3_x05 = {
+		category = nrm_cruiser_battery_5h_x05
+		gui_category = nrm_cruiser_battery_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_5h_2_x05
+
+		manpower = 75
+		add_stats = {
+			build_cost_ic = 189.75
+			max_strength = 5.0
+			lg_attack = 6.65
+			anti_air_attack = 1.625
+			supply_consumption = 0.0086
+			surface_visibility = 0.3795
+		}
+		add_average_stats = {
+			lg_armor_piercing = 9.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0103984375
+			reliability = -0.055
+			naval_speed = -0.00831875
+			fuel_consumption = 0.04159375
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1162.95
+
+	}
+	nrm_cruiser_battery_DP_5h_3_x05 = {
+		category = nrm_cruiser_battery_DP_5h_x05
+		gui_category = nrm_cruiser_battery_DP_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_DP_5h_2_x05
+
+		manpower = 75
+		add_stats = {
+			build_cost_ic = 224.75
+			max_strength = 5.0
+			lg_attack = 6.9
+			anti_air_attack = 4.075
+			supply_consumption = 0.0086
+			surface_visibility = 0.4495
+		}
+		add_average_stats = {
+			lg_armor_piercing = 9.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0103984375
+			reliability = -0.055
+			naval_speed = -0.00831875
+			fuel_consumption = 0.04159375
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1169.95
+
+	}
+	nrm_cruiser_battery_6_3_x05 = {
+		category = nrm_cruiser_battery_6_x05
+		gui_category = nrm_cruiser_battery_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_6_2_x05
+
+		manpower = 90
+		add_stats = {
+			build_cost_ic = 246.25
+			max_strength = 6.75
+			lg_attack = 6.75
+			anti_air_attack = 1.45
+			supply_consumption = 0.01035
+			surface_visibility = 0.49250000000000005
+		}
+		add_average_stats = {
+			lg_armor_piercing = 11.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0135
+			reliability = -0.06
+			naval_speed = -0.0108
+			fuel_consumption = 0.054
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1174.25
+
+	}
+	nrm_cruiser_battery_DP_6_3_x05 = {
+		category = nrm_cruiser_battery_DP_6_x05
+		gui_category = nrm_cruiser_battery_DP_x05
+		sfx = sfx_ui_sd_module_turret
+
+		manpower = 90
+		add_stats = {
+			build_cost_ic = 291.75
+			max_strength = 6.75
+			lg_attack = 6.75
+			anti_air_attack = 3.5999999999999996
+			supply_consumption = 0.01035
+			surface_visibility = 0.5835
+		}
+		add_average_stats = {
+			lg_armor_piercing = 11.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0135
+			reliability = -0.06
+			naval_speed = -0.0108
+			fuel_consumption = 0.054
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1183.35
+
+	}
+	nrm_cruiser_battery_6_4_x05 = {
+		category = nrm_cruiser_battery_6_x05
+		gui_category = nrm_cruiser_battery_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_6_3_x05
+
+		manpower = 90
+		add_stats = {
+			build_cost_ic = 246.25
+			max_strength = 6.75
+			lg_attack = 8.524999999999999
+			anti_air_attack = 1.875
+			supply_consumption = 0.01035
+			surface_visibility = 0.49250000000000005
+		}
+		add_average_stats = {
+			lg_armor_piercing = 11.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0135
+			reliability = -0.06
+			naval_speed = -0.0108
+			fuel_consumption = 0.054
+		}
+		build_cost_resources = {
+			chromium = 1
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1174.25
+
+	}
+	nrm_cruiser_battery_DP_6_4_x05 = {
+		category = nrm_cruiser_battery_DP_6_x05
+		gui_category = nrm_cruiser_battery_DP_x05
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_cruiser_battery_DP_6_3_x05
+
+		manpower = 90
+		add_stats = {
+			build_cost_ic = 291.75
+			max_strength = 6.75
+			lg_attack = 8.524999999999999
+			anti_air_attack = 4.675
+			supply_consumption = 0.01035
+			surface_visibility = 0.5835
+		}
+		add_average_stats = {
+			lg_armor_piercing = 11.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0135
+			reliability = -0.06
+			naval_speed = -0.0108
+			fuel_consumption = 0.054
+		}
+		build_cost_resources = {
+			chromium = 1
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 1183.35
+
+	}
+}

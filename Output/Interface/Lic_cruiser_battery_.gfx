@@ -1,0 +1,483 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5_1_x02"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5_1_x03"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5_2_x02"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5_2_x03"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5_3_x02"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5_3_x03"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5h_1_x02"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5h_1_x03"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5h_2_x02"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5h_2_x03"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5h_3_x02"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5h_3_x03"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_6_1_x02"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_6_1_x03"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_6_2_x02"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_6_2_x03"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_6_3_x02"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_6_3_x03"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_6_4_x02"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_6_4_x03"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_8_1_x02"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_8_1_x03"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_8_2_x02"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_8_2_x03"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_8_3_x02"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_8_3_x03"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_8_4_x02"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_8_4_x03"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_5_2_x03"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_battery_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_5_2_x04"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_battery_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_5_2_x02"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_battery_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_5_3_x03"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_battery_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_5_3_x04"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_battery_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_5_3_x02"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_battery_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_5h_2_x03"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_battery_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_5h_2_x04"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_battery_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_5h_2_x02"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_battery_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_5h_3_x03"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_battery_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_5h_3_x04"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_battery_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_5h_3_x02"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_battery_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_6_3_x03"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_heavy_battery_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_6_3_x04"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_heavy_battery_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_6_3_x02"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_heavy_battery_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_6_4_x03"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_heavy_battery_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_6_4_x04"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_heavy_battery_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_6_4_x02"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_heavy_battery_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_PB_11_1_2x1"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_capital_battery_2x1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_PB_11_1_3x1"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_capital_battery_3x1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_PB_11_1_4x1"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_capital_battery_4x1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_PB_11_2_2x1"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_capital_battery_2x1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_PB_11_2_3x1"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_capital_battery_3x1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_PB_11_2_4x1"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_capital_battery_4x1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_PB_11_3_2x1"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_capital_battery_2x1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_PB_11_3_3x1"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_capital_battery_3x1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_PB_11_3_4x1"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_capital_battery_4x1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_PB_12_1_2x1"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_capital_battery_2x1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_PB_12_1_3x1"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_capital_battery_3x1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_PB_12_1_4x1"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_capital_battery_4x1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_PB_12_2_2x1"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_capital_battery_2x1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_PB_12_2_3x1"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_capital_battery_3x1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_PB_12_2_4x1"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_capital_battery_4x1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_PB_12_3_2x1"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_capital_battery_2x1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_PB_12_3_3x1"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_capital_battery_3x1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_PB_12_3_4x1"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_capital_battery_4x1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5_1_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5_2_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_5_2_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5_3_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_5_3_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5h_1_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5h_2_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_5h_2_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5h_3_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_5h_3_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_6_1_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_6_2_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_6_3_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_6_3_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_heavy_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_6_4_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_6_4_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_heavy_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_8_1_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_8_2_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_8_3_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_8_4_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5_2_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_5_2_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5_3_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_5_3_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5h_2_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_5h_2_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_5h_3_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_5h_3_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_6_3_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_6_3_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_heavy_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_6_4_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_battery_DP_6_4_x05"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_heavy_battery_5.dds"
+	}
+
+}
