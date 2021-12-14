@@ -9,28 +9,10 @@ technologies = {
 			factor = 0
 		}
 	}
-	nrm_battery_improved_dp_5h_converted_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_DP_5h_2_x03_CHL_015
-			nrm_cruiser_battery_DP_5h_2_x02_CHL_015
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	nrm_battery_improved_dp_5h_armored_small = {
 		enable_equipment_modules = {
 			nrm_cruiser_battery_DP_5h_2_x03_AHL_010
 			nrm_cruiser_battery_DP_5h_2_x02_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_dp_5h_armored_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_DP_5h_2_x03_AHL_015
-			nrm_cruiser_battery_DP_5h_2_x02_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -45,28 +27,10 @@ technologies = {
 			factor = 0
 		}
 	}
-	nrm_battery_advanced_dp_5h_converted_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_DP_5h_3_x03_CHL_015
-			nrm_cruiser_battery_DP_5h_3_x02_CHL_015
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	nrm_battery_advanced_dp_5h_armored_small = {
 		enable_equipment_modules = {
 			nrm_cruiser_battery_DP_5h_3_x03_AHL_010
 			nrm_cruiser_battery_DP_5h_3_x02_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_dp_5h_armored_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_DP_5h_3_x03_AHL_015
-			nrm_cruiser_battery_DP_5h_3_x02_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -81,28 +45,10 @@ technologies = {
 			factor = 0
 		}
 	}
-	nrm_battery_improved_dp_5_converted_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_DP_5_2_x03_CHL_015
-			nrm_cruiser_battery_DP_5_2_x02_CHL_015
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	nrm_battery_improved_dp_5_armored_small = {
 		enable_equipment_modules = {
 			nrm_cruiser_battery_DP_5_2_x03_AHL_010
 			nrm_cruiser_battery_DP_5_2_x02_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_dp_5_armored_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_DP_5_2_x03_AHL_015
-			nrm_cruiser_battery_DP_5_2_x02_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -117,28 +63,10 @@ technologies = {
 			factor = 0
 		}
 	}
-	nrm_battery_advanced_dp_5_converted_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_DP_5_3_x03_CHL_015
-			nrm_cruiser_battery_DP_5_3_x02_CHL_015
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	nrm_battery_advanced_dp_5_armored_small = {
 		enable_equipment_modules = {
 			nrm_cruiser_battery_DP_5_3_x03_AHL_010
 			nrm_cruiser_battery_DP_5_3_x02_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_dp_5_armored_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_DP_5_3_x03_AHL_015
-			nrm_cruiser_battery_DP_5_3_x02_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -153,28 +81,10 @@ technologies = {
 			factor = 0
 		}
 	}
-	nrm_battery_advanced_dp_6_converted_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_DP_6_3_x03_CHL_015
-			nrm_cruiser_battery_DP_6_3_x02_CHL_015
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	nrm_battery_advanced_dp_6_armored_small = {
 		enable_equipment_modules = {
 			nrm_cruiser_battery_DP_6_3_x03_AHL_010
 			nrm_cruiser_battery_DP_6_3_x02_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_dp_6_armored_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_DP_6_3_x03_AHL_015
-			nrm_cruiser_battery_DP_6_3_x02_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -189,28 +99,10 @@ technologies = {
 			factor = 0
 		}
 	}
-	nrm_battery_modern_dp_6_converted_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_DP_6_4_x03_CHL_015
-			nrm_cruiser_battery_DP_6_4_x02_CHL_015
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	nrm_battery_modern_dp_6_armored_small = {
 		enable_equipment_modules = {
 			nrm_cruiser_battery_DP_6_4_x03_AHL_010
 			nrm_cruiser_battery_DP_6_4_x02_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_modern_dp_6_armored_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_DP_6_4_x03_AHL_015
-			nrm_cruiser_battery_DP_6_4_x02_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -225,28 +117,10 @@ technologies = {
 			factor = 0
 		}
 	}
-	nrm_battery_improved_5h_converted_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_5h_2_x02_CHL_015
-			nrm_cruiser_battery_5h_2_x03_CHL_015
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	nrm_battery_improved_5h_armored_small = {
 		enable_equipment_modules = {
 			nrm_cruiser_battery_5h_2_x02_AHL_010
 			nrm_cruiser_battery_5h_2_x03_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_5h_armored_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_5h_2_x02_AHL_015
-			nrm_cruiser_battery_5h_2_x03_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -261,28 +135,10 @@ technologies = {
 			factor = 0
 		}
 	}
-	nrm_battery_advanced_5h_converted_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_5h_3_x02_CHL_015
-			nrm_cruiser_battery_5h_3_x03_CHL_015
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	nrm_battery_advanced_5h_armored_small = {
 		enable_equipment_modules = {
 			nrm_cruiser_battery_5h_3_x02_AHL_010
 			nrm_cruiser_battery_5h_3_x03_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_5h_armored_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_5h_3_x02_AHL_015
-			nrm_cruiser_battery_5h_3_x03_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -297,28 +153,10 @@ technologies = {
 			factor = 0
 		}
 	}
-	nrm_battery_improved_5_converted_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_5_2_x02_CHL_015
-			nrm_cruiser_battery_5_2_x03_CHL_015
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	nrm_battery_improved_5_armored_small = {
 		enable_equipment_modules = {
 			nrm_cruiser_battery_5_2_x02_AHL_010
 			nrm_cruiser_battery_5_2_x03_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_5_armored_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_5_2_x02_AHL_015
-			nrm_cruiser_battery_5_2_x03_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -333,28 +171,10 @@ technologies = {
 			factor = 0
 		}
 	}
-	nrm_battery_advanced_5_converted_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_5_3_x02_CHL_015
-			nrm_cruiser_battery_5_3_x03_CHL_015
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	nrm_battery_advanced_5_armored_small = {
 		enable_equipment_modules = {
 			nrm_cruiser_battery_5_3_x02_AHL_010
 			nrm_cruiser_battery_5_3_x03_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_5_armored_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_5_3_x02_AHL_015
-			nrm_cruiser_battery_5_3_x03_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -369,28 +189,10 @@ technologies = {
 			factor = 0
 		}
 	}
-	nrm_battery_early_6_converted_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_6_1_x02_CHL_015
-			nrm_cruiser_battery_6_1_x03_CHL_015
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	nrm_battery_early_6_armored_small = {
 		enable_equipment_modules = {
 			nrm_cruiser_battery_6_1_x02_AHL_010
 			nrm_cruiser_battery_6_1_x03_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_early_6_armored_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_6_1_x02_AHL_015
-			nrm_cruiser_battery_6_1_x03_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -405,28 +207,10 @@ technologies = {
 			factor = 0
 		}
 	}
-	nrm_battery_improved_6_converted_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_6_2_x02_CHL_015
-			nrm_cruiser_battery_6_2_x03_CHL_015
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	nrm_battery_improved_6_armored_small = {
 		enable_equipment_modules = {
 			nrm_cruiser_battery_6_2_x02_AHL_010
 			nrm_cruiser_battery_6_2_x03_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_6_armored_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_6_2_x02_AHL_015
-			nrm_cruiser_battery_6_2_x03_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -441,28 +225,10 @@ technologies = {
 			factor = 0
 		}
 	}
-	nrm_battery_advanced_6_converted_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_6_3_x02_CHL_015
-			nrm_cruiser_battery_6_3_x03_CHL_015
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	nrm_battery_advanced_6_armored_small = {
 		enable_equipment_modules = {
 			nrm_cruiser_battery_6_3_x02_AHL_010
 			nrm_cruiser_battery_6_3_x03_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_6_armored_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_6_3_x02_AHL_015
-			nrm_cruiser_battery_6_3_x03_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -477,28 +243,10 @@ technologies = {
 			factor = 0
 		}
 	}
-	nrm_battery_modern_6_converted_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_6_4_x02_CHL_015
-			nrm_cruiser_battery_6_4_x03_CHL_015
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	nrm_battery_modern_6_armored_small = {
 		enable_equipment_modules = {
 			nrm_cruiser_battery_6_4_x02_AHL_010
 			nrm_cruiser_battery_6_4_x03_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_modern_6_armored_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_6_4_x02_AHL_015
-			nrm_cruiser_battery_6_4_x03_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -514,31 +262,11 @@ technologies = {
 			factor = 0
 		}
 	}
-	nrm_battery_early_8_converted_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_8_1_x02_CHL_015
-			nrm_cruiser_battery_8_1_x02_CHL_015
-			nrm_cruiser_battery_8_1_x03_CHL_015
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	nrm_battery_early_8_armored_small = {
 		enable_equipment_modules = {
 			nrm_cruiser_battery_8_1_x02_AHL_010
 			nrm_cruiser_battery_8_1_x02_AHL_010
 			nrm_cruiser_battery_8_1_x03_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_early_8_armored_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_8_1_x02_AHL_015
-			nrm_cruiser_battery_8_1_x02_AHL_015
-			nrm_cruiser_battery_8_1_x03_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -554,31 +282,11 @@ technologies = {
 			factor = 0
 		}
 	}
-	nrm_battery_improved_8_converted_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_8_2_x02_CHL_015
-			nrm_cruiser_battery_8_2_x02_CHL_015
-			nrm_cruiser_battery_8_2_x03_CHL_015
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	nrm_battery_improved_8_armored_small = {
 		enable_equipment_modules = {
 			nrm_cruiser_battery_8_2_x02_AHL_010
 			nrm_cruiser_battery_8_2_x02_AHL_010
 			nrm_cruiser_battery_8_2_x03_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_8_armored_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_8_2_x02_AHL_015
-			nrm_cruiser_battery_8_2_x02_AHL_015
-			nrm_cruiser_battery_8_2_x03_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -594,31 +302,11 @@ technologies = {
 			factor = 0
 		}
 	}
-	nrm_battery_advanced_8_converted_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_8_3_x02_CHL_015
-			nrm_cruiser_battery_8_3_x02_CHL_015
-			nrm_cruiser_battery_8_3_x03_CHL_015
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	nrm_battery_advanced_8_armored_small = {
 		enable_equipment_modules = {
 			nrm_cruiser_battery_8_3_x02_AHL_010
 			nrm_cruiser_battery_8_3_x02_AHL_010
 			nrm_cruiser_battery_8_3_x03_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_8_armored_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_8_3_x02_AHL_015
-			nrm_cruiser_battery_8_3_x02_AHL_015
-			nrm_cruiser_battery_8_3_x03_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -633,15 +321,6 @@ technologies = {
 			factor = 0
 		}
 	}
-	nrm_battery_modern_8_converted_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_8_4_x02_CHL_015
-			nrm_cruiser_battery_8_4_x03_CHL_015
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	nrm_battery_modern_8_armored_small = {
 		enable_equipment_modules = {
 			nrm_cruiser_battery_8_4_x02_AHL_010
@@ -651,44 +330,17 @@ technologies = {
 			factor = 0
 		}
 	}
-	nrm_battery_modern_8_armored_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_8_4_x02_AHL_015
-			nrm_cruiser_battery_8_4_x03_AHL_015
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	nrm_battery_early_11_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_11_1_2x2_CHL_015
 			nrm_capital_battery_11_1_2x2_CHL_020
-			nrm_capital_battery_11_1_2x1_CHL_015
 			nrm_capital_battery_11_1_2x1_CHL_020
-			nrm_capital_battery_11_1_3x1_CHL_015
 			nrm_capital_battery_11_1_3x1_CHL_020
-			nrm_capital_battery_11_1_4x1_CHL_015
 			nrm_capital_battery_11_1_4x1_CHL_020
 			nrm_cruiser_battery_PB_11_1_2x2_CHL_010
 			nrm_cruiser_battery_PB_11_1_3x2_CHL_010
 			nrm_cruiser_battery_PB_11_1_2x1_CHL_010
 			nrm_cruiser_battery_PB_11_1_3x1_CHL_010
 			nrm_cruiser_battery_PB_11_1_4x1_CHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_early_11_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_11_1_2x1_CHL_025
-			nrm_capital_battery_11_1_3x1_CHL_025
-			nrm_cruiser_battery_PB_11_1_2x2_CHL_015
-			nrm_cruiser_battery_PB_11_1_3x2_CHL_015
-			nrm_cruiser_battery_PB_11_1_2x1_CHL_015
-			nrm_cruiser_battery_PB_11_1_3x1_CHL_015
-			nrm_cruiser_battery_PB_11_1_4x1_CHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -705,33 +357,15 @@ technologies = {
 	}
 	nrm_battery_early_11_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_11_1_2x2_AHL_015
 			nrm_capital_battery_11_1_2x2_AHL_020
-			nrm_capital_battery_11_1_2x1_AHL_015
 			nrm_capital_battery_11_1_2x1_AHL_020
-			nrm_capital_battery_11_1_3x1_AHL_015
 			nrm_capital_battery_11_1_3x1_AHL_020
-			nrm_capital_battery_11_1_4x1_AHL_015
 			nrm_capital_battery_11_1_4x1_AHL_020
 			nrm_cruiser_battery_PB_11_1_2x2_AHL_010
 			nrm_cruiser_battery_PB_11_1_3x2_AHL_010
 			nrm_cruiser_battery_PB_11_1_2x1_AHL_010
 			nrm_cruiser_battery_PB_11_1_3x1_AHL_010
 			nrm_cruiser_battery_PB_11_1_4x1_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_early_11_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_11_1_2x1_AHL_025
-			nrm_capital_battery_11_1_3x1_AHL_025
-			nrm_cruiser_battery_PB_11_1_2x2_AHL_015
-			nrm_cruiser_battery_PB_11_1_3x2_AHL_015
-			nrm_cruiser_battery_PB_11_1_2x1_AHL_015
-			nrm_cruiser_battery_PB_11_1_3x1_AHL_015
-			nrm_cruiser_battery_PB_11_1_4x1_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -748,33 +382,15 @@ technologies = {
 	}
 	nrm_battery_improved_11_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_11_2_2x2_CHL_015
 			nrm_capital_battery_11_2_2x2_CHL_020
-			nrm_capital_battery_11_2_2x1_CHL_015
 			nrm_capital_battery_11_2_2x1_CHL_020
-			nrm_capital_battery_11_2_3x1_CHL_015
 			nrm_capital_battery_11_2_3x1_CHL_020
-			nrm_capital_battery_11_2_4x1_CHL_015
 			nrm_capital_battery_11_2_4x1_CHL_020
 			nrm_cruiser_battery_PB_11_2_2x2_CHL_010
 			nrm_cruiser_battery_PB_11_2_3x2_CHL_010
 			nrm_cruiser_battery_PB_11_2_2x1_CHL_010
 			nrm_cruiser_battery_PB_11_2_3x1_CHL_010
 			nrm_cruiser_battery_PB_11_2_4x1_CHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_11_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_11_2_2x1_CHL_025
-			nrm_capital_battery_11_2_3x1_CHL_025
-			nrm_cruiser_battery_PB_11_2_2x2_CHL_015
-			nrm_cruiser_battery_PB_11_2_3x2_CHL_015
-			nrm_cruiser_battery_PB_11_2_2x1_CHL_015
-			nrm_cruiser_battery_PB_11_2_3x1_CHL_015
-			nrm_cruiser_battery_PB_11_2_4x1_CHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -791,33 +407,15 @@ technologies = {
 	}
 	nrm_battery_improved_11_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_11_2_2x2_AHL_015
 			nrm_capital_battery_11_2_2x2_AHL_020
-			nrm_capital_battery_11_2_2x1_AHL_015
 			nrm_capital_battery_11_2_2x1_AHL_020
-			nrm_capital_battery_11_2_3x1_AHL_015
 			nrm_capital_battery_11_2_3x1_AHL_020
-			nrm_capital_battery_11_2_4x1_AHL_015
 			nrm_capital_battery_11_2_4x1_AHL_020
 			nrm_cruiser_battery_PB_11_2_2x2_AHL_010
 			nrm_cruiser_battery_PB_11_2_3x2_AHL_010
 			nrm_cruiser_battery_PB_11_2_2x1_AHL_010
 			nrm_cruiser_battery_PB_11_2_3x1_AHL_010
 			nrm_cruiser_battery_PB_11_2_4x1_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_11_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_11_2_2x1_AHL_025
-			nrm_capital_battery_11_2_3x1_AHL_025
-			nrm_cruiser_battery_PB_11_2_2x2_AHL_015
-			nrm_cruiser_battery_PB_11_2_3x2_AHL_015
-			nrm_cruiser_battery_PB_11_2_2x1_AHL_015
-			nrm_cruiser_battery_PB_11_2_3x1_AHL_015
-			nrm_cruiser_battery_PB_11_2_4x1_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -834,33 +432,15 @@ technologies = {
 	}
 	nrm_battery_advanced_11_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_11_3_2x2_CHL_015
 			nrm_capital_battery_11_3_2x2_CHL_020
-			nrm_capital_battery_11_3_2x1_CHL_015
 			nrm_capital_battery_11_3_2x1_CHL_020
-			nrm_capital_battery_11_3_3x1_CHL_015
 			nrm_capital_battery_11_3_3x1_CHL_020
-			nrm_capital_battery_11_3_4x1_CHL_015
 			nrm_capital_battery_11_3_4x1_CHL_020
 			nrm_cruiser_battery_PB_11_3_2x2_CHL_010
 			nrm_cruiser_battery_PB_11_3_3x2_CHL_010
 			nrm_cruiser_battery_PB_11_3_2x1_CHL_010
 			nrm_cruiser_battery_PB_11_3_3x1_CHL_010
 			nrm_cruiser_battery_PB_11_3_4x1_CHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_11_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_11_3_2x1_CHL_025
-			nrm_capital_battery_11_3_3x1_CHL_025
-			nrm_cruiser_battery_PB_11_3_2x2_CHL_015
-			nrm_cruiser_battery_PB_11_3_3x2_CHL_015
-			nrm_cruiser_battery_PB_11_3_2x1_CHL_015
-			nrm_cruiser_battery_PB_11_3_3x1_CHL_015
-			nrm_cruiser_battery_PB_11_3_4x1_CHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -877,33 +457,15 @@ technologies = {
 	}
 	nrm_battery_advanced_11_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_11_3_2x2_AHL_015
 			nrm_capital_battery_11_3_2x2_AHL_020
-			nrm_capital_battery_11_3_2x1_AHL_015
 			nrm_capital_battery_11_3_2x1_AHL_020
-			nrm_capital_battery_11_3_3x1_AHL_015
 			nrm_capital_battery_11_3_3x1_AHL_020
-			nrm_capital_battery_11_3_4x1_AHL_015
 			nrm_capital_battery_11_3_4x1_AHL_020
 			nrm_cruiser_battery_PB_11_3_2x2_AHL_010
 			nrm_cruiser_battery_PB_11_3_3x2_AHL_010
 			nrm_cruiser_battery_PB_11_3_2x1_AHL_010
 			nrm_cruiser_battery_PB_11_3_3x1_AHL_010
 			nrm_cruiser_battery_PB_11_3_4x1_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_11_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_11_3_2x1_AHL_025
-			nrm_capital_battery_11_3_3x1_AHL_025
-			nrm_cruiser_battery_PB_11_3_2x2_AHL_015
-			nrm_cruiser_battery_PB_11_3_3x2_AHL_015
-			nrm_cruiser_battery_PB_11_3_2x1_AHL_015
-			nrm_cruiser_battery_PB_11_3_3x1_AHL_015
-			nrm_cruiser_battery_PB_11_3_4x1_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -920,33 +482,15 @@ technologies = {
 	}
 	nrm_battery_early_12_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_12_1_2x2_CHL_015
 			nrm_capital_battery_12_1_2x2_CHL_020
-			nrm_capital_battery_12_1_2x1_CHL_015
 			nrm_capital_battery_12_1_2x1_CHL_020
-			nrm_capital_battery_12_1_3x1_CHL_015
 			nrm_capital_battery_12_1_3x1_CHL_020
-			nrm_capital_battery_12_1_4x1_CHL_015
 			nrm_capital_battery_12_1_4x1_CHL_020
 			nrm_cruiser_battery_PB_12_1_2x2_CHL_010
 			nrm_cruiser_battery_PB_12_1_3x2_CHL_010
 			nrm_cruiser_battery_PB_12_1_2x1_CHL_010
 			nrm_cruiser_battery_PB_12_1_3x1_CHL_010
 			nrm_cruiser_battery_PB_12_1_4x1_CHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_early_12_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_12_1_2x1_CHL_025
-			nrm_capital_battery_12_1_3x1_CHL_025
-			nrm_cruiser_battery_PB_12_1_2x2_CHL_015
-			nrm_cruiser_battery_PB_12_1_3x2_CHL_015
-			nrm_cruiser_battery_PB_12_1_2x1_CHL_015
-			nrm_cruiser_battery_PB_12_1_3x1_CHL_015
-			nrm_cruiser_battery_PB_12_1_4x1_CHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -963,33 +507,15 @@ technologies = {
 	}
 	nrm_battery_early_12_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_12_1_2x2_AHL_015
 			nrm_capital_battery_12_1_2x2_AHL_020
-			nrm_capital_battery_12_1_2x1_AHL_015
 			nrm_capital_battery_12_1_2x1_AHL_020
-			nrm_capital_battery_12_1_3x1_AHL_015
 			nrm_capital_battery_12_1_3x1_AHL_020
-			nrm_capital_battery_12_1_4x1_AHL_015
 			nrm_capital_battery_12_1_4x1_AHL_020
 			nrm_cruiser_battery_PB_12_1_2x2_AHL_010
 			nrm_cruiser_battery_PB_12_1_3x2_AHL_010
 			nrm_cruiser_battery_PB_12_1_2x1_AHL_010
 			nrm_cruiser_battery_PB_12_1_3x1_AHL_010
 			nrm_cruiser_battery_PB_12_1_4x1_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_early_12_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_12_1_2x1_AHL_025
-			nrm_capital_battery_12_1_3x1_AHL_025
-			nrm_cruiser_battery_PB_12_1_2x2_AHL_015
-			nrm_cruiser_battery_PB_12_1_3x2_AHL_015
-			nrm_cruiser_battery_PB_12_1_2x1_AHL_015
-			nrm_cruiser_battery_PB_12_1_3x1_AHL_015
-			nrm_cruiser_battery_PB_12_1_4x1_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -1006,33 +532,15 @@ technologies = {
 	}
 	nrm_battery_improved_12_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_12_2_2x2_CHL_015
 			nrm_capital_battery_12_2_2x2_CHL_020
-			nrm_capital_battery_12_2_2x1_CHL_015
 			nrm_capital_battery_12_2_2x1_CHL_020
-			nrm_capital_battery_12_2_3x1_CHL_015
 			nrm_capital_battery_12_2_3x1_CHL_020
-			nrm_capital_battery_12_2_4x1_CHL_015
 			nrm_capital_battery_12_2_4x1_CHL_020
 			nrm_cruiser_battery_PB_12_2_2x2_CHL_010
 			nrm_cruiser_battery_PB_12_2_3x2_CHL_010
 			nrm_cruiser_battery_PB_12_2_2x1_CHL_010
 			nrm_cruiser_battery_PB_12_2_3x1_CHL_010
 			nrm_cruiser_battery_PB_12_2_4x1_CHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_12_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_12_2_2x1_CHL_025
-			nrm_capital_battery_12_2_3x1_CHL_025
-			nrm_cruiser_battery_PB_12_2_2x2_CHL_015
-			nrm_cruiser_battery_PB_12_2_3x2_CHL_015
-			nrm_cruiser_battery_PB_12_2_2x1_CHL_015
-			nrm_cruiser_battery_PB_12_2_3x1_CHL_015
-			nrm_cruiser_battery_PB_12_2_4x1_CHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -1049,33 +557,15 @@ technologies = {
 	}
 	nrm_battery_improved_12_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_12_2_2x2_AHL_015
 			nrm_capital_battery_12_2_2x2_AHL_020
-			nrm_capital_battery_12_2_2x1_AHL_015
 			nrm_capital_battery_12_2_2x1_AHL_020
-			nrm_capital_battery_12_2_3x1_AHL_015
 			nrm_capital_battery_12_2_3x1_AHL_020
-			nrm_capital_battery_12_2_4x1_AHL_015
 			nrm_capital_battery_12_2_4x1_AHL_020
 			nrm_cruiser_battery_PB_12_2_2x2_AHL_010
 			nrm_cruiser_battery_PB_12_2_3x2_AHL_010
 			nrm_cruiser_battery_PB_12_2_2x1_AHL_010
 			nrm_cruiser_battery_PB_12_2_3x1_AHL_010
 			nrm_cruiser_battery_PB_12_2_4x1_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_12_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_12_2_2x1_AHL_025
-			nrm_capital_battery_12_2_3x1_AHL_025
-			nrm_cruiser_battery_PB_12_2_2x2_AHL_015
-			nrm_cruiser_battery_PB_12_2_3x2_AHL_015
-			nrm_cruiser_battery_PB_12_2_2x1_AHL_015
-			nrm_cruiser_battery_PB_12_2_3x1_AHL_015
-			nrm_cruiser_battery_PB_12_2_4x1_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -1092,33 +582,15 @@ technologies = {
 	}
 	nrm_battery_advanced_12_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_12_3_2x2_CHL_015
 			nrm_capital_battery_12_3_2x2_CHL_020
-			nrm_capital_battery_12_3_2x1_CHL_015
 			nrm_capital_battery_12_3_2x1_CHL_020
-			nrm_capital_battery_12_3_3x1_CHL_015
 			nrm_capital_battery_12_3_3x1_CHL_020
-			nrm_capital_battery_12_3_4x1_CHL_015
 			nrm_capital_battery_12_3_4x1_CHL_020
 			nrm_cruiser_battery_PB_12_3_2x2_CHL_010
 			nrm_cruiser_battery_PB_12_3_3x2_CHL_010
 			nrm_cruiser_battery_PB_12_3_2x1_CHL_010
 			nrm_cruiser_battery_PB_12_3_3x1_CHL_010
 			nrm_cruiser_battery_PB_12_3_4x1_CHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_12_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_12_3_2x1_CHL_025
-			nrm_capital_battery_12_3_3x1_CHL_025
-			nrm_cruiser_battery_PB_12_3_2x2_CHL_015
-			nrm_cruiser_battery_PB_12_3_3x2_CHL_015
-			nrm_cruiser_battery_PB_12_3_2x1_CHL_015
-			nrm_cruiser_battery_PB_12_3_3x1_CHL_015
-			nrm_cruiser_battery_PB_12_3_4x1_CHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -1135,33 +607,15 @@ technologies = {
 	}
 	nrm_battery_advanced_12_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_12_3_2x2_AHL_015
 			nrm_capital_battery_12_3_2x2_AHL_020
-			nrm_capital_battery_12_3_2x1_AHL_015
 			nrm_capital_battery_12_3_2x1_AHL_020
-			nrm_capital_battery_12_3_3x1_AHL_015
 			nrm_capital_battery_12_3_3x1_AHL_020
-			nrm_capital_battery_12_3_4x1_AHL_015
 			nrm_capital_battery_12_3_4x1_AHL_020
 			nrm_cruiser_battery_PB_12_3_2x2_AHL_010
 			nrm_cruiser_battery_PB_12_3_3x2_AHL_010
 			nrm_cruiser_battery_PB_12_3_2x1_AHL_010
 			nrm_cruiser_battery_PB_12_3_3x1_AHL_010
 			nrm_cruiser_battery_PB_12_3_4x1_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_12_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_12_3_2x1_AHL_025
-			nrm_capital_battery_12_3_3x1_AHL_025
-			nrm_cruiser_battery_PB_12_3_2x2_AHL_015
-			nrm_cruiser_battery_PB_12_3_3x2_AHL_015
-			nrm_cruiser_battery_PB_12_3_2x1_AHL_015
-			nrm_cruiser_battery_PB_12_3_3x1_AHL_015
-			nrm_cruiser_battery_PB_12_3_4x1_AHL_015
 		}
 		ai_will_do = {
 			factor = 0
@@ -1178,23 +632,10 @@ technologies = {
 	}
 	nrm_battery_early_13_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_13_1_2x1_CHL_015
 			nrm_capital_battery_13_1_2x1_CHL_020
-			nrm_capital_battery_13_1_3x1_CHL_015
 			nrm_capital_battery_13_1_3x1_CHL_020
-			nrm_capital_battery_13_1_4x1_CHL_015
 			nrm_capital_battery_13_1_4x1_CHL_020
-			nrm_capital_battery_13_1_2x2_CHL_015
 			nrm_capital_battery_13_1_2x2_CHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_early_13_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_13_1_2x1_CHL_025
-			nrm_capital_battery_13_1_3x1_CHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1211,23 +652,10 @@ technologies = {
 	}
 	nrm_battery_early_13_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_13_1_2x1_AHL_015
 			nrm_capital_battery_13_1_2x1_AHL_020
-			nrm_capital_battery_13_1_3x1_AHL_015
 			nrm_capital_battery_13_1_3x1_AHL_020
-			nrm_capital_battery_13_1_4x1_AHL_015
 			nrm_capital_battery_13_1_4x1_AHL_020
-			nrm_capital_battery_13_1_2x2_AHL_015
 			nrm_capital_battery_13_1_2x2_AHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_early_13_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_13_1_2x1_AHL_025
-			nrm_capital_battery_13_1_3x1_AHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1244,23 +672,10 @@ technologies = {
 	}
 	nrm_battery_improved_13_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_13_2_2x1_CHL_015
 			nrm_capital_battery_13_2_2x1_CHL_020
-			nrm_capital_battery_13_2_3x1_CHL_015
 			nrm_capital_battery_13_2_3x1_CHL_020
-			nrm_capital_battery_13_2_4x1_CHL_015
 			nrm_capital_battery_13_2_4x1_CHL_020
-			nrm_capital_battery_13_2_2x2_CHL_015
 			nrm_capital_battery_13_2_2x2_CHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_13_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_13_2_2x1_CHL_025
-			nrm_capital_battery_13_2_3x1_CHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1277,23 +692,10 @@ technologies = {
 	}
 	nrm_battery_improved_13_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_13_2_2x1_AHL_015
 			nrm_capital_battery_13_2_2x1_AHL_020
-			nrm_capital_battery_13_2_3x1_AHL_015
 			nrm_capital_battery_13_2_3x1_AHL_020
-			nrm_capital_battery_13_2_4x1_AHL_015
 			nrm_capital_battery_13_2_4x1_AHL_020
-			nrm_capital_battery_13_2_2x2_AHL_015
 			nrm_capital_battery_13_2_2x2_AHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_13_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_13_2_2x1_AHL_025
-			nrm_capital_battery_13_2_3x1_AHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1310,23 +712,10 @@ technologies = {
 	}
 	nrm_battery_advanced_13_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_13_3_2x1_CHL_015
 			nrm_capital_battery_13_3_2x1_CHL_020
-			nrm_capital_battery_13_3_3x1_CHL_015
 			nrm_capital_battery_13_3_3x1_CHL_020
-			nrm_capital_battery_13_3_4x1_CHL_015
 			nrm_capital_battery_13_3_4x1_CHL_020
-			nrm_capital_battery_13_3_2x2_CHL_015
 			nrm_capital_battery_13_3_2x2_CHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_13_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_13_3_2x1_CHL_025
-			nrm_capital_battery_13_3_3x1_CHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1343,23 +732,10 @@ technologies = {
 	}
 	nrm_battery_advanced_13_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_13_3_2x1_AHL_015
 			nrm_capital_battery_13_3_2x1_AHL_020
-			nrm_capital_battery_13_3_3x1_AHL_015
 			nrm_capital_battery_13_3_3x1_AHL_020
-			nrm_capital_battery_13_3_4x1_AHL_015
 			nrm_capital_battery_13_3_4x1_AHL_020
-			nrm_capital_battery_13_3_2x2_AHL_015
 			nrm_capital_battery_13_3_2x2_AHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_13_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_13_3_2x1_AHL_025
-			nrm_capital_battery_13_3_3x1_AHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1376,23 +752,10 @@ technologies = {
 	}
 	nrm_battery_early_14_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_14_1_2x1_CHL_015
 			nrm_capital_battery_14_1_2x1_CHL_020
-			nrm_capital_battery_14_1_3x1_CHL_015
 			nrm_capital_battery_14_1_3x1_CHL_020
-			nrm_capital_battery_14_1_4x1_CHL_015
 			nrm_capital_battery_14_1_4x1_CHL_020
-			nrm_capital_battery_14_1_2x2_CHL_015
 			nrm_capital_battery_14_1_2x2_CHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_early_14_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_14_1_2x1_CHL_025
-			nrm_capital_battery_14_1_3x1_CHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1409,23 +772,10 @@ technologies = {
 	}
 	nrm_battery_early_14_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_14_1_2x1_AHL_015
 			nrm_capital_battery_14_1_2x1_AHL_020
-			nrm_capital_battery_14_1_3x1_AHL_015
 			nrm_capital_battery_14_1_3x1_AHL_020
-			nrm_capital_battery_14_1_4x1_AHL_015
 			nrm_capital_battery_14_1_4x1_AHL_020
-			nrm_capital_battery_14_1_2x2_AHL_015
 			nrm_capital_battery_14_1_2x2_AHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_early_14_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_14_1_2x1_AHL_025
-			nrm_capital_battery_14_1_3x1_AHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1442,23 +792,10 @@ technologies = {
 	}
 	nrm_battery_improved_14_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_14_2_2x1_CHL_015
 			nrm_capital_battery_14_2_2x1_CHL_020
-			nrm_capital_battery_14_2_3x1_CHL_015
 			nrm_capital_battery_14_2_3x1_CHL_020
-			nrm_capital_battery_14_2_4x1_CHL_015
 			nrm_capital_battery_14_2_4x1_CHL_020
-			nrm_capital_battery_14_2_2x2_CHL_015
 			nrm_capital_battery_14_2_2x2_CHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_14_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_14_2_2x1_CHL_025
-			nrm_capital_battery_14_2_3x1_CHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1475,23 +812,10 @@ technologies = {
 	}
 	nrm_battery_improved_14_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_14_2_2x1_AHL_015
 			nrm_capital_battery_14_2_2x1_AHL_020
-			nrm_capital_battery_14_2_3x1_AHL_015
 			nrm_capital_battery_14_2_3x1_AHL_020
-			nrm_capital_battery_14_2_4x1_AHL_015
 			nrm_capital_battery_14_2_4x1_AHL_020
-			nrm_capital_battery_14_2_2x2_AHL_015
 			nrm_capital_battery_14_2_2x2_AHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_14_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_14_2_2x1_AHL_025
-			nrm_capital_battery_14_2_3x1_AHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1508,23 +832,10 @@ technologies = {
 	}
 	nrm_battery_advanced_14_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_14_3_2x1_CHL_015
 			nrm_capital_battery_14_3_2x1_CHL_020
-			nrm_capital_battery_14_3_3x1_CHL_015
 			nrm_capital_battery_14_3_3x1_CHL_020
-			nrm_capital_battery_14_3_4x1_CHL_015
 			nrm_capital_battery_14_3_4x1_CHL_020
-			nrm_capital_battery_14_3_2x2_CHL_015
 			nrm_capital_battery_14_3_2x2_CHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_14_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_14_3_2x1_CHL_025
-			nrm_capital_battery_14_3_3x1_CHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1541,23 +852,10 @@ technologies = {
 	}
 	nrm_battery_advanced_14_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_14_3_2x1_AHL_015
 			nrm_capital_battery_14_3_2x1_AHL_020
-			nrm_capital_battery_14_3_3x1_AHL_015
 			nrm_capital_battery_14_3_3x1_AHL_020
-			nrm_capital_battery_14_3_4x1_AHL_015
 			nrm_capital_battery_14_3_4x1_AHL_020
-			nrm_capital_battery_14_3_2x2_AHL_015
 			nrm_capital_battery_14_3_2x2_AHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_14_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_14_3_2x1_AHL_025
-			nrm_capital_battery_14_3_3x1_AHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1574,23 +872,10 @@ technologies = {
 	}
 	nrm_battery_early_15_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_15_1_2x1_CHL_015
 			nrm_capital_battery_15_1_2x1_CHL_020
-			nrm_capital_battery_15_1_3x1_CHL_015
 			nrm_capital_battery_15_1_3x1_CHL_020
-			nrm_capital_battery_15_1_4x1_CHL_015
 			nrm_capital_battery_15_1_4x1_CHL_020
-			nrm_capital_battery_15_1_2x2_CHL_015
 			nrm_capital_battery_15_1_2x2_CHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_early_15_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_15_1_2x1_CHL_025
-			nrm_capital_battery_15_1_3x1_CHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1607,23 +892,10 @@ technologies = {
 	}
 	nrm_battery_early_15_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_15_1_2x1_AHL_015
 			nrm_capital_battery_15_1_2x1_AHL_020
-			nrm_capital_battery_15_1_3x1_AHL_015
 			nrm_capital_battery_15_1_3x1_AHL_020
-			nrm_capital_battery_15_1_4x1_AHL_015
 			nrm_capital_battery_15_1_4x1_AHL_020
-			nrm_capital_battery_15_1_2x2_AHL_015
 			nrm_capital_battery_15_1_2x2_AHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_early_15_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_15_1_2x1_AHL_025
-			nrm_capital_battery_15_1_3x1_AHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1640,23 +912,10 @@ technologies = {
 	}
 	nrm_battery_improved_15_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_15_2_2x1_CHL_015
 			nrm_capital_battery_15_2_2x1_CHL_020
-			nrm_capital_battery_15_2_3x1_CHL_015
 			nrm_capital_battery_15_2_3x1_CHL_020
-			nrm_capital_battery_15_2_4x1_CHL_015
 			nrm_capital_battery_15_2_4x1_CHL_020
-			nrm_capital_battery_15_2_2x2_CHL_015
 			nrm_capital_battery_15_2_2x2_CHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_15_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_15_2_2x1_CHL_025
-			nrm_capital_battery_15_2_3x1_CHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1673,23 +932,10 @@ technologies = {
 	}
 	nrm_battery_improved_15_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_15_2_2x1_AHL_015
 			nrm_capital_battery_15_2_2x1_AHL_020
-			nrm_capital_battery_15_2_3x1_AHL_015
 			nrm_capital_battery_15_2_3x1_AHL_020
-			nrm_capital_battery_15_2_4x1_AHL_015
 			nrm_capital_battery_15_2_4x1_AHL_020
-			nrm_capital_battery_15_2_2x2_AHL_015
 			nrm_capital_battery_15_2_2x2_AHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_15_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_15_2_2x1_AHL_025
-			nrm_capital_battery_15_2_3x1_AHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1706,23 +952,10 @@ technologies = {
 	}
 	nrm_battery_advanced_15_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_15_3_2x1_CHL_015
 			nrm_capital_battery_15_3_2x1_CHL_020
-			nrm_capital_battery_15_3_3x1_CHL_015
 			nrm_capital_battery_15_3_3x1_CHL_020
-			nrm_capital_battery_15_3_4x1_CHL_015
 			nrm_capital_battery_15_3_4x1_CHL_020
-			nrm_capital_battery_15_3_2x2_CHL_015
 			nrm_capital_battery_15_3_2x2_CHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_15_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_15_3_2x1_CHL_025
-			nrm_capital_battery_15_3_3x1_CHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1739,23 +972,10 @@ technologies = {
 	}
 	nrm_battery_advanced_15_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_15_3_2x1_AHL_015
 			nrm_capital_battery_15_3_2x1_AHL_020
-			nrm_capital_battery_15_3_3x1_AHL_015
 			nrm_capital_battery_15_3_3x1_AHL_020
-			nrm_capital_battery_15_3_4x1_AHL_015
 			nrm_capital_battery_15_3_4x1_AHL_020
-			nrm_capital_battery_15_3_2x2_AHL_015
 			nrm_capital_battery_15_3_2x2_AHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_15_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_15_3_2x1_AHL_025
-			nrm_capital_battery_15_3_3x1_AHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1772,23 +992,10 @@ technologies = {
 	}
 	nrm_battery_early_16_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_16_1_2x1_CHL_015
 			nrm_capital_battery_16_1_2x1_CHL_020
-			nrm_capital_battery_16_1_3x1_CHL_015
 			nrm_capital_battery_16_1_3x1_CHL_020
-			nrm_capital_battery_16_1_4x1_CHL_015
 			nrm_capital_battery_16_1_4x1_CHL_020
-			nrm_capital_battery_16_1_2x2_CHL_015
 			nrm_capital_battery_16_1_2x2_CHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_early_16_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_16_1_2x1_CHL_025
-			nrm_capital_battery_16_1_3x1_CHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1805,23 +1012,10 @@ technologies = {
 	}
 	nrm_battery_early_16_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_16_1_2x1_AHL_015
 			nrm_capital_battery_16_1_2x1_AHL_020
-			nrm_capital_battery_16_1_3x1_AHL_015
 			nrm_capital_battery_16_1_3x1_AHL_020
-			nrm_capital_battery_16_1_4x1_AHL_015
 			nrm_capital_battery_16_1_4x1_AHL_020
-			nrm_capital_battery_16_1_2x2_AHL_015
 			nrm_capital_battery_16_1_2x2_AHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_early_16_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_16_1_2x1_AHL_025
-			nrm_capital_battery_16_1_3x1_AHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1838,23 +1032,10 @@ technologies = {
 	}
 	nrm_battery_improved_16_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_16_2_2x1_CHL_015
 			nrm_capital_battery_16_2_2x1_CHL_020
-			nrm_capital_battery_16_2_3x1_CHL_015
 			nrm_capital_battery_16_2_3x1_CHL_020
-			nrm_capital_battery_16_2_4x1_CHL_015
 			nrm_capital_battery_16_2_4x1_CHL_020
-			nrm_capital_battery_16_2_2x2_CHL_015
 			nrm_capital_battery_16_2_2x2_CHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_16_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_16_2_2x1_CHL_025
-			nrm_capital_battery_16_2_3x1_CHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1871,23 +1052,10 @@ technologies = {
 	}
 	nrm_battery_improved_16_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_16_2_2x1_AHL_015
 			nrm_capital_battery_16_2_2x1_AHL_020
-			nrm_capital_battery_16_2_3x1_AHL_015
 			nrm_capital_battery_16_2_3x1_AHL_020
-			nrm_capital_battery_16_2_4x1_AHL_015
 			nrm_capital_battery_16_2_4x1_AHL_020
-			nrm_capital_battery_16_2_2x2_AHL_015
 			nrm_capital_battery_16_2_2x2_AHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_16_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_16_2_2x1_AHL_025
-			nrm_capital_battery_16_2_3x1_AHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1904,23 +1072,10 @@ technologies = {
 	}
 	nrm_battery_advanced_16_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_16_3_2x1_CHL_015
 			nrm_capital_battery_16_3_2x1_CHL_020
-			nrm_capital_battery_16_3_3x1_CHL_015
 			nrm_capital_battery_16_3_3x1_CHL_020
-			nrm_capital_battery_16_3_4x1_CHL_015
 			nrm_capital_battery_16_3_4x1_CHL_020
-			nrm_capital_battery_16_3_2x2_CHL_015
 			nrm_capital_battery_16_3_2x2_CHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_16_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_16_3_2x1_CHL_025
-			nrm_capital_battery_16_3_3x1_CHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1937,23 +1092,10 @@ technologies = {
 	}
 	nrm_battery_advanced_16_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_16_3_2x1_AHL_015
 			nrm_capital_battery_16_3_2x1_AHL_020
-			nrm_capital_battery_16_3_3x1_AHL_015
 			nrm_capital_battery_16_3_3x1_AHL_020
-			nrm_capital_battery_16_3_4x1_AHL_015
 			nrm_capital_battery_16_3_4x1_AHL_020
-			nrm_capital_battery_16_3_2x2_AHL_015
 			nrm_capital_battery_16_3_2x2_AHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_16_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_16_3_2x1_AHL_025
-			nrm_capital_battery_16_3_3x1_AHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -1970,23 +1112,10 @@ technologies = {
 	}
 	nrm_battery_improved_18_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_18_2_2x1_CHL_015
 			nrm_capital_battery_18_2_2x1_CHL_020
-			nrm_capital_battery_18_2_3x1_CHL_015
 			nrm_capital_battery_18_2_3x1_CHL_020
-			nrm_capital_battery_18_2_4x1_CHL_015
 			nrm_capital_battery_18_2_4x1_CHL_020
-			nrm_capital_battery_18_2_2x2_CHL_015
 			nrm_capital_battery_18_2_2x2_CHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_18_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_18_2_2x1_CHL_025
-			nrm_capital_battery_18_2_3x1_CHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -2003,23 +1132,10 @@ technologies = {
 	}
 	nrm_battery_improved_18_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_18_2_2x1_AHL_015
 			nrm_capital_battery_18_2_2x1_AHL_020
-			nrm_capital_battery_18_2_3x1_AHL_015
 			nrm_capital_battery_18_2_3x1_AHL_020
-			nrm_capital_battery_18_2_4x1_AHL_015
 			nrm_capital_battery_18_2_4x1_AHL_020
-			nrm_capital_battery_18_2_2x2_AHL_015
 			nrm_capital_battery_18_2_2x2_AHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_18_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_18_2_2x1_AHL_025
-			nrm_capital_battery_18_2_3x1_AHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -2036,23 +1152,10 @@ technologies = {
 	}
 	nrm_battery_advanced_18_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_18_3_2x1_CHL_015
 			nrm_capital_battery_18_3_2x1_CHL_020
-			nrm_capital_battery_18_3_3x1_CHL_015
 			nrm_capital_battery_18_3_3x1_CHL_020
-			nrm_capital_battery_18_3_4x1_CHL_015
 			nrm_capital_battery_18_3_4x1_CHL_020
-			nrm_capital_battery_18_3_2x2_CHL_015
 			nrm_capital_battery_18_3_2x2_CHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_18_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_18_3_2x1_CHL_025
-			nrm_capital_battery_18_3_3x1_CHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -2069,23 +1172,10 @@ technologies = {
 	}
 	nrm_battery_advanced_18_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_18_3_2x1_AHL_015
 			nrm_capital_battery_18_3_2x1_AHL_020
-			nrm_capital_battery_18_3_3x1_AHL_015
 			nrm_capital_battery_18_3_3x1_AHL_020
-			nrm_capital_battery_18_3_4x1_AHL_015
 			nrm_capital_battery_18_3_4x1_AHL_020
-			nrm_capital_battery_18_3_2x2_AHL_015
 			nrm_capital_battery_18_3_2x2_AHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_18_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_18_3_2x1_AHL_025
-			nrm_capital_battery_18_3_3x1_AHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -2102,23 +1192,10 @@ technologies = {
 	}
 	nrm_battery_improved_20_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_20_2_2x1_CHL_015
 			nrm_capital_battery_20_2_2x1_CHL_020
-			nrm_capital_battery_20_2_3x1_CHL_015
 			nrm_capital_battery_20_2_3x1_CHL_020
-			nrm_capital_battery_20_2_4x1_CHL_015
 			nrm_capital_battery_20_2_4x1_CHL_020
-			nrm_capital_battery_20_2_2x2_CHL_015
 			nrm_capital_battery_20_2_2x2_CHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_20_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_20_2_2x1_CHL_025
-			nrm_capital_battery_20_2_3x1_CHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -2135,23 +1212,10 @@ technologies = {
 	}
 	nrm_battery_improved_20_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_20_2_2x1_AHL_015
 			nrm_capital_battery_20_2_2x1_AHL_020
-			nrm_capital_battery_20_2_3x1_AHL_015
 			nrm_capital_battery_20_2_3x1_AHL_020
-			nrm_capital_battery_20_2_4x1_AHL_015
 			nrm_capital_battery_20_2_4x1_AHL_020
-			nrm_capital_battery_20_2_2x2_AHL_015
 			nrm_capital_battery_20_2_2x2_AHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_improved_20_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_20_2_2x1_AHL_025
-			nrm_capital_battery_20_2_3x1_AHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -2168,23 +1232,10 @@ technologies = {
 	}
 	nrm_battery_advanced_20_converted_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_20_3_2x1_CHL_015
 			nrm_capital_battery_20_3_2x1_CHL_020
-			nrm_capital_battery_20_3_3x1_CHL_015
 			nrm_capital_battery_20_3_3x1_CHL_020
-			nrm_capital_battery_20_3_4x1_CHL_015
 			nrm_capital_battery_20_3_4x1_CHL_020
-			nrm_capital_battery_20_3_2x2_CHL_015
 			nrm_capital_battery_20_3_2x2_CHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_20_converted_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_20_3_2x1_CHL_025
-			nrm_capital_battery_20_3_3x1_CHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -2201,23 +1252,10 @@ technologies = {
 	}
 	nrm_battery_advanced_20_armored_small = {
 		enable_equipment_modules = {
-			nrm_capital_battery_20_3_2x1_AHL_015
 			nrm_capital_battery_20_3_2x1_AHL_020
-			nrm_capital_battery_20_3_3x1_AHL_015
 			nrm_capital_battery_20_3_3x1_AHL_020
-			nrm_capital_battery_20_3_4x1_AHL_015
 			nrm_capital_battery_20_3_4x1_AHL_020
-			nrm_capital_battery_20_3_2x2_AHL_015
 			nrm_capital_battery_20_3_2x2_AHL_020
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_advanced_20_armored_medium = {
-		enable_equipment_modules = {
-			nrm_capital_battery_20_3_2x1_AHL_025
-			nrm_capital_battery_20_3_3x1_AHL_025
 		}
 		ai_will_do = {
 			factor = 0
@@ -2243,34 +1281,12 @@ technologies = {
 			factor = 0
 		}
 	}
-	nrm_battery_basic_converted_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_5_1_x02_CHL_015
-			nrm_cruiser_battery_5_1_x03_CHL_015
-			nrm_cruiser_battery_5h_1_x02_CHL_015
-			nrm_cruiser_battery_5h_1_x03_CHL_015
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	nrm_battery_basic_armored_small = {
 		enable_equipment_modules = {
 			nrm_cruiser_battery_5_1_x02_AHL_010
 			nrm_cruiser_battery_5_1_x03_AHL_010
 			nrm_cruiser_battery_5h_1_x02_AHL_010
 			nrm_cruiser_battery_5h_1_x03_AHL_010
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nrm_battery_basic_armored_medium = {
-		enable_equipment_modules = {
-			nrm_cruiser_battery_5_1_x02_AHL_015
-			nrm_cruiser_battery_5_1_x03_AHL_015
-			nrm_cruiser_battery_5h_1_x02_AHL_015
-			nrm_cruiser_battery_5h_1_x03_AHL_015
 		}
 		ai_will_do = {
 			factor = 0

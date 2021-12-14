@@ -35,6 +35,7 @@ import glob
 #   BICE Supprot                                                                    -   Need to run test case
 #       Update for changes in tech names                                           	-   Discontinued
 #   Top View																		-   Complete
+#   1.11 hanger modules
 
 BICE = True
 
@@ -60,6 +61,7 @@ class DefModule:
     add_surface_visibility = 0.0
     add_carrier_size = 0
     add_sub_visibility = 0.0
+    add_fuel_consumption = 0.0
     #add_average_stats
     av_hg_armor_piercing = 0.0
     av_lg_armor_piercing = 0.0
@@ -116,6 +118,7 @@ def Matrix_combiner(gun, deck, array):
     hybrid.mp_naval_speed += deck.mp_naval_speed
     hybrid.mp_fuel_consumption += deck.mp_fuel_consumption
     hybrid.mp_max_strength += deck.mp_max_strength
+    hybrid.add_fuel_consumption += deck.add_fuel_consumption
 
     if "capital" in hybrid.name and hybrid.add_carrier_size > 21: #Added for long flight deck sprites
         hybrid.category2 = hybrid.category + "_long"
@@ -176,6 +179,28 @@ def Module_outputer(module_array, file):
         if module.add_equipment_type != "":
             moduleGroup.write("\n\n\t\tadd_equipment_type = %s"%module.add_equipment_type)
 
+        #allow module catagories
+        allowModuleListShort = ["Lic_short_deck_hanger_1", "Lic_short_deck_asw_1"]
+        allowModuleListLong = ["Lic_long_deck_hanger_1", "Lic_long_deck_asw_1"]
+        if module.add_carrier_size > 0:
+            moduleGroup.write("\n\n\t\tallowed_module_categories = {")
+            if ("capital" in module.name and module.add_carrier_size > 21) or ("cruiser" in module.name and module.add_carrier_size > 16):
+                moduleGroup.write("\n\t\t\tcustom_slot_2 = {")
+                for e in allowModuleListLong:
+                    moduleGroup.write("\n\t\t\t\t%s"%e)
+                moduleGroup.write("\n\t\t\t}")
+                if ("capital" in module.name and module.add_carrier_size > 21):
+                    moduleGroup.write("\n\t\t\tcustom_slot_3 = {")
+                    for e in allowModuleListLong:
+                        moduleGroup.write("\n\t\t\t\t%s"%e)
+                    moduleGroup.write("\n\t\t\t}")
+            else:
+                moduleGroup.write("\n\t\t\tcustom_slot_2 = {")
+                for e in allowModuleListShort:
+                    moduleGroup.write("\n\t\t\t\t%s"%e)
+                moduleGroup.write("\n\t\t\t}")
+            moduleGroup.write("\n\t\t}")
+
         moduleGroup.write("\n\n\t\tmanpower = %d"%module.manpower)
         #add_stats
         moduleGroup.write("\n\t\tadd_stats = {")
@@ -187,6 +212,8 @@ def Module_outputer(module_array, file):
             moduleGroup.write("\n\t\t\tlg_attack = %s"%module.add_lg_attack)
         if module.add_anti_air_attack != 0:
             moduleGroup.write("\n\t\t\tanti_air_attack = %s"%module.add_anti_air_attack)
+        if module.add_fuel_consumption !=0:
+            moduleGroup.write("\n\t\t\tfuel_consumption = %s"%module.add_fuel_consumption)
         moduleGroup.write("\n\t\t\tsupply_consumption = %s"%module.add_supply_consumption)
         moduleGroup.write("\n\t\t\tsurface_visibility = %s"%module.add_surface_visibility)
         moduleGroup.write("\n\t\t\tcarrier_size = %s"%module.add_carrier_size)
@@ -1202,6 +1229,87 @@ def top_view_deck(file):
         topView.write("\n\t\t\t\t}")
 
     topView.write("\n\t\t\t}")
+
+    #deck hanger modules
+    allowModuleListShort = ["Lic_short_deck_hanger_1", "Lic_short_deck_asw_1"]
+    allowModuleListLong = ["Lic_long_deck_hanger_1", "Lic_long_deck_asw_1"]
+    topView.write("\t\t\t################# MODULE SLOT: Custom 2 #################")
+    topView.write("\n\t\t\tcontainerWindowType = {\n\t\t\t\tname = \"custom_slot_2\"\n\t\t\t\tposition = { x=0 y=0 }\n\t\t\t\tsize = { width=100% height=100% }\n")
+    if "capital" in file:
+        for e in allowModuleListShort:
+            topView.write("\n\t\t\t\tcontainerWindowType = {")
+            topView.write("\n\t\t\t\t\tname = \"%s\""%e)
+            topView.write("\n\t\t\t\t\tposition = { x=0 y=0 }")
+            topView.write("\n\t\t\t\t\tsize = { width=100% height=100% }")
+            topView.write("\n\t\t\t\t\ticonType = {")
+            topView.write("\n\t\t\t\t\t\tname = \"flight_deck_module\"")
+            topView.write("\n\t\t\t\t\t\tspriteType = \"GFX_SM_Lic_short_deck_hanger_capital_2\"")
+            topView.write("\n\t\t\t\t\t\tposition = { x=0 y=0 }")
+            topView.write("\n\t\t\t\t\t}")
+            topView.write("\n\t\t\t\t}")
+        for e in allowModuleListLong:
+            topView.write("\n\t\t\t\tcontainerWindowType = {")
+            topView.write("\n\t\t\t\t\tname = \"%s\""%e)
+            topView.write("\n\t\t\t\t\tposition = { x=0 y=0 }")
+            topView.write("\n\t\t\t\t\tsize = { width=100% height=100% }")
+            topView.write("\n\t\t\t\t\ticonType = {")
+            topView.write("\n\t\t\t\t\t\tname = \"flight_deck_module\"")
+            topView.write("\n\t\t\t\t\t\tspriteType = \"GFX_SM_Lic_long_deck_hanger_capital_2\"")
+            topView.write("\n\t\t\t\t\t\tposition = { x=0 y=0 }")
+            topView.write("\n\t\t\t\t\t}")
+            topView.write("\n\t\t\t\t}")
+    else:
+        for e in allowModuleListShort:
+            topView.write("\n\t\t\t\tcontainerWindowType = {")
+            topView.write("\n\t\t\t\t\tname = \"%s\""%e)
+            topView.write("\n\t\t\t\t\tposition = { x=0 y=0 }")
+            topView.write("\n\t\t\t\t\tsize = { width=100% height=100% }")
+            topView.write("\n\t\t\t\t\ticonType = {")
+            topView.write("\n\t\t\t\t\t\tname = \"flight_deck_module\"")
+            topView.write("\n\t\t\t\t\t\tspriteType = \"GFX_SM_Lic_short_deck_hanger_cruiser_2\"")
+            topView.write("\n\t\t\t\t\t\tposition = { x=0 y=0 }")
+            topView.write("\n\t\t\t\t\t}")
+            topView.write("\n\t\t\t\t}")
+        for e in allowModuleListLong:
+            topView.write("\n\t\t\t\tcontainerWindowType = {")
+            topView.write("\n\t\t\t\t\tname = \"%s\""%e)
+            topView.write("\n\t\t\t\t\tposition = { x=0 y=0 }")
+            topView.write("\n\t\t\t\t\tsize = { width=100% height=100% }")
+            topView.write("\n\t\t\t\t\ticonType = {")
+            topView.write("\n\t\t\t\t\t\tname = \"flight_deck_module\"")
+            topView.write("\n\t\t\t\t\t\tspriteType = \"GFX_SM_Lic_long_deck_hanger_cruiser_2\"")
+            topView.write("\n\t\t\t\t\t\tposition = { x=0 y=0 }")
+            topView.write("\n\t\t\t\t\t}")
+            topView.write("\n\t\t\t\t}")
+    topView.write("\n\t\t\t}")
+
+    if "capital" in file:
+        topView.write("\t\t\t################# MODULE SLOT: Custom 3 #################")
+        topView.write("\n\t\t\tcontainerWindowType = {\n\t\t\t\tname = \"custom_slot_2\"\n\t\t\t\tposition = { x=0 y=0 }\n\t\t\t\tsize = { width=100% height=100% }\n")
+        if "capital" in file:
+            for e in allowModuleListShort:
+                topView.write("\n\t\t\t\tcontainerWindowType = {")
+                topView.write("\n\t\t\t\t\tname = \"%s\""%e)
+                topView.write("\n\t\t\t\t\tposition = { x=0 y=0 }")
+                topView.write("\n\t\t\t\t\tsize = { width=100% height=100% }")
+                topView.write("\n\t\t\t\t\ticonType = {")
+                topView.write("\n\t\t\t\t\t\tname = \"flight_deck_module\"")
+                topView.write("\n\t\t\t\t\t\tspriteType = \"GFX_SM_Lic_short_deck_hanger_capital_3\"")
+                topView.write("\n\t\t\t\t\t\tposition = { x=0 y=0 }")
+                topView.write("\n\t\t\t\t\t}")
+                topView.write("\n\t\t\t\t}")
+            for e in allowModuleListLong:
+                topView.write("\n\t\t\t\tcontainerWindowType = {")
+                topView.write("\n\t\t\t\t\tname = \"%s\""%e)
+                topView.write("\n\t\t\t\t\tposition = { x=0 y=0 }")
+                topView.write("\n\t\t\t\t\tsize = { width=100% height=100% }")
+                topView.write("\n\t\t\t\t\ticonType = {")
+                topView.write("\n\t\t\t\t\t\tname = \"flight_deck_module\"")
+                topView.write("\n\t\t\t\t\t\tspriteType = \"GFX_SM_Lic_long_deck_hanger_capital_3\"")
+                topView.write("\n\t\t\t\t\t\tposition = { x=0 y=0 }")
+                topView.write("\n\t\t\t\t\t}")
+                topView.write("\n\t\t\t\t}")
+        topView.write("\n\t\t\t}")
     topView.close()
 
 def top_view_hybrid(module_set, file):
@@ -1966,7 +2074,8 @@ exceptions_capital_gun_batteries = ["a3x2", "a4x2"]
 valid_cruiser_gun_batteries = ["_2x1 ", "_2x2 ", "_3x1 ", "_3x2 ", "_4x1 " , "_4x2 ", "_x02", "_x03", "_x04", "_x06", "_x08" ,"_x09"]
 valid_cruiser_gun_batteries2 = ["_2x1 ", "_x02", "_x03", "_x04", "_x06"]
 exceptions_cruiser_gun_batteries = []
-valid_carrier_flight_deck = ["CHL_010", "CHL_015", "CHL_020", "CHL_025", "CHL_030", "AHL_010", "AHL_015", "AHL_020", "AHL_025", "AHL_030"]
+#valid_carrier_flight_deck = ["CHL_010", "CHL_015", "CHL_020", "CHL_025", "CHL_030", "AHL_010", "AHL_015", "AHL_020", "AHL_025", "AHL_030"]
+valid_carrier_flight_deck = ["CHL_010", "CHL_020", "CHL_030", "AHL_010", "AHL_020", "AHL_030"]
 
 valid_module = False
 exception_gun = False
@@ -2166,6 +2275,8 @@ def GetModuleData():
                                 module.add_carrier_size = float(line.split("=")[1].strip())
                             elif line.strip().startswith("add_sub_visibility"):
                                 module.add_sub_visibility = float(line.split("=")[1].strip())
+                            elif line.strip().startswith("fuel_consumption"):
+                                module.add_fuel_consumption = float(line.split("=")[1].strip())
                         if add_average_stats_section:
                             if line.strip().startswith("hg_armor_piercing"):
                                 module.av_hg_armor_piercing = float(line.split("=")[1].strip())
@@ -2515,26 +2626,25 @@ for gun in cruiser_gun_batteries_array:
 i=0
 #create size 10 hangers
 for hanger in carrier_flight_deck_array:
-    if hanger.name.find("_015") >-1:
+    if "_020" in hanger.name:
         fligt_deck = copy.deepcopy(hanger)
-        fligt_deck.name = fligt_deck.name.rstrip("5")
-        fligt_deck.name =  fligt_deck.name + "0"
-        fligt_deck.category = fligt_deck.category.rstrip("5")
-        fligt_deck.category = fligt_deck.category + "0"
+        fligt_deck.name = fligt_deck.name.replace("_020","_010")
+        fligt_deck.category = fligt_deck.category.replace("_020","_010")
 
-        fligt_deck.manpower = int(fligt_deck.manpower*.65)
-        fligt_deck.add_build_cost_ic = fligt_deck.add_build_cost_ic*.85
-        fligt_deck.add_max_strength = fligt_deck.add_max_strength*.85
-        fligt_deck.add_supply_consumption = fligt_deck.add_supply_consumption*.75
-        fligt_deck.add_surface_visibility = fligt_deck.add_surface_visibility*.9
-        fligt_deck.add_carrier_size = int(fligt_deck.add_carrier_size*.66668)
+        fligt_deck.manpower = int(fligt_deck.manpower*0.569498)
+        fligt_deck.add_build_cost_ic = fligt_deck.add_build_cost_ic*0.6129
+        fligt_deck.add_max_strength = fligt_deck.add_max_strength*0.42857
+        fligt_deck.add_fuel_consumption = fligt_deck.add_fuel_consumption*0.6667
+        fligt_deck.add_supply_consumption = fligt_deck.add_supply_consumption*0.53
+        fligt_deck.add_surface_visibility = fligt_deck.add_surface_visibility*.6129
+        fligt_deck.add_carrier_size = int(fligt_deck.add_carrier_size*.51)
 
-        fligt_deck.mp_build_cost_ic = fligt_deck.mp_build_cost_ic*.65
-        fligt_deck.mp_reliability = fligt_deck.mp_reliability*.65
-        fligt_deck.mp_naval_speed = fligt_deck.mp_naval_speed*.75
-        fligt_deck.mp_fuel_consumption = fligt_deck.mp_fuel_consumption*.4
+        fligt_deck.mp_build_cost_ic = fligt_deck.mp_build_cost_ic*.3897
+        fligt_deck.mp_reliability = fligt_deck.mp_reliability*.5
+        fligt_deck.mp_naval_speed = fligt_deck.mp_naval_speed*.554
+        fligt_deck.mp_fuel_consumption = fligt_deck.mp_fuel_consumption*.25
 
-        fligt_deck.dismantle_cost_ic = fligt_deck.dismantle_cost_ic*.9
+        fligt_deck.dismantle_cost_ic = fligt_deck.dismantle_cost_ic*.95
 
         tmp_carrier_flight_deck_array.append(fligt_deck)
 i=0
@@ -2551,7 +2661,7 @@ for gun in capital_gun_batteries_array:
         #NEW
         if gun.name.endswith("2x4") or gun.name.endswith("2x3") or gun.name.endswith("3x2") or gun.name.endswith("4x2") or "x1_2x" in gun.name:
             continue
-        elif (gun.name.endswith("2x2") or gun.name.endswith("4x1")) and (deck.name.endswith("25") or deck.name.endswith("30")):
+        elif (gun.name.endswith("2x2") or gun.name.endswith("4x1")) and deck.name.endswith("30"):
             continue
         elif deck.name.endswith("10"):
             continue

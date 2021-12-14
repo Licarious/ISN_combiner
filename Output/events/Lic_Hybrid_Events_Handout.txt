@@ -20,26 +20,10 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_improved_dp_5h
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_improved_dp_5h_converted_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_dp_5h
 				has_tech = airplane_launcher
 				has_tech = armoured_hangar
 			}
 			set_technology = { popup = no nrm_battery_improved_dp_5h_armored_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_dp_5h
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_improved_dp_5h_armored_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -52,26 +36,10 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_advanced_dp_5h
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_advanced_dp_5h_converted_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_dp_5h
 				has_tech = airplane_launcher
 				has_tech = armoured_hangar
 			}
 			set_technology = { popup = no nrm_battery_advanced_dp_5h_armored_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_dp_5h
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_advanced_dp_5h_armored_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -84,26 +52,10 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_improved_dp_5
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_improved_dp_5_converted_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_dp_5
 				has_tech = airplane_launcher
 				has_tech = armoured_hangar
 			}
 			set_technology = { popup = no nrm_battery_improved_dp_5_armored_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_dp_5
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_improved_dp_5_armored_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -116,26 +68,10 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_advanced_dp_5
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_advanced_dp_5_converted_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_dp_5
 				has_tech = airplane_launcher
 				has_tech = armoured_hangar
 			}
 			set_technology = { popup = no nrm_battery_advanced_dp_5_armored_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_dp_5
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_advanced_dp_5_armored_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -148,26 +84,10 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_advanced_dp_6
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_advanced_dp_6_converted_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_dp_6
 				has_tech = airplane_launcher
 				has_tech = armoured_hangar
 			}
 			set_technology = { popup = no nrm_battery_advanced_dp_6_armored_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_dp_6
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_advanced_dp_6_armored_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -180,26 +100,10 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_modern_dp_6
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_modern_dp_6_converted_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_modern_dp_6
 				has_tech = airplane_launcher
 				has_tech = armoured_hangar
 			}
 			set_technology = { popup = no nrm_battery_modern_dp_6_armored_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_modern_dp_6
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_modern_dp_6_armored_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -212,26 +116,10 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_improved_5h
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_improved_5h_converted_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_5h
 				has_tech = airplane_launcher
 				has_tech = armoured_hangar
 			}
 			set_technology = { popup = no nrm_battery_improved_5h_armored_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_5h
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_improved_5h_armored_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -244,26 +132,10 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_advanced_5h
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_advanced_5h_converted_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_5h
 				has_tech = airplane_launcher
 				has_tech = armoured_hangar
 			}
 			set_technology = { popup = no nrm_battery_advanced_5h_armored_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_5h
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_advanced_5h_armored_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -276,26 +148,10 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_improved_5
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_improved_5_converted_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_5
 				has_tech = airplane_launcher
 				has_tech = armoured_hangar
 			}
 			set_technology = { popup = no nrm_battery_improved_5_armored_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_5
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_improved_5_armored_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -308,26 +164,10 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_advanced_5
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_advanced_5_converted_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_5
 				has_tech = airplane_launcher
 				has_tech = armoured_hangar
 			}
 			set_technology = { popup = no nrm_battery_advanced_5_armored_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_5
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_advanced_5_armored_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -340,26 +180,10 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_early_6
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_early_6_converted_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_early_6
 				has_tech = airplane_launcher
 				has_tech = armoured_hangar
 			}
 			set_technology = { popup = no nrm_battery_early_6_armored_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_early_6
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_early_6_armored_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -372,26 +196,10 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_improved_6
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_improved_6_converted_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_6
 				has_tech = airplane_launcher
 				has_tech = armoured_hangar
 			}
 			set_technology = { popup = no nrm_battery_improved_6_armored_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_6
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_improved_6_armored_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -404,26 +212,10 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_advanced_6
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_advanced_6_converted_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_6
 				has_tech = airplane_launcher
 				has_tech = armoured_hangar
 			}
 			set_technology = { popup = no nrm_battery_advanced_6_armored_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_6
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_advanced_6_armored_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -436,26 +228,10 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_modern_6
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_modern_6_converted_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_modern_6
 				has_tech = airplane_launcher
 				has_tech = armoured_hangar
 			}
 			set_technology = { popup = no nrm_battery_modern_6_armored_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_modern_6
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_modern_6_armored_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -468,26 +244,10 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_early_8
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_early_8_converted_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_early_8
 				has_tech = airplane_launcher
 				has_tech = armoured_hangar
 			}
 			set_technology = { popup = no nrm_battery_early_8_armored_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_early_8
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_early_8_armored_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -500,26 +260,10 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_improved_8
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_improved_8_converted_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_8
 				has_tech = airplane_launcher
 				has_tech = armoured_hangar
 			}
 			set_technology = { popup = no nrm_battery_improved_8_armored_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_8
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_improved_8_armored_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -532,26 +276,10 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_advanced_8
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_advanced_8_converted_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_8
 				has_tech = airplane_launcher
 				has_tech = armoured_hangar
 			}
 			set_technology = { popup = no nrm_battery_advanced_8_armored_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_8
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_advanced_8_armored_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -564,26 +292,10 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_modern_8
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_modern_8_converted_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_modern_8
 				has_tech = airplane_launcher
 				has_tech = armoured_hangar
 			}
 			set_technology = { popup = no nrm_battery_modern_8_armored_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_modern_8
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_modern_8_armored_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -592,14 +304,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_early_11_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_early_11
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_early_11_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -620,14 +324,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_early_11
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_early_11_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_early_11
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -640,14 +336,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_improved_11_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_11
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_improved_11_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -668,14 +356,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_improved_11
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_improved_11_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_11
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -688,14 +368,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_advanced_11_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_11
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_advanced_11_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -716,14 +388,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_advanced_11
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_advanced_11_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_11
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -736,14 +400,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_early_12_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_early_12
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_early_12_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -764,14 +420,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_early_12
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_early_12_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_early_12
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -784,14 +432,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_improved_12_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_12
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_improved_12_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -812,14 +452,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_improved_12
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_improved_12_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_12
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -832,14 +464,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_advanced_12_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_12
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_advanced_12_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -860,14 +484,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_advanced_12
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_advanced_12_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_12
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -880,14 +496,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_early_13_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_early_13
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_early_13_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -908,14 +516,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_early_13
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_early_13_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_early_13
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -928,14 +528,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_improved_13_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_13
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_improved_13_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -956,14 +548,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_improved_13
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_improved_13_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_13
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -976,14 +560,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_advanced_13_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_13
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_advanced_13_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -1004,14 +580,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_advanced_13
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_advanced_13_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_13
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -1024,14 +592,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_early_14_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_early_14
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_early_14_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -1052,14 +612,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_early_14
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_early_14_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_early_14
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -1072,14 +624,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_improved_14_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_14
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_improved_14_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -1100,14 +644,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_improved_14
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_improved_14_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_14
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -1120,14 +656,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_advanced_14_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_14
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_advanced_14_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -1148,14 +676,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_advanced_14
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_advanced_14_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_14
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -1168,14 +688,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_early_15_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_early_15
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_early_15_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -1196,14 +708,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_early_15
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_early_15_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_early_15
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -1216,14 +720,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_improved_15_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_15
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_improved_15_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -1244,14 +740,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_improved_15
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_improved_15_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_15
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -1264,14 +752,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_advanced_15_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_15
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_advanced_15_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -1292,14 +772,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_advanced_15
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_advanced_15_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_15
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -1312,14 +784,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_early_16_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_early_16
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_early_16_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -1340,14 +804,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_early_16
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_early_16_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_early_16
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -1360,14 +816,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_improved_16_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_16
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_improved_16_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -1388,14 +836,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_improved_16
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_improved_16_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_16
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -1408,14 +848,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_advanced_16_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_16
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_advanced_16_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -1436,14 +868,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_advanced_16
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_advanced_16_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_16
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -1456,14 +880,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_improved_18_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_18
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_improved_18_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -1484,14 +900,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_improved_18
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_improved_18_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_18
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -1504,14 +912,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_advanced_18_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_18
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_advanced_18_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -1532,14 +932,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_advanced_18
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_advanced_18_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_18
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -1552,14 +944,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_improved_20_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_20
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_improved_20_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -1580,14 +964,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_improved_20
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_improved_20_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_improved_20
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -1600,14 +976,6 @@ country_event = {
 				has_tech = basic_ship_hull_carrier
 			}
 			set_technology = { popup = no nrm_battery_advanced_20_converted_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_20
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_advanced_20_converted_medium = 1 }
 		}
 		if = {
 			limit = {
@@ -1628,14 +996,6 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_advanced_20
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_advanced_20_armored_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_advanced_20
 				has_tech = advanced_airplane_launcher
 				has_tech = armoured_hangar
 			}
@@ -1652,26 +1012,10 @@ country_event = {
 		if = {
 			limit = {
 				has_tech = nrm_battery_basic
-				has_tech = improved_airplane_launcher
-				has_tech = basic_ship_hull_carrier
-			}
-			set_technology = { popup = no nrm_battery_basic_converted_medium = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_basic
 				has_tech = airplane_launcher
 				has_tech = armoured_hangar
 			}
 			set_technology = { popup = no nrm_battery_basic_armored_small = 1 }
-		}
-		if = {
-			limit = {
-				has_tech = nrm_battery_basic
-				has_tech = improved_airplane_launcher
-				has_tech = armoured_hangar
-			}
-			set_technology = { popup = no nrm_battery_basic_armored_medium = 1 }
 		}
 	}
 }

@@ -4,15 +4,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_improved_dp_5h_converted_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_improved_dp_5h_armored_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_improved_dp_5h_armored_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -20,15 +12,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_advanced_dp_5h_converted_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_advanced_dp_5h_armored_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_advanced_dp_5h_armored_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -36,15 +20,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_improved_dp_5_converted_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_improved_dp_5_armored_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_improved_dp_5_armored_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -52,15 +28,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_advanced_dp_5_converted_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_advanced_dp_5_armored_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_advanced_dp_5_armored_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -68,15 +36,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_advanced_dp_6_converted_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_advanced_dp_6_armored_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_advanced_dp_6_armored_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -84,15 +44,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_modern_dp_6_converted_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_modern_dp_6_armored_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_modern_dp_6_armored_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -100,15 +52,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_improved_5h_converted_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_improved_5h_armored_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_improved_5h_armored_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -116,15 +60,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_advanced_5h_converted_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_advanced_5h_armored_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_advanced_5h_armored_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -132,15 +68,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_improved_5_converted_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_improved_5_armored_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_improved_5_armored_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -148,15 +76,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_advanced_5_converted_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_advanced_5_armored_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_advanced_5_armored_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -164,15 +84,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_early_6_converted_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_early_6_armored_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_early_6_armored_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -180,15 +92,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_improved_6_converted_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_improved_6_armored_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_improved_6_armored_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -196,15 +100,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_advanced_6_converted_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_advanced_6_armored_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_advanced_6_armored_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -212,15 +108,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_modern_6_converted_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_modern_6_armored_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_modern_6_armored_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -228,15 +116,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_early_8_converted_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_early_8_armored_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_early_8_armored_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -244,15 +124,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_improved_8_converted_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_improved_8_armored_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_improved_8_armored_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -260,15 +132,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_advanced_8_converted_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_advanced_8_armored_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_advanced_8_armored_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -276,23 +140,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_modern_8_converted_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_modern_8_armored_small_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_modern_8_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_early_11_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_early_11_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -304,19 +156,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_early_11_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_early_11_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
 		name = "GFX_nrm_battery_improved_11_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_improved_11_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -328,19 +172,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_improved_11_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_improved_11_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
 		name = "GFX_nrm_battery_advanced_11_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_advanced_11_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -352,19 +188,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_advanced_11_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_advanced_11_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
 		name = "GFX_nrm_battery_early_12_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_early_12_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -376,19 +204,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_early_12_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_early_12_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
 		name = "GFX_nrm_battery_improved_12_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_improved_12_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -400,19 +220,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_improved_12_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_improved_12_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
 		name = "GFX_nrm_battery_advanced_12_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_advanced_12_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -424,19 +236,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_advanced_12_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_advanced_12_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
 		name = "GFX_nrm_battery_early_13_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_early_13_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -448,19 +252,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_early_13_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_early_13_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
 		name = "GFX_nrm_battery_improved_13_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_improved_13_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -472,19 +268,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_improved_13_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_improved_13_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
 		name = "GFX_nrm_battery_advanced_13_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_advanced_13_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -496,19 +284,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_advanced_13_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_advanced_13_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
 		name = "GFX_nrm_battery_early_14_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_early_14_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -520,19 +300,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_early_14_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_early_14_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
 		name = "GFX_nrm_battery_improved_14_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_improved_14_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -544,19 +316,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_improved_14_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_improved_14_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
 		name = "GFX_nrm_battery_advanced_14_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_advanced_14_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -568,19 +332,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_advanced_14_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_advanced_14_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
 		name = "GFX_nrm_battery_early_15_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_early_15_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -592,19 +348,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_early_15_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_early_15_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
 		name = "GFX_nrm_battery_improved_15_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_improved_15_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -616,19 +364,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_improved_15_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_improved_15_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
 		name = "GFX_nrm_battery_advanced_15_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_advanced_15_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -640,19 +380,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_advanced_15_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_advanced_15_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
 		name = "GFX_nrm_battery_early_16_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_early_16_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -664,19 +396,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_early_16_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_early_16_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
 		name = "GFX_nrm_battery_improved_16_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_improved_16_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -688,19 +412,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_improved_16_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_improved_16_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
 		name = "GFX_nrm_battery_advanced_16_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_advanced_16_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -712,19 +428,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_advanced_16_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_advanced_16_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
 		name = "GFX_nrm_battery_improved_18_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_improved_18_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -736,19 +444,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_improved_18_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_improved_18_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
 		name = "GFX_nrm_battery_advanced_18_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_advanced_18_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -760,19 +460,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_advanced_18_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_advanced_18_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
 		name = "GFX_nrm_battery_improved_20_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_improved_20_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -784,19 +476,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_improved_20_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_improved_20_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
 		name = "GFX_nrm_battery_advanced_20_converted_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_advanced_20_converted_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
@@ -808,10 +492,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_advanced_20_armored_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_advanced_20_armored_large_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
@@ -820,15 +500,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 	SpriteType = {
-		name = "GFX_nrm_battery_basic_converted_medium_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
 		name = "GFX_nrm_battery_basic_armored_small_medium"
-		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
-	}
-	SpriteType = {
-		name = "GFX_nrm_battery_basic_armored_medium_medium"
 		texturefile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds"
 	}
 }
