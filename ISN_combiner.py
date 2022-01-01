@@ -180,10 +180,13 @@ def Module_outputer(module_array, file):
             moduleGroup.write("\n\n\t\tadd_equipment_type = %s"%module.add_equipment_type)
 
         #allow module catagories
-        allowModuleListShort = ["Lic_short_deck_hanger_1", "Lic_short_deck_asw_1"]
-        allowModuleListLong = ["Lic_long_deck_hanger_1", "Lic_long_deck_asw_1"]
+        allowModuleListShort = ["lic_hybrid_deck_hanger","nrm_carrier_airgroup_RC","nrm_carrier_airgroup_ASW"]
+        allowModuleListLong = ["lic_hybrid_deck_hanger","nrm_carrier_airgroup_RC","nrm_carrier_airgroup_RC_L","nrm_carrier_airgroup_ASW","nrm_carrier_airgroup_ASW_L"]
         if module.add_carrier_size > 0:
             moduleGroup.write("\n\n\t\tallowed_module_categories = {")
+            moduleGroup.write("\n\t\t\tcustom_slot_1 = {")
+            moduleGroup.write("\n\t\t\t\tlic_hybrid_deck_style")
+            moduleGroup.write("\n\t\t\t}")
             if ("capital" in module.name and module.add_carrier_size > 21) or ("cruiser" in module.name and module.add_carrier_size > 16):
                 moduleGroup.write("\n\t\t\tcustom_slot_2 = {")
                 for e in allowModuleListLong:
@@ -198,6 +201,9 @@ def Module_outputer(module_array, file):
                 moduleGroup.write("\n\t\t\tcustom_slot_2 = {")
                 for e in allowModuleListShort:
                     moduleGroup.write("\n\t\t\t\t%s"%e)
+                if (module.add_carrier_size>16):
+                    moduleGroup.write("\n\t\t\t\t%nrm_carrier_airgroup_RC_L")
+                    moduleGroup.write("\n\t\t\t\t%nrm_carrier_airgroup_AWS_L")
                 moduleGroup.write("\n\t\t\t}")
             moduleGroup.write("\n\t\t}")
 
@@ -872,7 +878,7 @@ def local_ship_modules_local(module_set, file):
                     if module.name.find("_AHL_") >-1:
                         localModule.write(" Armored)")
                     else:
-                        localModule.write(" Converted)")
+                        localModule.write(")")
                 #add submersable tag for sub gun batteries
                 elif module.add_sub_visibility >0:
                     localModule.write(" (Submersible)")
@@ -2075,7 +2081,7 @@ valid_cruiser_gun_batteries = ["_2x1 ", "_2x2 ", "_3x1 ", "_3x2 ", "_4x1 " , "_4
 valid_cruiser_gun_batteries2 = ["_2x1 ", "_x02", "_x03", "_x04", "_x06"]
 exceptions_cruiser_gun_batteries = []
 #valid_carrier_flight_deck = ["CHL_010", "CHL_015", "CHL_020", "CHL_025", "CHL_030", "AHL_010", "AHL_015", "AHL_020", "AHL_025", "AHL_030"]
-valid_carrier_flight_deck = ["CHL_010", "CHL_020", "CHL_030", "AHL_010", "AHL_020", "AHL_030"]
+valid_carrier_flight_deck = ["CHL_010", "CHL_020", "CHL_030"]
 
 valid_module = False
 exception_gun = False
@@ -3034,29 +3040,14 @@ i=0
 for module in merged_hybrid_array:
     #basic_ship_hull_carrier
     if module.name.find("_CHL_") >-1:
-        if module.name.find("_010") >-1 or ((module.name.find("_015") >-1 or module.name.find("_020") >-1) and module.name.find("capital") >-1):
+        if module.name.find("_010") >-1 or (module.name.find("_020") >-1 and module.name.find("capital") >-1):
             hangerTechs_set["basic_ship_hull_carrier|airplane_launcher"].append(module)
-        elif module.name.find("_025") >-1 or (module.name.find("_015") >-1 and module.name.find("cruiser") >-1):
+        elif module.name.find("_030") >-1 or (module.name.find("_020") >-1 and module.name.find("cruiser") >-1):
             hangerTechs_set["basic_ship_hull_carrier|improved_airplane_launcher"].append(module)
-        elif module.name.find("_030") >-1 or (module.name.find("_020") >-1 and module.name.find("cruiser") >-1):
-            hangerTechs_set["basic_ship_hull_carrier|advanced_airplane_launcher"].append(module)
         if BICE:
             gun_selecor(module,gunTechs_set_BICE)
         else:
             gun_selecor(module,gunTechs_set)
-    #armoured_hangar
-    elif module.name.find("_AHL_") >-1:
-        if module.name.find("_010") >-1 or ((module.name.find("_015") >-1 or module.name.find("_020") >-1) and module.name.find("capital") >-1):
-            hangerTechs_set["armoured_hangar|airplane_launcher"].append(module)
-        elif module.name.find("_025") >-1 or (module.name.find("_015") >-1 and module.name.find("cruiser") >-1):
-            hangerTechs_set["armoured_hangar|improved_airplane_launcher"].append(module)
-        elif module.name.find("_030") >-1 or (module.name.find("_020") >-1 and module.name.find("cruiser") >-1):
-            hangerTechs_set["armoured_hangar|advanced_airplane_launcher"].append(module)
-        if BICE:
-            gun_selecor(module,gunTechs_set_BICE)
-        else:
-            gun_selecor(module,gunTechs_set)
-
 i=0
 
 
@@ -3087,16 +3078,7 @@ if BICE:
                             if "|airplane_launcher" in key2:
                                 techName = techNamer(key1,"converted","small")
                             elif "|improved_airplane_launcher" in key2:
-                                techName = techNamer(key1,"converted","medium")
-                            elif "|advanced_airplane_launcher" in key2:
                                 techName = techNamer(key1,"converted","large")
-                        elif "armoured_hangar|" in key2:
-                            if "|airplane_launcher" in key2:
-                                techName = techNamer(key1,"armored","small")
-                            elif "|improved_airplane_launcher" in key2:
-                                techName = techNamer(key1,"armored","medium")
-                            elif "|advanced_airplane_launcher" in key2:
-                                techName = techNamer(key1,"armored","large")
                         #link techs to their tech name
                         #print(techName)
                         if techName in mergedTech_set:
@@ -3117,8 +3099,6 @@ if BICE:
                                 eventStuf.launcherTech = "airplane_launcher"
                             elif "|improved_airplane_launcher" in key2:
                                 eventStuf.launcherTech = "improved_airplane_launcher"
-                            elif "|advanced_airplane_launcher" in key2:
-                                eventStuf.launcherTech = "advanced_airplane_launcher"
 
                             #print("%s\t-\t%s"%(techName,(i/total)*100))
                             techEvents.append(eventStuf)
@@ -3135,16 +3115,7 @@ else:
                             if "|airplane_launcher" in key2:
                                 techName = techNamer(key1,"converted","small")
                             elif "|improved_airplane_launcher" in key2:
-                                techName = techNamer(key1,"converted","medium")
-                            elif "|advanced_airplane_launcher" in key2:
                                 techName = techNamer(key1,"converted","large")
-                        elif "armoured_hangar|" in key2:
-                            if "|airplane_launcher" in key2:
-                                techName = techNamer(key1,"armored","small")
-                            elif "|improved_airplane_launcher" in key2:
-                                techName = techNamer(key1,"armored","medium")
-                            elif "|advanced_airplane_launcher" in key2:
-                                techName = techNamer(key1,"armored","large")
                         #link techs to their tech name
                         #print(techName)
                         if techName in mergedTech_set:
@@ -3158,15 +3129,11 @@ else:
                             eventStuf.gunTech = copy.deepcopy(key1)
                             if "basic_ship_hull_carrier|" in key2:
                                 eventStuf.hangerTech = "basic_ship_hull_carrier"
-                            elif "armoured_hangar|" in key2:
-                                eventStuf.hangerTech = "armoured_hangar"
 
                             if "|airplane_launcher" in key2:
                                 eventStuf.launcherTech = "airplane_launcher"
                             elif "|improved_airplane_launcher" in key2:
                                 eventStuf.launcherTech = "improved_airplane_launcher"
-                            elif "|advanced_airplane_launcher" in key2:
-                                eventStuf.launcherTech = "advanced_airplane_launcher"
 
                             print("%s\t-\t%s"%(techName,(i/total)*100))
                             techEvents.append(eventStuf)

@@ -8,9 +8,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -66,72 +70,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 		dismantle_cost_ic = 3621.5
-
-	}
-	nrm_cruiser_battery_8_1_x02_AHL_010 = {
-		category = nrm_cruiser_battery_8_x02_CV
-		gui_category = nrm_cruiser_battery_x02
-		sfx = sfx_ui_sd_module_turret
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 186
-		add_stats = {
-			build_cost_ic = 1026.286
-			max_strength = 11.99998
-			hg_attack = 2.3
-			lg_attack = 1.0
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04005
-			surface_visibility = 1.231286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 14.0
-			lg_armor_piercing = 14.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.04166215625
-			reliability = -0.052000000000000005
-			naval_speed = -0.052908836883551004
-			fuel_consumption = 0.056533333333333324
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_1_x02
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_1_x03
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_1_x04
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_1_x05
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_1_x06
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_1_x09
-			convert_cost_ic = 667.343
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3695.6
 
 	}
 	nrm_cruiser_battery_8_2_x02_CHL_010 = {
@@ -143,9 +81,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -201,73 +143,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 		dismantle_cost_ic = 3621.5
-
-	}
-	nrm_cruiser_battery_8_2_x02_AHL_010 = {
-		category = nrm_cruiser_battery_8_x02_CV
-		gui_category = nrm_cruiser_battery_x02
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_8_1_x02_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 186
-		add_stats = {
-			build_cost_ic = 1026.286
-			max_strength = 11.99998
-			hg_attack = 2.6
-			lg_attack = 1.1
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04005
-			surface_visibility = 1.231286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 15.5
-			lg_armor_piercing = 15.5
-		}
-		multiply_stats = {
-			build_cost_ic = 0.04166215625
-			reliability = -0.052000000000000005
-			naval_speed = -0.052908836883551004
-			fuel_consumption = 0.056533333333333324
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_2_x02
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_2_x03
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_2_x04
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_2_x05
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_2_x06
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_2_x09
-			convert_cost_ic = 667.343
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3695.6
 
 	}
 	nrm_cruiser_battery_8_3_x02_CHL_010 = {
@@ -279,9 +154,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -339,73 +218,6 @@ equipment_modules = {
 		dismantle_cost_ic = 3621.5
 
 	}
-	nrm_cruiser_battery_8_3_x02_AHL_010 = {
-		category = nrm_cruiser_battery_8_x02_CV
-		gui_category = nrm_cruiser_battery_x02
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_8_2_x02_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 186
-		add_stats = {
-			build_cost_ic = 1026.286
-			max_strength = 11.99998
-			hg_attack = 2.9
-			lg_attack = 1.2
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04005
-			surface_visibility = 1.231286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 17.0
-			lg_armor_piercing = 17.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.04166215625
-			reliability = -0.052000000000000005
-			naval_speed = -0.052908836883551004
-			fuel_consumption = 0.056533333333333324
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_3_x02
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_3_x03
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_3_x04
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_3_x05
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_3_x06
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_3_x09
-			convert_cost_ic = 667.343
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3695.6
-
-	}
 	nrm_cruiser_battery_PB_11_1_2x2_CHL_010 = {
 		category = nrm_cruiser_battery_PB_11_2x2_CV
 		gui_category = nrm_cruiser_battery_PB_2x2
@@ -414,9 +226,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -464,62 +280,6 @@ equipment_modules = {
 		dismantle_cost_ic = 3698.9
 
 	}
-	nrm_cruiser_battery_PB_11_1_2x2_AHL_010 = {
-		category = nrm_cruiser_battery_PB_11_2x2_CV
-		gui_category = nrm_cruiser_battery_PB_2x2
-		sfx = sfx_ui_sd_module_turret
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 264
-		add_stats = {
-			build_cost_ic = 1413.286
-			max_strength = 22.99998
-			hg_attack = 9.0
-			fuel_consumption = 2.6668
-			supply_consumption = 0.053250000000000006
-			surface_visibility = 2.005286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 22.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.07544715625000001
-			reliability = -0.108
-			naval_speed = -0.10026883688355101
-			fuel_consumption = 0.2715333333333333
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_1_2x1
-			convert_cost_ic = 905.293
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_1_2x2
-			convert_cost_ic = 609.293
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_1_2x3
-			convert_cost_ic = 609.293
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_1_2x4
-			convert_cost_ic = 609.293
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3773.0
-
-	}
 	nrm_cruiser_battery_PB_11_1_3x2_CHL_010 = {
 		category = nrm_cruiser_battery_PB_11_3x2_CV
 		gui_category = nrm_cruiser_battery_PB_3x2
@@ -528,9 +288,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -572,58 +336,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 		dismantle_cost_ic = 3757.9
-
-	}
-	nrm_cruiser_battery_PB_11_1_3x2_AHL_010 = {
-		category = nrm_cruiser_battery_PB_11_3x2_CV
-		gui_category = nrm_cruiser_battery_PB_3x2
-		sfx = sfx_ui_sd_module_turret
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 325
-		add_stats = {
-			build_cost_ic = 1708.286
-			max_strength = 30.99998
-			hg_attack = 13.5
-			fuel_consumption = 2.6668
-			supply_consumption = 0.06265
-			surface_visibility = 2.595286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 22.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.09873965625
-			reliability = -0.152
-			naval_speed = -0.129068836883551
-			fuel_consumption = 0.4046333333333333
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_1_3x1
-			convert_cost_ic = 1008.54
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_1_3x2
-			convert_cost_ic = 565.043
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_1_3x3
-			convert_cost_ic = 565.043
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3832.0
 
 	}
 	nrm_cruiser_battery_PB_11_2_2x2_CHL_010 = {
@@ -635,9 +347,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -683,63 +399,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 		dismantle_cost_ic = 3698.9
-
-	}
-	nrm_cruiser_battery_PB_11_2_2x2_AHL_010 = {
-		category = nrm_cruiser_battery_PB_11_2x2_CV
-		gui_category = nrm_cruiser_battery_PB_2x2
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_11_1_2x2_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 264
-		add_stats = {
-			build_cost_ic = 1413.286
-			max_strength = 22.99998
-			hg_attack = 10.1
-			fuel_consumption = 2.6668
-			supply_consumption = 0.053250000000000006
-			surface_visibility = 2.005286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 24.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.07544715625000001
-			reliability = -0.108
-			naval_speed = -0.10026883688355101
-			fuel_consumption = 0.2715333333333333
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_2_2x1
-			convert_cost_ic = 905.293
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_2_2x2
-			convert_cost_ic = 609.293
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_2_2x3
-			convert_cost_ic = 609.293
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_2_2x4
-			convert_cost_ic = 609.293
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3773.0
 
 	}
 	nrm_cruiser_battery_PB_11_2_3x2_CHL_010 = {
@@ -751,9 +410,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -797,59 +460,6 @@ equipment_modules = {
 		dismantle_cost_ic = 3757.9
 
 	}
-	nrm_cruiser_battery_PB_11_2_3x2_AHL_010 = {
-		category = nrm_cruiser_battery_PB_11_3x2_CV
-		gui_category = nrm_cruiser_battery_PB_3x2
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_11_1_3x2_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 325
-		add_stats = {
-			build_cost_ic = 1708.286
-			max_strength = 30.99998
-			hg_attack = 15.2
-			fuel_consumption = 2.6668
-			supply_consumption = 0.06265
-			surface_visibility = 2.595286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 24.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.09873965625
-			reliability = -0.152
-			naval_speed = -0.129068836883551
-			fuel_consumption = 0.4046333333333333
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_2_3x1
-			convert_cost_ic = 1008.54
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_2_3x2
-			convert_cost_ic = 565.043
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_2_3x3
-			convert_cost_ic = 565.043
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3832.0
-
-	}
 	nrm_cruiser_battery_PB_11_3_2x2_CHL_010 = {
 		category = nrm_cruiser_battery_PB_11_2x2_CV
 		gui_category = nrm_cruiser_battery_PB_2x2
@@ -859,9 +469,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -910,64 +524,6 @@ equipment_modules = {
 		dismantle_cost_ic = 3698.9
 
 	}
-	nrm_cruiser_battery_PB_11_3_2x2_AHL_010 = {
-		category = nrm_cruiser_battery_PB_11_2x2_CV
-		gui_category = nrm_cruiser_battery_PB_2x2
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_11_2_2x2_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 264
-		add_stats = {
-			build_cost_ic = 1413.286
-			max_strength = 22.99998
-			hg_attack = 11.2
-			fuel_consumption = 2.6668
-			supply_consumption = 0.053250000000000006
-			surface_visibility = 2.005286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 26.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.07544715625000001
-			reliability = -0.108
-			naval_speed = -0.10026883688355101
-			fuel_consumption = 0.2715333333333333
-		}
-		build_cost_resources = {
-			steel = 1
-			chromium = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_3_2x1
-			convert_cost_ic = 905.293
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_3_2x2
-			convert_cost_ic = 609.293
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_3_2x3
-			convert_cost_ic = 609.293
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_3_2x4
-			convert_cost_ic = 609.293
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3773.0
-
-	}
 	nrm_cruiser_battery_PB_11_3_3x2_CHL_010 = {
 		category = nrm_cruiser_battery_PB_11_3x2_CV
 		gui_category = nrm_cruiser_battery_PB_3x2
@@ -977,9 +533,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -1024,60 +584,6 @@ equipment_modules = {
 		dismantle_cost_ic = 3757.9
 
 	}
-	nrm_cruiser_battery_PB_11_3_3x2_AHL_010 = {
-		category = nrm_cruiser_battery_PB_11_3x2_CV
-		gui_category = nrm_cruiser_battery_PB_3x2
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_11_2_3x2_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 325
-		add_stats = {
-			build_cost_ic = 1708.286
-			max_strength = 30.99998
-			hg_attack = 16.8
-			fuel_consumption = 2.6668
-			supply_consumption = 0.06265
-			surface_visibility = 2.595286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 26.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.09873965625
-			reliability = -0.152
-			naval_speed = -0.129068836883551
-			fuel_consumption = 0.4046333333333333
-		}
-		build_cost_resources = {
-			steel = 1
-			chromium = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_3_3x1
-			convert_cost_ic = 1008.54
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_3_3x2
-			convert_cost_ic = 565.043
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_3_3x3
-			convert_cost_ic = 565.043
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3832.0
-
-	}
 	nrm_cruiser_battery_PB_12_1_2x2_CHL_010 = {
 		category = nrm_cruiser_battery_PB_12_2x2_CV
 		gui_category = nrm_cruiser_battery_PB_2x2
@@ -1087,9 +593,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -1135,63 +645,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 		dismantle_cost_ic = 3734.1
-
-	}
-	nrm_cruiser_battery_PB_12_1_2x2_AHL_010 = {
-		category = nrm_cruiser_battery_PB_12_2x2_CV
-		gui_category = nrm_cruiser_battery_PB_2x2
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_11_3_2x2_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 287
-		add_stats = {
-			build_cost_ic = 1589.286
-			max_strength = 27.99998
-			hg_attack = 10.4
-			fuel_consumption = 2.6668
-			supply_consumption = 0.05745
-			surface_visibility = 2.357286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 24.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.08934215625
-			reliability = -0.116
-			naval_speed = -0.10777300355021771
-			fuel_consumption = 0.3509333333333333
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_1_2x1
-			convert_cost_ic = 966.893
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_1_2x2
-			convert_cost_ic = 582.893
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_1_2x3
-			convert_cost_ic = 582.893
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_1_2x4
-			convert_cost_ic = 582.893
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3808.2
 
 	}
 	nrm_cruiser_battery_PB_12_1_3x2_CHL_010 = {
@@ -1203,9 +656,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -1247,59 +704,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 		dismantle_cost_ic = 3810.9
-
-	}
-	nrm_cruiser_battery_PB_12_1_3x2_AHL_010 = {
-		category = nrm_cruiser_battery_PB_12_3x2_CV
-		gui_category = nrm_cruiser_battery_PB_3x2
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_11_3_3x2_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 359
-		add_stats = {
-			build_cost_ic = 1973.286
-			max_strength = 37.99998
-			hg_attack = 15.6
-			fuel_consumption = 2.6668
-			supply_consumption = 0.06905
-			surface_visibility = 3.125286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 24.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.11958215624999999
-			reliability = -0.16399999999999998
-			naval_speed = -0.140325086883551
-			fuel_consumption = 0.5237333333333333
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_1_3x1
-			convert_cost_ic = 1101.29
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_1_3x2
-			convert_cost_ic = 525.293
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_1_3x3
-			convert_cost_ic = 525.293
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3885.0
 
 	}
 	nrm_cruiser_battery_PB_12_2_2x2_CHL_010 = {
@@ -1311,9 +715,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -1359,63 +767,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 		dismantle_cost_ic = 3734.1
-
-	}
-	nrm_cruiser_battery_PB_12_2_2x2_AHL_010 = {
-		category = nrm_cruiser_battery_PB_12_2x2_CV
-		gui_category = nrm_cruiser_battery_PB_2x2
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_12_1_2x2_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 287
-		add_stats = {
-			build_cost_ic = 1589.286
-			max_strength = 27.99998
-			hg_attack = 11.7
-			fuel_consumption = 2.6668
-			supply_consumption = 0.05745
-			surface_visibility = 2.357286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 26.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.08934215625
-			reliability = -0.116
-			naval_speed = -0.10777300355021771
-			fuel_consumption = 0.3509333333333333
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_2_2x1
-			convert_cost_ic = 966.893
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_2_2x2
-			convert_cost_ic = 582.893
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_2_2x3
-			convert_cost_ic = 582.893
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_2_2x4
-			convert_cost_ic = 582.893
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3808.2
 
 	}
 	nrm_cruiser_battery_PB_12_2_3x2_CHL_010 = {
@@ -1427,9 +778,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -1473,59 +828,6 @@ equipment_modules = {
 		dismantle_cost_ic = 3810.9
 
 	}
-	nrm_cruiser_battery_PB_12_2_3x2_AHL_010 = {
-		category = nrm_cruiser_battery_PB_12_3x2_CV
-		gui_category = nrm_cruiser_battery_PB_3x2
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_12_1_3x2_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 359
-		add_stats = {
-			build_cost_ic = 1973.286
-			max_strength = 37.99998
-			hg_attack = 17.5
-			fuel_consumption = 2.6668
-			supply_consumption = 0.06905
-			surface_visibility = 3.125286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 26.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.11958215624999999
-			reliability = -0.16399999999999998
-			naval_speed = -0.140325086883551
-			fuel_consumption = 0.5237333333333333
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_2_3x1
-			convert_cost_ic = 1101.29
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_2_3x2
-			convert_cost_ic = 525.293
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_2_3x3
-			convert_cost_ic = 525.293
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3885.0
-
-	}
 	nrm_cruiser_battery_PB_12_3_2x2_CHL_010 = {
 		category = nrm_cruiser_battery_PB_12_2x2_CV
 		gui_category = nrm_cruiser_battery_PB_2x2
@@ -1535,9 +837,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -1586,64 +892,6 @@ equipment_modules = {
 		dismantle_cost_ic = 3734.1
 
 	}
-	nrm_cruiser_battery_PB_12_3_2x2_AHL_010 = {
-		category = nrm_cruiser_battery_PB_12_2x2_CV
-		gui_category = nrm_cruiser_battery_PB_2x2
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_12_2_2x2_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 287
-		add_stats = {
-			build_cost_ic = 1589.286
-			max_strength = 27.99998
-			hg_attack = 13.0
-			fuel_consumption = 2.6668
-			supply_consumption = 0.05745
-			surface_visibility = 2.357286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 28.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.08934215625
-			reliability = -0.116
-			naval_speed = -0.10777300355021771
-			fuel_consumption = 0.3509333333333333
-		}
-		build_cost_resources = {
-			steel = 1
-			chromium = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_3_2x1
-			convert_cost_ic = 966.893
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_3_2x2
-			convert_cost_ic = 582.893
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_3_2x3
-			convert_cost_ic = 582.893
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_3_2x4
-			convert_cost_ic = 582.893
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3808.2
-
-	}
 	nrm_cruiser_battery_PB_12_3_3x2_CHL_010 = {
 		category = nrm_cruiser_battery_PB_12_3x2_CV
 		gui_category = nrm_cruiser_battery_PB_3x2
@@ -1653,9 +901,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -1700,69 +952,19 @@ equipment_modules = {
 		dismantle_cost_ic = 3810.9
 
 	}
-	nrm_cruiser_battery_PB_12_3_3x2_AHL_010 = {
-		category = nrm_cruiser_battery_PB_12_3x2_CV
-		gui_category = nrm_cruiser_battery_PB_3x2
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_12_2_3x2_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 359
-		add_stats = {
-			build_cost_ic = 1973.286
-			max_strength = 37.99998
-			hg_attack = 19.4
-			fuel_consumption = 2.6668
-			supply_consumption = 0.06905
-			surface_visibility = 3.125286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 28.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.11958215624999999
-			reliability = -0.16399999999999998
-			naval_speed = -0.140325086883551
-			fuel_consumption = 0.5237333333333333
-		}
-		build_cost_resources = {
-			steel = 1
-			chromium = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_3_3x1
-			convert_cost_ic = 1101.29
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_3_3x2
-			convert_cost_ic = 525.293
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_3_3x3
-			convert_cost_ic = 525.293
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3885.0
-
-	}
 	nrm_cruiser_battery_5_1_x02_CHL_010 = {
 		category = nrm_cruiser_battery_5_x02_CV
 		gui_category = nrm_cruiser_battery_x02
 		sfx = sfx_ui_sd_module_turret
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -1815,74 +1017,19 @@ equipment_modules = {
 		dismantle_cost_ic = 2840.5
 
 	}
-	nrm_cruiser_battery_5_1_x02_AHL_010 = {
-		category = nrm_cruiser_battery_5_x02_CV
-		gui_category = nrm_cruiser_battery_x02
-		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 168
-		add_stats = {
-			build_cost_ic = 871.286
-			max_strength = 7.49998
-			lg_attack = 1.9
-			fuel_consumption = 2.6668
-			supply_consumption = 0.03725
-			surface_visibility = 0.921286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 5.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03198715625
-			reliability = -0.04
-			naval_speed = -0.04516883688355101
-			fuel_consumption = 0.017833333333333326
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_1_x02
-			convert_cost_ic = 690.593
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_1_x03
-			convert_cost_ic = 690.593
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_1_x04
-			convert_cost_ic = 690.593
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_1_x05
-			convert_cost_ic = 690.593
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_1_x06
-			convert_cost_ic = 690.593
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_1_x09
-			convert_cost_ic = 690.593
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2914.6
-
-	}
 	nrm_cruiser_battery_5_1_x03_CHL_010 = {
 		category = nrm_cruiser_battery_5_x03_CV
 		gui_category = nrm_cruiser_battery_x03
 		sfx = sfx_ui_sd_module_turret
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -1933,65 +1080,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_light_guns }
 		dismantle_cost_ic = 2845.5
-
-	}
-	nrm_cruiser_battery_5_1_x03_AHL_010 = {
-		category = nrm_cruiser_battery_5_x03_CV
-		gui_category = nrm_cruiser_battery_x03
-		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 180
-		add_stats = {
-			build_cost_ic = 896.286
-			max_strength = 8.49998
-			lg_attack = 2.8
-			fuel_consumption = 2.6668
-			supply_consumption = 0.038650000000000004
-			surface_visibility = 0.9712860000000001
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 5.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03354965625
-			reliability = -0.05
-			naval_speed = -0.046418836883551
-			fuel_consumption = 0.024083333333333325
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_1_x02
-			convert_cost_ic = 711.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_1_x03
-			convert_cost_ic = 686.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_1_x04
-			convert_cost_ic = 686.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_1_x05
-			convert_cost_ic = 686.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_1_x06
-			convert_cost_ic = 686.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_1_x09
-			convert_cost_ic = 686.843
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2919.6
 
 	}
 	nrm_cruiser_battery_5_2_x02_CHL_010 = {
@@ -2001,9 +1089,13 @@ equipment_modules = {
 		parent = nrm_cruiser_battery_5_1_x02_CHL_010
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -2054,66 +1146,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_light_guns }
 		dismantle_cost_ic = 2840.5
-
-	}
-	nrm_cruiser_battery_5_2_x02_AHL_010 = {
-		category = nrm_cruiser_battery_5_x02_CV
-		gui_category = nrm_cruiser_battery_x02
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_5_1_x02_AHL_010
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 168
-		add_stats = {
-			build_cost_ic = 871.286
-			max_strength = 7.49998
-			lg_attack = 2.1
-			fuel_consumption = 2.6668
-			supply_consumption = 0.03725
-			surface_visibility = 0.921286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 6.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03198715625
-			reliability = -0.04
-			naval_speed = -0.04516883688355101
-			fuel_consumption = 0.017833333333333326
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_2_x02
-			convert_cost_ic = 690.593
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_2_x03
-			convert_cost_ic = 690.593
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_2_x04
-			convert_cost_ic = 690.593
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_2_x05
-			convert_cost_ic = 690.593
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_2_x06
-			convert_cost_ic = 690.593
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_2_x09
-			convert_cost_ic = 690.593
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2914.6
 
 	}
 	nrm_cruiser_battery_5_2_x03_CHL_010 = {
@@ -2123,9 +1155,13 @@ equipment_modules = {
 		parent = nrm_cruiser_battery_5_1_x03_CHL_010
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -2178,66 +1214,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2845.5
 
 	}
-	nrm_cruiser_battery_5_2_x03_AHL_010 = {
-		category = nrm_cruiser_battery_5_x03_CV
-		gui_category = nrm_cruiser_battery_x03
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_5_1_x03_AHL_010
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 180
-		add_stats = {
-			build_cost_ic = 896.286
-			max_strength = 8.49998
-			lg_attack = 3.15
-			fuel_consumption = 2.6668
-			supply_consumption = 0.038650000000000004
-			surface_visibility = 0.9712860000000001
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 6.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03354965625
-			reliability = -0.05
-			naval_speed = -0.046418836883551
-			fuel_consumption = 0.024083333333333325
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_2_x02
-			convert_cost_ic = 711.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_2_x03
-			convert_cost_ic = 686.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_2_x04
-			convert_cost_ic = 686.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_2_x05
-			convert_cost_ic = 686.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_2_x06
-			convert_cost_ic = 686.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_2_x09
-			convert_cost_ic = 686.843
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2919.6
-
-	}
 	nrm_cruiser_battery_5_3_x02_CHL_010 = {
 		category = nrm_cruiser_battery_5_x02_CV
 		gui_category = nrm_cruiser_battery_x02
@@ -2245,9 +1221,13 @@ equipment_modules = {
 		parent = nrm_cruiser_battery_5_2_x02_CHL_010
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -2300,66 +1280,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2840.5
 
 	}
-	nrm_cruiser_battery_5_3_x02_AHL_010 = {
-		category = nrm_cruiser_battery_5_x02_CV
-		gui_category = nrm_cruiser_battery_x02
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_5_2_x02_AHL_010
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 168
-		add_stats = {
-			build_cost_ic = 871.286
-			max_strength = 7.49998
-			lg_attack = 2.35
-			fuel_consumption = 2.6668
-			supply_consumption = 0.03725
-			surface_visibility = 0.921286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 8.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03198715625
-			reliability = -0.04
-			naval_speed = -0.04516883688355101
-			fuel_consumption = 0.017833333333333326
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_3_x02
-			convert_cost_ic = 690.593
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_3_x03
-			convert_cost_ic = 690.593
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_3_x04
-			convert_cost_ic = 690.593
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_3_x05
-			convert_cost_ic = 690.593
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_3_x06
-			convert_cost_ic = 690.593
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_3_x09
-			convert_cost_ic = 690.593
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2914.6
-
-	}
 	nrm_cruiser_battery_5_3_x03_CHL_010 = {
 		category = nrm_cruiser_battery_5_x03_CV
 		gui_category = nrm_cruiser_battery_x03
@@ -2367,9 +1287,13 @@ equipment_modules = {
 		parent = nrm_cruiser_battery_5_2_x03_CHL_010
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -2422,75 +1346,19 @@ equipment_modules = {
 		dismantle_cost_ic = 2845.5
 
 	}
-	nrm_cruiser_battery_5_3_x03_AHL_010 = {
-		category = nrm_cruiser_battery_5_x03_CV
-		gui_category = nrm_cruiser_battery_x03
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_5_2_x03_AHL_010
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 180
-		add_stats = {
-			build_cost_ic = 896.286
-			max_strength = 8.49998
-			lg_attack = 3.5
-			fuel_consumption = 2.6668
-			supply_consumption = 0.038650000000000004
-			surface_visibility = 0.9712860000000001
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 7.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03354965625
-			reliability = -0.05
-			naval_speed = -0.046418836883551
-			fuel_consumption = 0.024083333333333325
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_3_x02
-			convert_cost_ic = 711.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_3_x03
-			convert_cost_ic = 686.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_3_x04
-			convert_cost_ic = 686.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_3_x05
-			convert_cost_ic = 686.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_3_x06
-			convert_cost_ic = 686.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5_3_x09
-			convert_cost_ic = 686.843
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2919.6
-
-	}
 	nrm_cruiser_battery_5h_1_x02_CHL_010 = {
 		category = nrm_cruiser_battery_5h_x02_CV
 		gui_category = nrm_cruiser_battery_x02
 		sfx = sfx_ui_sd_module_turret
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -2543,74 +1411,19 @@ equipment_modules = {
 		dismantle_cost_ic = 2843.8
 
 	}
-	nrm_cruiser_battery_5h_1_x02_AHL_010 = {
-		category = nrm_cruiser_battery_5h_x02_CV
-		gui_category = nrm_cruiser_battery_x02
-		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 173
-		add_stats = {
-			build_cost_ic = 887.786
-			max_strength = 7.99998
-			lg_attack = 2.1
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0379
-			surface_visibility = 0.9542860000000001
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 7.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03302153125
-			reliability = -0.041999999999999996
-			naval_speed = -0.045996336883551
-			fuel_consumption = 0.021970833333333325
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_1_x02
-			convert_cost_ic = 688.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_1_x03
-			convert_cost_ic = 688.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_1_x04
-			convert_cost_ic = 688.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_1_x05
-			convert_cost_ic = 688.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_1_x06
-			convert_cost_ic = 688.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_1_x09
-			convert_cost_ic = 688.118
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2917.8999999999996
-
-	}
 	nrm_cruiser_battery_5h_1_x03_CHL_010 = {
 		category = nrm_cruiser_battery_5h_x03_CV
 		gui_category = nrm_cruiser_battery_x03
 		sfx = sfx_ui_sd_module_turret
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -2661,65 +1474,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_light_guns }
 		dismantle_cost_ic = 2850.5
-
-	}
-	nrm_cruiser_battery_5h_1_x03_AHL_010 = {
-		category = nrm_cruiser_battery_5h_x03_CV
-		gui_category = nrm_cruiser_battery_x03
-		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 188
-		add_stats = {
-			build_cost_ic = 921.286
-			max_strength = 8.99998
-			lg_attack = 3.1
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0396
-			surface_visibility = 1.0212860000000001
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 7.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.035101218749999996
-			reliability = -0.053000000000000005
-			naval_speed = -0.04766008688355101
-			fuel_consumption = 0.030289583333333325
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_1_x02
-			convert_cost_ic = 716.426
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_1_x03
-			convert_cost_ic = 683.093
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_1_x04
-			convert_cost_ic = 683.093
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_1_x05
-			convert_cost_ic = 683.093
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_1_x06
-			convert_cost_ic = 683.093
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_1_x09
-			convert_cost_ic = 683.093
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2924.6
 
 	}
 	nrm_cruiser_battery_5h_2_x02_CHL_010 = {
@@ -2729,9 +1483,13 @@ equipment_modules = {
 		parent = nrm_cruiser_battery_5h_1_x02_CHL_010
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -2782,66 +1540,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_light_guns }
 		dismantle_cost_ic = 2843.8
-
-	}
-	nrm_cruiser_battery_5h_2_x02_AHL_010 = {
-		category = nrm_cruiser_battery_5h_x02_CV
-		gui_category = nrm_cruiser_battery_x02
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_5h_1_x02_AHL_010
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 173
-		add_stats = {
-			build_cost_ic = 887.786
-			max_strength = 7.99998
-			lg_attack = 2.35
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0379
-			surface_visibility = 0.9542860000000001
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 8.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03302153125
-			reliability = -0.041999999999999996
-			naval_speed = -0.045996336883551
-			fuel_consumption = 0.021970833333333325
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_2_x02
-			convert_cost_ic = 688.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_2_x03
-			convert_cost_ic = 688.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_2_x04
-			convert_cost_ic = 688.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_2_x05
-			convert_cost_ic = 688.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_2_x06
-			convert_cost_ic = 688.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_2_x09
-			convert_cost_ic = 688.118
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2917.8999999999996
 
 	}
 	nrm_cruiser_battery_5h_2_x03_CHL_010 = {
@@ -2851,9 +1549,13 @@ equipment_modules = {
 		parent = nrm_cruiser_battery_5h_1_x03_CHL_010
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -2906,66 +1608,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2850.5
 
 	}
-	nrm_cruiser_battery_5h_2_x03_AHL_010 = {
-		category = nrm_cruiser_battery_5h_x03_CV
-		gui_category = nrm_cruiser_battery_x03
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_5h_1_x03_AHL_010
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 188
-		add_stats = {
-			build_cost_ic = 921.286
-			max_strength = 8.99998
-			lg_attack = 3.5
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0396
-			surface_visibility = 1.0212860000000001
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 8.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.035101218749999996
-			reliability = -0.053000000000000005
-			naval_speed = -0.04766008688355101
-			fuel_consumption = 0.030289583333333325
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_2_x02
-			convert_cost_ic = 716.426
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_2_x03
-			convert_cost_ic = 683.093
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_2_x04
-			convert_cost_ic = 683.093
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_2_x05
-			convert_cost_ic = 683.093
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_2_x06
-			convert_cost_ic = 683.093
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_2_x09
-			convert_cost_ic = 683.093
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2924.6
-
-	}
 	nrm_cruiser_battery_5h_3_x02_CHL_010 = {
 		category = nrm_cruiser_battery_5h_x02_CV
 		gui_category = nrm_cruiser_battery_x02
@@ -2973,9 +1615,13 @@ equipment_modules = {
 		parent = nrm_cruiser_battery_5h_2_x02_CHL_010
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -3028,66 +1674,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2843.8
 
 	}
-	nrm_cruiser_battery_5h_3_x02_AHL_010 = {
-		category = nrm_cruiser_battery_5h_x02_CV
-		gui_category = nrm_cruiser_battery_x02
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_5h_2_x02_AHL_010
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 173
-		add_stats = {
-			build_cost_ic = 887.786
-			max_strength = 7.99998
-			lg_attack = 2.6
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0379
-			surface_visibility = 0.9542860000000001
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 9.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03302153125
-			reliability = -0.041999999999999996
-			naval_speed = -0.045996336883551
-			fuel_consumption = 0.021970833333333325
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_3_x02
-			convert_cost_ic = 688.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_3_x03
-			convert_cost_ic = 688.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_3_x04
-			convert_cost_ic = 688.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_3_x05
-			convert_cost_ic = 688.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_3_x06
-			convert_cost_ic = 688.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_3_x09
-			convert_cost_ic = 688.118
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2917.8999999999996
-
-	}
 	nrm_cruiser_battery_5h_3_x03_CHL_010 = {
 		category = nrm_cruiser_battery_5h_x03_CV
 		gui_category = nrm_cruiser_battery_x03
@@ -3095,9 +1681,13 @@ equipment_modules = {
 		parent = nrm_cruiser_battery_5h_2_x03_CHL_010
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -3150,75 +1740,19 @@ equipment_modules = {
 		dismantle_cost_ic = 2850.5
 
 	}
-	nrm_cruiser_battery_5h_3_x03_AHL_010 = {
-		category = nrm_cruiser_battery_5h_x03_CV
-		gui_category = nrm_cruiser_battery_x03
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_5h_2_x03_AHL_010
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 188
-		add_stats = {
-			build_cost_ic = 921.286
-			max_strength = 8.99998
-			lg_attack = 3.9
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0396
-			surface_visibility = 1.0212860000000001
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 9.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.035101218749999996
-			reliability = -0.053000000000000005
-			naval_speed = -0.04766008688355101
-			fuel_consumption = 0.030289583333333325
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_3_x02
-			convert_cost_ic = 716.426
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_3_x03
-			convert_cost_ic = 683.093
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_3_x04
-			convert_cost_ic = 683.093
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_3_x05
-			convert_cost_ic = 683.093
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_3_x06
-			convert_cost_ic = 683.093
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_5h_3_x09
-			convert_cost_ic = 683.093
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2924.6
-
-	}
 	nrm_cruiser_battery_6_1_x02_CHL_010 = {
 		category = nrm_cruiser_battery_6_x02_CV
 		gui_category = nrm_cruiser_battery_x02
 		sfx = sfx_ui_sd_module_turret
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -3271,74 +1805,19 @@ equipment_modules = {
 		dismantle_cost_ic = 2847.8
 
 	}
-	nrm_cruiser_battery_6_1_x02_AHL_010 = {
-		category = nrm_cruiser_battery_6_x02_CV
-		gui_category = nrm_cruiser_battery_x02
-		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 179
-		add_stats = {
-			build_cost_ic = 907.786
-			max_strength = 8.49998
-			lg_attack = 2.15
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0386
-			surface_visibility = 0.994286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 9.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03426215625
-			reliability = -0.044
-			naval_speed = -0.046988836883551
-			fuel_consumption = 0.026933333333333326
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_1_x02
-			convert_cost_ic = 685.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_1_x03
-			convert_cost_ic = 685.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_1_x04
-			convert_cost_ic = 685.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_1_x05
-			convert_cost_ic = 685.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_1_x06
-			convert_cost_ic = 685.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_1_x09
-			convert_cost_ic = 685.118
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2921.8999999999996
-
-	}
 	nrm_cruiser_battery_6_1_x03_CHL_010 = {
 		category = nrm_cruiser_battery_6_x03_CV
 		gui_category = nrm_cruiser_battery_x03
 		sfx = sfx_ui_sd_module_turret
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -3389,65 +1868,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_light_guns }
 		dismantle_cost_ic = 2856.4
-
-	}
-	nrm_cruiser_battery_6_1_x03_AHL_010 = {
-		category = nrm_cruiser_battery_6_x03_CV
-		gui_category = nrm_cruiser_battery_x03
-		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 197
-		add_stats = {
-			build_cost_ic = 950.786
-			max_strength = 9.99998
-			lg_attack = 3.25
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04065
-			surface_visibility = 1.080286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 9.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03696215625
-			reliability = -0.055999999999999994
-			naval_speed = -0.049148836883551004
-			fuel_consumption = 0.03773333333333333
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_1_x02
-			convert_cost_ic = 721.835
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_1_x03
-			convert_cost_ic = 678.668
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_1_x04
-			convert_cost_ic = 678.668
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_1_x05
-			convert_cost_ic = 678.668
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_1_x06
-			convert_cost_ic = 678.668
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_1_x09
-			convert_cost_ic = 678.668
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2930.5
 
 	}
 	nrm_cruiser_battery_6_2_x02_CHL_010 = {
@@ -3457,9 +1877,13 @@ equipment_modules = {
 		parent = nrm_cruiser_battery_6_1_x02_CHL_010
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -3510,66 +1934,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_light_guns }
 		dismantle_cost_ic = 2847.8
-
-	}
-	nrm_cruiser_battery_6_2_x02_AHL_010 = {
-		category = nrm_cruiser_battery_6_x02_CV
-		gui_category = nrm_cruiser_battery_x02
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_6_1_x02_AHL_010
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 179
-		add_stats = {
-			build_cost_ic = 907.786
-			max_strength = 8.49998
-			lg_attack = 2.45
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0386
-			surface_visibility = 0.994286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 10.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03426215625
-			reliability = -0.044
-			naval_speed = -0.046988836883551
-			fuel_consumption = 0.026933333333333326
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_2_x02
-			convert_cost_ic = 685.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_2_x03
-			convert_cost_ic = 685.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_2_x04
-			convert_cost_ic = 685.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_2_x05
-			convert_cost_ic = 685.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_2_x06
-			convert_cost_ic = 685.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_2_x09
-			convert_cost_ic = 685.118
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2921.8999999999996
 
 	}
 	nrm_cruiser_battery_6_2_x03_CHL_010 = {
@@ -3579,9 +1943,13 @@ equipment_modules = {
 		parent = nrm_cruiser_battery_6_1_x03_CHL_010
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -3632,66 +2000,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_light_guns }
 		dismantle_cost_ic = 2856.4
-
-	}
-	nrm_cruiser_battery_6_2_x03_AHL_010 = {
-		category = nrm_cruiser_battery_6_x03_CV
-		gui_category = nrm_cruiser_battery_x03
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_6_1_x03_AHL_010
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 197
-		add_stats = {
-			build_cost_ic = 950.786
-			max_strength = 9.99998
-			lg_attack = 3.65
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04065
-			surface_visibility = 1.080286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 10.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03696215625
-			reliability = -0.055999999999999994
-			naval_speed = -0.049148836883551004
-			fuel_consumption = 0.03773333333333333
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_2_x02
-			convert_cost_ic = 721.835
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_2_x03
-			convert_cost_ic = 678.668
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_2_x04
-			convert_cost_ic = 678.668
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_2_x05
-			convert_cost_ic = 678.668
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_2_x06
-			convert_cost_ic = 678.668
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_2_x09
-			convert_cost_ic = 678.668
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2930.5
 
 	}
 	nrm_cruiser_battery_6_3_x02_CHL_010 = {
@@ -3701,9 +2009,13 @@ equipment_modules = {
 		parent = nrm_cruiser_battery_6_2_x02_CHL_010
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -3754,66 +2066,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_light_guns }
 		dismantle_cost_ic = 2847.8
-
-	}
-	nrm_cruiser_battery_6_3_x02_AHL_010 = {
-		category = nrm_cruiser_battery_6_x02_CV
-		gui_category = nrm_cruiser_battery_x02
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_6_2_x02_AHL_010
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 179
-		add_stats = {
-			build_cost_ic = 907.786
-			max_strength = 8.49998
-			lg_attack = 2.7
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0386
-			surface_visibility = 0.994286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 11.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03426215625
-			reliability = -0.044
-			naval_speed = -0.046988836883551
-			fuel_consumption = 0.026933333333333326
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_3_x02
-			convert_cost_ic = 685.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_3_x03
-			convert_cost_ic = 685.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_3_x04
-			convert_cost_ic = 685.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_3_x05
-			convert_cost_ic = 685.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_3_x06
-			convert_cost_ic = 685.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_3_x09
-			convert_cost_ic = 685.118
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2921.8999999999996
 
 	}
 	nrm_cruiser_battery_6_3_x03_CHL_010 = {
@@ -3823,9 +2075,13 @@ equipment_modules = {
 		parent = nrm_cruiser_battery_6_2_x03_CHL_010
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -3878,66 +2134,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2856.4
 
 	}
-	nrm_cruiser_battery_6_3_x03_AHL_010 = {
-		category = nrm_cruiser_battery_6_x03_CV
-		gui_category = nrm_cruiser_battery_x03
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_6_2_x03_AHL_010
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 197
-		add_stats = {
-			build_cost_ic = 950.786
-			max_strength = 9.99998
-			lg_attack = 4.05
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04065
-			surface_visibility = 1.080286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 11.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03696215625
-			reliability = -0.055999999999999994
-			naval_speed = -0.049148836883551004
-			fuel_consumption = 0.03773333333333333
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_3_x02
-			convert_cost_ic = 721.835
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_3_x03
-			convert_cost_ic = 678.668
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_3_x04
-			convert_cost_ic = 678.668
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_3_x05
-			convert_cost_ic = 678.668
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_3_x06
-			convert_cost_ic = 678.668
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_3_x09
-			convert_cost_ic = 678.668
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2930.5
-
-	}
 	nrm_cruiser_battery_6_4_x02_CHL_010 = {
 		category = nrm_cruiser_battery_6_x02_CV
 		gui_category = nrm_cruiser_battery_x02
@@ -3945,9 +2141,13 @@ equipment_modules = {
 		parent = nrm_cruiser_battery_6_3_x02_CHL_010
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -4003,69 +2203,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2847.8
 
 	}
-	nrm_cruiser_battery_6_4_x02_AHL_010 = {
-		category = nrm_cruiser_battery_6_x02_CV
-		gui_category = nrm_cruiser_battery_x02
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_6_3_x02_AHL_010
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 179
-		add_stats = {
-			build_cost_ic = 907.786
-			max_strength = 8.49998
-			lg_attack = 3.4
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0386
-			surface_visibility = 0.994286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 11.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03426215625
-			reliability = -0.044
-			naval_speed = -0.046988836883551
-			fuel_consumption = 0.026933333333333326
-		}
-		build_cost_resources = {
-			chromium = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_4_x02
-			convert_cost_ic = 685.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_4_x03
-			convert_cost_ic = 685.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_4_x04
-			convert_cost_ic = 685.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_4_x05
-			convert_cost_ic = 685.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_4_x06
-			convert_cost_ic = 685.118
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_4_x09
-			convert_cost_ic = 685.118
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2921.8999999999996
-
-	}
 	nrm_cruiser_battery_6_4_x03_CHL_010 = {
 		category = nrm_cruiser_battery_6_x03_CV
 		gui_category = nrm_cruiser_battery_x03
@@ -4073,9 +2210,13 @@ equipment_modules = {
 		parent = nrm_cruiser_battery_6_3_x03_CHL_010
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -4129,69 +2270,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_light_guns }
 		dismantle_cost_ic = 2856.4
-
-	}
-	nrm_cruiser_battery_6_4_x03_AHL_010 = {
-		category = nrm_cruiser_battery_6_x03_CV
-		gui_category = nrm_cruiser_battery_x03
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_6_3_x03_AHL_010
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 197
-		add_stats = {
-			build_cost_ic = 950.786
-			max_strength = 9.99998
-			lg_attack = 5.1
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04065
-			surface_visibility = 1.080286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 11.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03696215625
-			reliability = -0.055999999999999994
-			naval_speed = -0.049148836883551004
-			fuel_consumption = 0.03773333333333333
-		}
-		build_cost_resources = {
-			chromium = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_4_x02
-			convert_cost_ic = 721.835
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_4_x03
-			convert_cost_ic = 678.668
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_4_x04
-			convert_cost_ic = 678.668
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_4_x05
-			convert_cost_ic = 678.668
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_4_x06
-			convert_cost_ic = 678.668
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_6_4_x09
-			convert_cost_ic = 678.668
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2930.5
 
 	}
 	nrm_cruiser_battery_8_1_x02_CHL_010 = {
@@ -4202,9 +2280,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -4262,72 +2344,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2871.5
 
 	}
-	nrm_cruiser_battery_8_1_x02_AHL_010 = {
-		category = nrm_cruiser_battery_8_x02_CV
-		gui_category = nrm_cruiser_battery_x02
-		sfx = sfx_ui_sd_module_turret
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 185
-		add_stats = {
-			build_cost_ic = 1026.286
-			max_strength = 12.49998
-			hg_attack = 2.35
-			lg_attack = 1.0
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04
-			surface_visibility = 1.231286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 14.0
-			lg_armor_piercing = 14.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.04166215625
-			reliability = -0.052000000000000005
-			naval_speed = -0.052908836883551004
-			fuel_consumption = 0.056533333333333324
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_1_x02
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_1_x03
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_1_x04
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_1_x05
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_1_x06
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_1_x09
-			convert_cost_ic = 667.343
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 2945.6
-
-	}
 	nrm_cruiser_battery_8_1_x03_CHL_010 = {
 		category = nrm_cruiser_battery_8_x03_CV
 		gui_category = nrm_cruiser_battery_x03
@@ -4336,9 +2352,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -4394,72 +2414,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 		dismantle_cost_ic = 2891.9
-
-	}
-	nrm_cruiser_battery_8_1_x03_AHL_010 = {
-		category = nrm_cruiser_battery_8_x03_CV
-		gui_category = nrm_cruiser_battery_x03
-		sfx = sfx_ui_sd_module_turret
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 207
-		add_stats = {
-			build_cost_ic = 1128.286
-			max_strength = 15.49998
-			hg_attack = 3.5
-			lg_attack = 1.5
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04275
-			surface_visibility = 1.435286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 14.0
-			lg_armor_piercing = 14.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.04806215625
-			reliability = -0.068
-			naval_speed = -0.058028836883551004
-			fuel_consumption = 0.08213333333333332
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_1_x02
-			convert_cost_ic = 754.376
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_1_x03
-			convert_cost_ic = 652.043
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_1_x04
-			convert_cost_ic = 652.043
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_1_x05
-			convert_cost_ic = 652.043
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_1_x06
-			convert_cost_ic = 652.043
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_1_x09
-			convert_cost_ic = 652.043
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 2966.0
 
 	}
 	nrm_cruiser_battery_8_2_x02_CHL_010 = {
@@ -4471,9 +2425,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -4529,73 +2487,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 		dismantle_cost_ic = 2871.5
-
-	}
-	nrm_cruiser_battery_8_2_x02_AHL_010 = {
-		category = nrm_cruiser_battery_8_x02_CV
-		gui_category = nrm_cruiser_battery_x02
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_8_1_x02_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 185
-		add_stats = {
-			build_cost_ic = 1026.286
-			max_strength = 12.49998
-			hg_attack = 2.6
-			lg_attack = 1.1
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04
-			surface_visibility = 1.231286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 15.5
-			lg_armor_piercing = 15.5
-		}
-		multiply_stats = {
-			build_cost_ic = 0.04166215625
-			reliability = -0.052000000000000005
-			naval_speed = -0.052908836883551004
-			fuel_consumption = 0.056533333333333324
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_2_x02
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_2_x03
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_2_x04
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_2_x05
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_2_x06
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_2_x09
-			convert_cost_ic = 667.343
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 2945.6
 
 	}
 	nrm_cruiser_battery_8_2_x03_CHL_010 = {
@@ -4607,9 +2498,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -4665,73 +2560,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 		dismantle_cost_ic = 2891.9
-
-	}
-	nrm_cruiser_battery_8_2_x03_AHL_010 = {
-		category = nrm_cruiser_battery_8_x03_CV
-		gui_category = nrm_cruiser_battery_x03
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_8_1_x03_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 207
-		add_stats = {
-			build_cost_ic = 1128.286
-			max_strength = 15.49998
-			hg_attack = 3.95
-			lg_attack = 1.7
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04275
-			surface_visibility = 1.435286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 15.5
-			lg_armor_piercing = 15.5
-		}
-		multiply_stats = {
-			build_cost_ic = 0.04806215625
-			reliability = -0.068
-			naval_speed = -0.058028836883551004
-			fuel_consumption = 0.08213333333333332
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_2_x02
-			convert_cost_ic = 754.376
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_2_x03
-			convert_cost_ic = 652.043
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_2_x04
-			convert_cost_ic = 652.043
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_2_x05
-			convert_cost_ic = 652.043
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_2_x06
-			convert_cost_ic = 652.043
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_2_x09
-			convert_cost_ic = 652.043
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 2966.0
 
 	}
 	nrm_cruiser_battery_8_3_x02_CHL_010 = {
@@ -4743,9 +2571,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -4801,73 +2633,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 		dismantle_cost_ic = 2871.5
-
-	}
-	nrm_cruiser_battery_8_3_x02_AHL_010 = {
-		category = nrm_cruiser_battery_8_x02_CV
-		gui_category = nrm_cruiser_battery_x02
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_8_2_x02_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 185
-		add_stats = {
-			build_cost_ic = 1026.286
-			max_strength = 12.49998
-			hg_attack = 2.9
-			lg_attack = 1.25
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04
-			surface_visibility = 1.231286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 17.0
-			lg_armor_piercing = 17.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.04166215625
-			reliability = -0.052000000000000005
-			naval_speed = -0.052908836883551004
-			fuel_consumption = 0.056533333333333324
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_3_x02
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_3_x03
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_3_x04
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_3_x05
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_3_x06
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_3_x09
-			convert_cost_ic = 667.343
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 2945.6
 
 	}
 	nrm_cruiser_battery_8_3_x03_CHL_010 = {
@@ -4879,9 +2644,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -4939,73 +2708,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2891.9
 
 	}
-	nrm_cruiser_battery_8_3_x03_AHL_010 = {
-		category = nrm_cruiser_battery_8_x03_CV
-		gui_category = nrm_cruiser_battery_x03
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_8_2_x03_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 207
-		add_stats = {
-			build_cost_ic = 1128.286
-			max_strength = 15.49998
-			hg_attack = 4.35
-			lg_attack = 1.85
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04275
-			surface_visibility = 1.435286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 17.0
-			lg_armor_piercing = 17.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.04806215625
-			reliability = -0.068
-			naval_speed = -0.058028836883551004
-			fuel_consumption = 0.08213333333333332
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_3_x02
-			convert_cost_ic = 754.376
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_3_x03
-			convert_cost_ic = 652.043
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_3_x04
-			convert_cost_ic = 652.043
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_3_x05
-			convert_cost_ic = 652.043
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_3_x06
-			convert_cost_ic = 652.043
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_3_x09
-			convert_cost_ic = 652.043
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 2966.0
-
-	}
 	nrm_cruiser_battery_8_4_x02_CHL_010 = {
 		category = nrm_cruiser_battery_8_x02_CV
 		gui_category = nrm_cruiser_battery_x02
@@ -5015,9 +2717,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -5076,74 +2782,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2871.5
 
 	}
-	nrm_cruiser_battery_8_4_x02_AHL_010 = {
-		category = nrm_cruiser_battery_8_x02_CV
-		gui_category = nrm_cruiser_battery_x02
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_8_3_x02_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 185
-		add_stats = {
-			build_cost_ic = 1026.286
-			max_strength = 12.49998
-			hg_attack = 4.3
-			lg_attack = 1.85
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04
-			surface_visibility = 1.231286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 17.0
-			lg_armor_piercing = 17.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.04166215625
-			reliability = -0.052000000000000005
-			naval_speed = -0.052908836883551004
-			fuel_consumption = 0.056533333333333324
-		}
-		build_cost_resources = {
-			steel = 1
-			chromium = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_4_x02
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_4_x03
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_4_x04
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_4_x05
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_4_x06
-			convert_cost_ic = 667.343
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_4_x09
-			convert_cost_ic = 667.343
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 2945.6
-
-	}
 	nrm_cruiser_battery_8_4_x03_CHL_010 = {
 		category = nrm_cruiser_battery_8_x03_CV
 		gui_category = nrm_cruiser_battery_x03
@@ -5153,9 +2791,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -5214,83 +2856,19 @@ equipment_modules = {
 		dismantle_cost_ic = 2891.9
 
 	}
-	nrm_cruiser_battery_8_4_x03_AHL_010 = {
-		category = nrm_cruiser_battery_8_x03_CV
-		gui_category = nrm_cruiser_battery_x03
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_8_3_x03_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 207
-		add_stats = {
-			build_cost_ic = 1128.286
-			max_strength = 15.49998
-			hg_attack = 6.45
-			lg_attack = 2.75
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04275
-			surface_visibility = 1.435286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 17.0
-			lg_armor_piercing = 17.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.04806215625
-			reliability = -0.068
-			naval_speed = -0.058028836883551004
-			fuel_consumption = 0.08213333333333332
-		}
-		build_cost_resources = {
-			steel = 1
-			chromium = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_4_x02
-			convert_cost_ic = 754.376
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_4_x03
-			convert_cost_ic = 652.043
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_4_x04
-			convert_cost_ic = 652.043
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_4_x05
-			convert_cost_ic = 652.043
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_4_x06
-			convert_cost_ic = 652.043
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_8_4_x09
-			convert_cost_ic = 652.043
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 2966.0
-
-	}
 	nrm_cruiser_battery_DP_5_2_x03_CHL_010 = {
 		category = nrm_cruiser_battery_DP_5_x03_CV
 		gui_category = nrm_cruiser_battery_DP_x03
 		sfx = sfx_ui_sd_module_turret
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -5344,75 +2922,19 @@ equipment_modules = {
 		dismantle_cost_ic = 2850.8
 
 	}
-	nrm_cruiser_battery_DP_5_2_x03_AHL_010 = {
-		category = nrm_cruiser_battery_DP_5_x03_CV
-		gui_category = nrm_cruiser_battery_DP_x03
-		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 180
-		add_stats = {
-			build_cost_ic = 922.786
-			max_strength = 8.49998
-			lg_attack = 3.3
-			anti_air_attack = 2.5
-			fuel_consumption = 2.6668
-			supply_consumption = 0.038650000000000004
-			surface_visibility = 1.024286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 6.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03354965625
-			reliability = -0.05
-			naval_speed = -0.046418836883551
-			fuel_consumption = 0.024083333333333325
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_2_x02
-			convert_cost_ic = 716.701
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_2_x03
-			convert_cost_ic = 682.868
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_2_x04
-			convert_cost_ic = 682.868
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_2_x05
-			convert_cost_ic = 682.868
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_2_x06
-			convert_cost_ic = 682.868
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_2_x09
-			convert_cost_ic = 682.868
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2924.8999999999996
-
-	}
 	nrm_cruiser_battery_DP_5_2_x02_CHL_010 = {
 		category = nrm_cruiser_battery_DP_5_x02_CV
 		gui_category = nrm_cruiser_battery_DP_x02
 		sfx = sfx_ui_sd_module_turret
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -5464,66 +2986,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_light_guns }
 		dismantle_cost_ic = 2469.0
-
-	}
-	nrm_cruiser_battery_DP_5_2_x02_AHL_010 = {
-		category = nrm_cruiser_battery_DP_5_x02_CV
-		gui_category = nrm_cruiser_battery_DP_x02
-		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 168
-		add_stats = {
-			build_cost_ic = 888.786
-			max_strength = 7.49998
-			lg_attack = 2.2
-			anti_air_attack = 1.65
-			fuel_consumption = 2.6668
-			supply_consumption = 0.037275
-			surface_visibility = 0.9562860000000001
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 6.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03198715625
-			reliability = -0.04
-			naval_speed = -0.04516883688355101
-			fuel_consumption = 0.017833333333333326
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_2_x02
-			convert_cost_ic = 687.968
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_2_x03
-			convert_cost_ic = 687.968
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_2_x04
-			convert_cost_ic = 687.968
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_2_x05
-			convert_cost_ic = 687.968
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_2_x06
-			convert_cost_ic = 687.968
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_2_x09
-			convert_cost_ic = 687.968
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2543.1
 
 	}
 	nrm_cruiser_battery_DP_5_3_x03_CHL_010 = {
@@ -5533,9 +2995,13 @@ equipment_modules = {
 		parent = nrm_cruiser_battery_DP_5_2_x03_CHL_010
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -5589,67 +3055,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2850.8
 
 	}
-	nrm_cruiser_battery_DP_5_3_x03_AHL_010 = {
-		category = nrm_cruiser_battery_DP_5_x03_CV
-		gui_category = nrm_cruiser_battery_DP_x03
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_DP_5_2_x03_AHL_010
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 180
-		add_stats = {
-			build_cost_ic = 922.786
-			max_strength = 8.49998
-			lg_attack = 3.65
-			anti_air_attack = 2.7
-			fuel_consumption = 2.6668
-			supply_consumption = 0.038650000000000004
-			surface_visibility = 1.024286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 7.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03354965625
-			reliability = -0.05
-			naval_speed = -0.046418836883551
-			fuel_consumption = 0.024083333333333325
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_3_x02
-			convert_cost_ic = 716.701
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_3_x03
-			convert_cost_ic = 682.868
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_3_x04
-			convert_cost_ic = 682.868
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_3_x05
-			convert_cost_ic = 682.868
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_3_x06
-			convert_cost_ic = 682.868
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_3_x09
-			convert_cost_ic = 682.868
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2924.8999999999996
-
-	}
 	nrm_cruiser_battery_DP_5_3_x02_CHL_010 = {
 		category = nrm_cruiser_battery_DP_5_x02_CV
 		gui_category = nrm_cruiser_battery_DP_x02
@@ -5657,9 +3062,13 @@ equipment_modules = {
 		parent = nrm_cruiser_battery_DP_5_2_x02_CHL_010
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -5713,76 +3122,19 @@ equipment_modules = {
 		dismantle_cost_ic = 2469.0
 
 	}
-	nrm_cruiser_battery_DP_5_3_x02_AHL_010 = {
-		category = nrm_cruiser_battery_DP_5_x02_CV
-		gui_category = nrm_cruiser_battery_DP_x02
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_DP_5_2_x02_AHL_010
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 168
-		add_stats = {
-			build_cost_ic = 888.786
-			max_strength = 7.49998
-			lg_attack = 2.425
-			anti_air_attack = 1.8
-			fuel_consumption = 2.6668
-			supply_consumption = 0.037275
-			surface_visibility = 0.9562860000000001
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 7.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03198715625
-			reliability = -0.04
-			naval_speed = -0.04516883688355101
-			fuel_consumption = 0.017833333333333326
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_3_x02
-			convert_cost_ic = 687.968
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_3_x03
-			convert_cost_ic = 687.968
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_3_x04
-			convert_cost_ic = 687.968
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_3_x05
-			convert_cost_ic = 687.968
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_3_x06
-			convert_cost_ic = 687.968
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5_3_x09
-			convert_cost_ic = 687.968
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2543.1
-
-	}
 	nrm_cruiser_battery_DP_5h_2_x03_CHL_010 = {
 		category = nrm_cruiser_battery_DP_5h_x03_CV
 		gui_category = nrm_cruiser_battery_DP_x03
 		sfx = sfx_ui_sd_module_turret
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -5836,75 +3188,19 @@ equipment_modules = {
 		dismantle_cost_ic = 2857.5
 
 	}
-	nrm_cruiser_battery_DP_5h_2_x03_AHL_010 = {
-		category = nrm_cruiser_battery_DP_5h_x03_CV
-		gui_category = nrm_cruiser_battery_DP_x03
-		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 188
-		add_stats = {
-			build_cost_ic = 956.286
-			max_strength = 8.99998
-			lg_attack = 3.7
-			anti_air_attack = 1.85
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0396
-			surface_visibility = 1.0912860000000002
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 8.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.035101218749999996
-			reliability = -0.053000000000000005
-			naval_speed = -0.04766008688355101
-			fuel_consumption = 0.030289583333333325
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_2_x02
-			convert_cost_ic = 722.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_2_x03
-			convert_cost_ic = 677.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_2_x04
-			convert_cost_ic = 677.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_2_x05
-			convert_cost_ic = 677.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_2_x06
-			convert_cost_ic = 677.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_2_x09
-			convert_cost_ic = 677.843
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2931.6
-
-	}
 	nrm_cruiser_battery_DP_5h_2_x02_CHL_010 = {
 		category = nrm_cruiser_battery_DP_5h_x02_CV
 		gui_category = nrm_cruiser_battery_DP_x02
 		sfx = sfx_ui_sd_module_turret
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -5956,66 +3252,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_light_guns }
 		dismantle_cost_ic = 2473.45
-
-	}
-	nrm_cruiser_battery_DP_5h_2_x02_AHL_010 = {
-		category = nrm_cruiser_battery_DP_5h_x02_CV
-		gui_category = nrm_cruiser_battery_DP_x02
-		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 173
-		add_stats = {
-			build_cost_ic = 911.036
-			max_strength = 7.99998
-			lg_attack = 2.475
-			anti_air_attack = 1.25
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0379
-			surface_visibility = 1.0007860000000002
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 8.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03302153125
-			reliability = -0.041999999999999996
-			naval_speed = -0.045996336883551
-			fuel_consumption = 0.021970833333333325
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_2_x02
-			convert_cost_ic = 684.631
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_2_x03
-			convert_cost_ic = 684.631
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_2_x04
-			convert_cost_ic = 684.631
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_2_x05
-			convert_cost_ic = 684.631
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_2_x06
-			convert_cost_ic = 684.631
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_2_x09
-			convert_cost_ic = 684.631
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2547.5499999999997
 
 	}
 	nrm_cruiser_battery_DP_5h_3_x03_CHL_010 = {
@@ -6025,9 +3261,13 @@ equipment_modules = {
 		parent = nrm_cruiser_battery_DP_5h_2_x03_CHL_010
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -6081,67 +3321,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2857.5
 
 	}
-	nrm_cruiser_battery_DP_5h_3_x03_AHL_010 = {
-		category = nrm_cruiser_battery_DP_5h_x03_CV
-		gui_category = nrm_cruiser_battery_DP_x03
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_DP_5h_2_x03_AHL_010
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 188
-		add_stats = {
-			build_cost_ic = 956.286
-			max_strength = 8.99998
-			lg_attack = 4.15
-			anti_air_attack = 2.45
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0396
-			surface_visibility = 1.0912860000000002
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 9.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.035101218749999996
-			reliability = -0.053000000000000005
-			naval_speed = -0.04766008688355101
-			fuel_consumption = 0.030289583333333325
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_3_x02
-			convert_cost_ic = 722.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_3_x03
-			convert_cost_ic = 677.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_3_x04
-			convert_cost_ic = 677.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_3_x05
-			convert_cost_ic = 677.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_3_x06
-			convert_cost_ic = 677.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_3_x09
-			convert_cost_ic = 677.843
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2931.6
-
-	}
 	nrm_cruiser_battery_DP_5h_3_x02_CHL_010 = {
 		category = nrm_cruiser_battery_DP_5h_x02_CV
 		gui_category = nrm_cruiser_battery_DP_x02
@@ -6149,9 +3328,13 @@ equipment_modules = {
 		parent = nrm_cruiser_battery_DP_5h_2_x02_CHL_010
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -6205,76 +3388,19 @@ equipment_modules = {
 		dismantle_cost_ic = 2473.45
 
 	}
-	nrm_cruiser_battery_DP_5h_3_x02_AHL_010 = {
-		category = nrm_cruiser_battery_DP_5h_x02_CV
-		gui_category = nrm_cruiser_battery_DP_x02
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_DP_5h_2_x02_AHL_010
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 173
-		add_stats = {
-			build_cost_ic = 911.036
-			max_strength = 7.99998
-			lg_attack = 2.75
-			anti_air_attack = 1.625
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0379
-			surface_visibility = 1.0007860000000002
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 9.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03302153125
-			reliability = -0.041999999999999996
-			naval_speed = -0.045996336883551
-			fuel_consumption = 0.021970833333333325
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_3_x02
-			convert_cost_ic = 684.631
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_3_x03
-			convert_cost_ic = 684.631
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_3_x04
-			convert_cost_ic = 684.631
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_3_x05
-			convert_cost_ic = 684.631
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_3_x06
-			convert_cost_ic = 684.631
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_5h_3_x09
-			convert_cost_ic = 684.631
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2547.5499999999997
-
-	}
 	nrm_cruiser_battery_DP_6_3_x03_CHL_010 = {
 		category = nrm_cruiser_battery_DP_6_x03_CV
 		gui_category = nrm_cruiser_battery_DP_x03
 		sfx = sfx_ui_sd_module_turret
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -6328,75 +3454,19 @@ equipment_modules = {
 		dismantle_cost_ic = 2865.5
 
 	}
-	nrm_cruiser_battery_DP_6_3_x03_AHL_010 = {
-		category = nrm_cruiser_battery_DP_6_x03_CV
-		gui_category = nrm_cruiser_battery_DP_x03
-		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 197
-		add_stats = {
-			build_cost_ic = 996.286
-			max_strength = 9.99998
-			lg_attack = 4.05
-			anti_air_attack = 2.15
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04065
-			surface_visibility = 1.171286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 11.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03696215625
-			reliability = -0.055999999999999994
-			naval_speed = -0.049148836883551004
-			fuel_consumption = 0.03773333333333333
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_3_x02
-			convert_cost_ic = 730.176
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_3_x03
-			convert_cost_ic = 671.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_3_x04
-			convert_cost_ic = 671.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_3_x05
-			convert_cost_ic = 671.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_3_x06
-			convert_cost_ic = 671.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_3_x09
-			convert_cost_ic = 671.843
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2939.6
-
-	}
 	nrm_cruiser_battery_DP_6_3_x02_CHL_010 = {
 		category = nrm_cruiser_battery_DP_6_x02_CV
 		gui_category = nrm_cruiser_battery_DP_x02
 		sfx = sfx_ui_sd_module_turret
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -6448,66 +3518,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_light_guns }
 		dismantle_cost_ic = 2478.85
-
-	}
-	nrm_cruiser_battery_DP_6_3_x02_AHL_010 = {
-		category = nrm_cruiser_battery_DP_6_x02_CV
-		gui_category = nrm_cruiser_battery_DP_x02
-		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 179
-		add_stats = {
-			build_cost_ic = 938.036
-			max_strength = 8.74998
-			lg_attack = 2.7
-			anti_air_attack = 1.45
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0386
-			surface_visibility = 1.054786
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 11.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03426215625
-			reliability = -0.044
-			naval_speed = -0.046988836883551
-			fuel_consumption = 0.026933333333333326
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_3_x02
-			convert_cost_ic = 680.581
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_3_x03
-			convert_cost_ic = 680.581
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_3_x04
-			convert_cost_ic = 680.581
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_3_x05
-			convert_cost_ic = 680.581
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_3_x06
-			convert_cost_ic = 680.581
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_3_x09
-			convert_cost_ic = 680.581
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2552.95
 
 	}
 	nrm_cruiser_battery_DP_6_4_x03_CHL_010 = {
@@ -6517,9 +3527,13 @@ equipment_modules = {
 		parent = nrm_cruiser_battery_DP_6_3_x03_CHL_010
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -6576,70 +3590,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2865.5
 
 	}
-	nrm_cruiser_battery_DP_6_4_x03_AHL_010 = {
-		category = nrm_cruiser_battery_DP_6_x03_CV
-		gui_category = nrm_cruiser_battery_DP_x03
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_DP_6_3_x03_AHL_010
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 197
-		add_stats = {
-			build_cost_ic = 996.286
-			max_strength = 9.99998
-			lg_attack = 5.1
-			anti_air_attack = 2.8
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04065
-			surface_visibility = 1.171286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 11.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03696215625
-			reliability = -0.055999999999999994
-			naval_speed = -0.049148836883551004
-			fuel_consumption = 0.03773333333333333
-		}
-		build_cost_resources = {
-			chromium = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_4_x02
-			convert_cost_ic = 730.176
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_4_x03
-			convert_cost_ic = 671.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_4_x04
-			convert_cost_ic = 671.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_4_x05
-			convert_cost_ic = 671.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_4_x06
-			convert_cost_ic = 671.843
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_4_x09
-			convert_cost_ic = 671.843
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2939.6
-
-	}
 	nrm_cruiser_battery_DP_6_4_x02_CHL_010 = {
 		category = nrm_cruiser_battery_DP_6_x02_CV
 		gui_category = nrm_cruiser_battery_DP_x02
@@ -6647,9 +3597,13 @@ equipment_modules = {
 		parent = nrm_cruiser_battery_DP_6_3_x02_CHL_010
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -6704,70 +3658,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_light_guns }
 		dismantle_cost_ic = 2478.85
-
-	}
-	nrm_cruiser_battery_DP_6_4_x02_AHL_010 = {
-		category = nrm_cruiser_battery_DP_6_x02_CV
-		gui_category = nrm_cruiser_battery_DP_x02
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_DP_6_3_x02_AHL_010
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 179
-		add_stats = {
-			build_cost_ic = 938.036
-			max_strength = 8.74998
-			lg_attack = 3.425
-			anti_air_attack = 1.875
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0386
-			surface_visibility = 1.054786
-			carrier_size = 8
-		}
-		add_average_stats = {
-			lg_armor_piercing = 11.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.03426215625
-			reliability = -0.044
-			naval_speed = -0.046988836883551
-			fuel_consumption = 0.026933333333333326
-		}
-		build_cost_resources = {
-			chromium = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_4_x02
-			convert_cost_ic = 680.581
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_4_x03
-			convert_cost_ic = 680.581
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_4_x04
-			convert_cost_ic = 680.581
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_4_x05
-			convert_cost_ic = 680.581
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_4_x06
-			convert_cost_ic = 680.581
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_DP_6_4_x09
-			convert_cost_ic = 680.581
-		}
-		critical_parts = { damaged_light_guns }
-		dismantle_cost_ic = 2552.95
 
 	}
 	nrm_cruiser_battery_PB_11_1_2x1_CHL_010 = {
@@ -6778,9 +3668,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -6828,62 +3722,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2889.7
 
 	}
-	nrm_cruiser_battery_PB_11_1_2x1_AHL_010 = {
-		category = nrm_cruiser_battery_PB_11_2x1_CV
-		gui_category = nrm_cruiser_battery_PB_2x1
-		sfx = sfx_ui_sd_module_turret
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 203
-		add_stats = {
-			build_cost_ic = 1117.286
-			max_strength = 14.49998
-			hg_attack = 4.5
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04385
-			surface_visibility = 1.413286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 22.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.05215465625
-			reliability = -0.064
-			naval_speed = -0.071468836883551
-			fuel_consumption = 0.13843333333333332
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_1_2x1
-			convert_cost_ic = 653.693
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_1_2x2
-			convert_cost_ic = 653.693
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_1_2x3
-			convert_cost_ic = 653.693
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_1_2x4
-			convert_cost_ic = 653.693
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 2963.8
-
-	}
 	nrm_cruiser_battery_PB_11_1_3x1_CHL_010 = {
 		category = nrm_cruiser_battery_PB_11_3x1_CV
 		gui_category = nrm_cruiser_battery_PB_3x1
@@ -6892,9 +3730,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -6938,58 +3780,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2919.2
 
 	}
-	nrm_cruiser_battery_PB_11_1_3x1_AHL_010 = {
-		category = nrm_cruiser_battery_PB_11_3x1_CV
-		gui_category = nrm_cruiser_battery_PB_3x1
-		sfx = sfx_ui_sd_module_turret
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 234
-		add_stats = {
-			build_cost_ic = 1264.786
-			max_strength = 18.49998
-			hg_attack = 6.75
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04855
-			surface_visibility = 1.7082860000000002
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 22.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.06380090625
-			reliability = -0.08600000000000001
-			naval_speed = -0.08586883688355101
-			fuel_consumption = 0.20498333333333332
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_1_3x1
-			convert_cost_ic = 631.568
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_1_3x2
-			convert_cost_ic = 631.568
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_1_3x3
-			convert_cost_ic = 631.568
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 2993.3
-
-	}
 	nrm_cruiser_battery_PB_11_1_4x1_CHL_010 = {
 		category = nrm_cruiser_battery_PB_11_4x1_CV
 		gui_category = nrm_cruiser_battery_PB_4x1
@@ -6998,9 +3788,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -7038,54 +3832,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 		dismantle_cost_ic = 2948.8
-
-	}
-	nrm_cruiser_battery_PB_11_1_4x1_AHL_010 = {
-		category = nrm_cruiser_battery_PB_11_4x1_CV
-		gui_category = nrm_cruiser_battery_PB_4x1
-		sfx = sfx_ui_sd_module_turret
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 264
-		add_stats = {
-			build_cost_ic = 1412.786
-			max_strength = 22.49998
-			hg_attack = 9.0
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0532
-			surface_visibility = 2.004286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 22.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.07544715625000001
-			reliability = -0.108
-			naval_speed = -0.10026883688355101
-			fuel_consumption = 0.2715333333333333
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_1_4x1
-			convert_cost_ic = 609.368
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_1_4x2
-			convert_cost_ic = 609.368
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3022.8999999999996
 
 	}
 	nrm_cruiser_battery_PB_11_2_2x1_CHL_010 = {
@@ -7097,9 +3843,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -7145,63 +3895,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 		dismantle_cost_ic = 2889.7
-
-	}
-	nrm_cruiser_battery_PB_11_2_2x1_AHL_010 = {
-		category = nrm_cruiser_battery_PB_11_2x1_CV
-		gui_category = nrm_cruiser_battery_PB_2x1
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_11_1_2x1_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 203
-		add_stats = {
-			build_cost_ic = 1117.286
-			max_strength = 14.49998
-			hg_attack = 5.05
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04385
-			surface_visibility = 1.413286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 24.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.05215465625
-			reliability = -0.064
-			naval_speed = -0.071468836883551
-			fuel_consumption = 0.13843333333333332
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_2_2x1
-			convert_cost_ic = 653.693
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_2_2x2
-			convert_cost_ic = 653.693
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_2_2x3
-			convert_cost_ic = 653.693
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_2_2x4
-			convert_cost_ic = 653.693
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 2963.8
 
 	}
 	nrm_cruiser_battery_PB_11_2_3x1_CHL_010 = {
@@ -7213,9 +3906,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -7259,59 +3956,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2919.2
 
 	}
-	nrm_cruiser_battery_PB_11_2_3x1_AHL_010 = {
-		category = nrm_cruiser_battery_PB_11_3x1_CV
-		gui_category = nrm_cruiser_battery_PB_3x1
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_11_1_3x1_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 234
-		add_stats = {
-			build_cost_ic = 1264.786
-			max_strength = 18.49998
-			hg_attack = 7.6
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04855
-			surface_visibility = 1.7082860000000002
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 24.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.06380090625
-			reliability = -0.08600000000000001
-			naval_speed = -0.08586883688355101
-			fuel_consumption = 0.20498333333333332
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_2_3x1
-			convert_cost_ic = 631.568
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_2_3x2
-			convert_cost_ic = 631.568
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_2_3x3
-			convert_cost_ic = 631.568
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 2993.3
-
-	}
 	nrm_cruiser_battery_PB_11_2_4x1_CHL_010 = {
 		category = nrm_cruiser_battery_PB_11_4x1_CV
 		gui_category = nrm_cruiser_battery_PB_4x1
@@ -7321,9 +3965,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -7363,55 +4011,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2948.8
 
 	}
-	nrm_cruiser_battery_PB_11_2_4x1_AHL_010 = {
-		category = nrm_cruiser_battery_PB_11_4x1_CV
-		gui_category = nrm_cruiser_battery_PB_4x1
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_11_1_4x1_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 264
-		add_stats = {
-			build_cost_ic = 1412.786
-			max_strength = 22.49998
-			hg_attack = 10.1
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0532
-			surface_visibility = 2.004286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 24.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.07544715625000001
-			reliability = -0.108
-			naval_speed = -0.10026883688355101
-			fuel_consumption = 0.2715333333333333
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_2_4x1
-			convert_cost_ic = 609.368
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_2_4x2
-			convert_cost_ic = 609.368
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3022.8999999999996
-
-	}
 	nrm_cruiser_battery_PB_11_3_2x1_CHL_010 = {
 		category = nrm_cruiser_battery_PB_11_2x1_CV
 		gui_category = nrm_cruiser_battery_PB_2x1
@@ -7421,9 +4020,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -7472,64 +4075,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2889.7
 
 	}
-	nrm_cruiser_battery_PB_11_3_2x1_AHL_010 = {
-		category = nrm_cruiser_battery_PB_11_2x1_CV
-		gui_category = nrm_cruiser_battery_PB_2x1
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_11_2_2x1_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 203
-		add_stats = {
-			build_cost_ic = 1117.286
-			max_strength = 14.49998
-			hg_attack = 5.6
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04385
-			surface_visibility = 1.413286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 26.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.05215465625
-			reliability = -0.064
-			naval_speed = -0.071468836883551
-			fuel_consumption = 0.13843333333333332
-		}
-		build_cost_resources = {
-			steel = 1
-			chromium = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_3_2x1
-			convert_cost_ic = 653.693
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_3_2x2
-			convert_cost_ic = 653.693
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_3_2x3
-			convert_cost_ic = 653.693
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_3_2x4
-			convert_cost_ic = 653.693
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 2963.8
-
-	}
 	nrm_cruiser_battery_PB_11_3_3x1_CHL_010 = {
 		category = nrm_cruiser_battery_PB_11_3x1_CV
 		gui_category = nrm_cruiser_battery_PB_3x1
@@ -7539,9 +4084,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -7586,60 +4135,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2919.2
 
 	}
-	nrm_cruiser_battery_PB_11_3_3x1_AHL_010 = {
-		category = nrm_cruiser_battery_PB_11_3x1_CV
-		gui_category = nrm_cruiser_battery_PB_3x1
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_11_2_3x1_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 234
-		add_stats = {
-			build_cost_ic = 1264.786
-			max_strength = 18.49998
-			hg_attack = 8.4
-			fuel_consumption = 2.6668
-			supply_consumption = 0.04855
-			surface_visibility = 1.7082860000000002
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 26.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.06380090625
-			reliability = -0.08600000000000001
-			naval_speed = -0.08586883688355101
-			fuel_consumption = 0.20498333333333332
-		}
-		build_cost_resources = {
-			steel = 1
-			chromium = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_3_3x1
-			convert_cost_ic = 631.568
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_3_3x2
-			convert_cost_ic = 631.568
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_3_3x3
-			convert_cost_ic = 631.568
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 2993.3
-
-	}
 	nrm_cruiser_battery_PB_11_3_4x1_CHL_010 = {
 		category = nrm_cruiser_battery_PB_11_4x1_CV
 		gui_category = nrm_cruiser_battery_PB_4x1
@@ -7649,9 +4144,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -7692,56 +4191,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2948.8
 
 	}
-	nrm_cruiser_battery_PB_11_3_4x1_AHL_010 = {
-		category = nrm_cruiser_battery_PB_11_4x1_CV
-		gui_category = nrm_cruiser_battery_PB_4x1
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_11_2_4x1_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 264
-		add_stats = {
-			build_cost_ic = 1412.786
-			max_strength = 22.49998
-			hg_attack = 11.25
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0532
-			surface_visibility = 2.004286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 26.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.07544715625000001
-			reliability = -0.108
-			naval_speed = -0.10026883688355101
-			fuel_consumption = 0.2715333333333333
-		}
-		build_cost_resources = {
-			steel = 1
-			chromium = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_3_4x1
-			convert_cost_ic = 609.368
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_11_3_4x2
-			convert_cost_ic = 609.368
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3022.8999999999996
-
-	}
 	nrm_cruiser_battery_PB_12_1_2x1_CHL_010 = {
 		category = nrm_cruiser_battery_PB_12_2x1_CV
 		gui_category = nrm_cruiser_battery_PB_2x1
@@ -7751,9 +4200,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -7799,63 +4252,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 		dismantle_cost_ic = 2907.3
-
-	}
-	nrm_cruiser_battery_PB_12_1_2x1_AHL_010 = {
-		category = nrm_cruiser_battery_PB_12_2x1_CV
-		gui_category = nrm_cruiser_battery_PB_2x1
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_11_3_2x1_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 215
-		add_stats = {
-			build_cost_ic = 1205.286
-			max_strength = 16.99998
-			hg_attack = 5.2
-			fuel_consumption = 2.6668
-			supply_consumption = 0.045950000000000005
-			surface_visibility = 1.589286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 24.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.059102156249999996
-			reliability = -0.068
-			naval_speed = -0.07522092021688435
-			fuel_consumption = 0.17813333333333334
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_1_2x1
-			convert_cost_ic = 640.493
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_1_2x2
-			convert_cost_ic = 640.493
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_1_2x3
-			convert_cost_ic = 640.493
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_1_2x4
-			convert_cost_ic = 640.493
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 2981.3999999999996
 
 	}
 	nrm_cruiser_battery_PB_12_1_3x1_CHL_010 = {
@@ -7867,9 +4263,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -7911,59 +4311,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 		dismantle_cost_ic = 2945.7
-
-	}
-	nrm_cruiser_battery_PB_12_1_3x1_AHL_010 = {
-		category = nrm_cruiser_battery_PB_12_3x1_CV
-		gui_category = nrm_cruiser_battery_PB_3x1
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_11_3_3x1_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 251
-		add_stats = {
-			build_cost_ic = 1397.286
-			max_strength = 21.99998
-			hg_attack = 7.8
-			fuel_consumption = 2.6668
-			supply_consumption = 0.051750000000000004
-			surface_visibility = 1.9732859999999999
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 24.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.07422215625
-			reliability = -0.092
-			naval_speed = -0.091496961883551
-			fuel_consumption = 0.2645333333333333
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_1_3x1
-			convert_cost_ic = 611.693
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_1_3x2
-			convert_cost_ic = 611.693
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_1_3x3
-			convert_cost_ic = 611.693
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3019.8
 
 	}
 	nrm_cruiser_battery_PB_12_1_4x1_CHL_010 = {
@@ -7975,9 +4322,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -8015,55 +4366,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 		dismantle_cost_ic = 2984.1
-
-	}
-	nrm_cruiser_battery_PB_12_1_4x1_AHL_010 = {
-		category = nrm_cruiser_battery_PB_12_4x1_CV
-		gui_category = nrm_cruiser_battery_PB_4x1
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_11_3_4x1_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 287
-		add_stats = {
-			build_cost_ic = 1589.286
-			max_strength = 27.49998
-			hg_attack = 10.35
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0575
-			surface_visibility = 2.357286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 24.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.08934215625
-			reliability = -0.116
-			naval_speed = -0.10777300355021752
-			fuel_consumption = 0.3509333333333333
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_1_4x1
-			convert_cost_ic = 582.893
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_1_4x2
-			convert_cost_ic = 582.893
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3058.2
 
 	}
 	nrm_cruiser_battery_PB_12_2_2x1_CHL_010 = {
@@ -8075,9 +4377,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -8125,63 +4431,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2907.3
 
 	}
-	nrm_cruiser_battery_PB_12_2_2x1_AHL_010 = {
-		category = nrm_cruiser_battery_PB_12_2x1_CV
-		gui_category = nrm_cruiser_battery_PB_2x1
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_12_1_2x1_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 215
-		add_stats = {
-			build_cost_ic = 1205.286
-			max_strength = 16.99998
-			hg_attack = 5.85
-			fuel_consumption = 2.6668
-			supply_consumption = 0.045950000000000005
-			surface_visibility = 1.589286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 26.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.059102156249999996
-			reliability = -0.068
-			naval_speed = -0.07522092021688435
-			fuel_consumption = 0.17813333333333334
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_2_2x1
-			convert_cost_ic = 640.493
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_2_2x2
-			convert_cost_ic = 640.493
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_2_2x3
-			convert_cost_ic = 640.493
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_2_2x4
-			convert_cost_ic = 640.493
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 2981.3999999999996
-
-	}
 	nrm_cruiser_battery_PB_12_2_3x1_CHL_010 = {
 		category = nrm_cruiser_battery_PB_12_3x1_CV
 		gui_category = nrm_cruiser_battery_PB_3x1
@@ -8191,9 +4440,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -8237,59 +4490,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2945.7
 
 	}
-	nrm_cruiser_battery_PB_12_2_3x1_AHL_010 = {
-		category = nrm_cruiser_battery_PB_12_3x1_CV
-		gui_category = nrm_cruiser_battery_PB_3x1
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_12_1_3x1_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 251
-		add_stats = {
-			build_cost_ic = 1397.286
-			max_strength = 21.99998
-			hg_attack = 8.75
-			fuel_consumption = 2.6668
-			supply_consumption = 0.051750000000000004
-			surface_visibility = 1.9732859999999999
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 26.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.07422215625
-			reliability = -0.092
-			naval_speed = -0.091496961883551
-			fuel_consumption = 0.2645333333333333
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_2_3x1
-			convert_cost_ic = 611.693
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_2_3x2
-			convert_cost_ic = 611.693
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_2_3x3
-			convert_cost_ic = 611.693
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3019.8
-
-	}
 	nrm_cruiser_battery_PB_12_2_4x1_CHL_010 = {
 		category = nrm_cruiser_battery_PB_12_4x1_CV
 		gui_category = nrm_cruiser_battery_PB_4x1
@@ -8299,9 +4499,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -8341,55 +4545,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2984.1
 
 	}
-	nrm_cruiser_battery_PB_12_2_4x1_AHL_010 = {
-		category = nrm_cruiser_battery_PB_12_4x1_CV
-		gui_category = nrm_cruiser_battery_PB_4x1
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_12_1_4x1_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 287
-		add_stats = {
-			build_cost_ic = 1589.286
-			max_strength = 27.49998
-			hg_attack = 11.65
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0575
-			surface_visibility = 2.357286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 26.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.08934215625
-			reliability = -0.116
-			naval_speed = -0.10777300355021752
-			fuel_consumption = 0.3509333333333333
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_2_4x1
-			convert_cost_ic = 582.893
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_2_4x2
-			convert_cost_ic = 582.893
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3058.2
-
-	}
 	nrm_cruiser_battery_PB_12_3_2x1_CHL_010 = {
 		category = nrm_cruiser_battery_PB_12_2x1_CV
 		gui_category = nrm_cruiser_battery_PB_2x1
@@ -8399,9 +4554,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -8450,64 +4609,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2907.3
 
 	}
-	nrm_cruiser_battery_PB_12_3_2x1_AHL_010 = {
-		category = nrm_cruiser_battery_PB_12_2x1_CV
-		gui_category = nrm_cruiser_battery_PB_2x1
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_12_2_2x1_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 215
-		add_stats = {
-			build_cost_ic = 1205.286
-			max_strength = 16.99998
-			hg_attack = 6.5
-			fuel_consumption = 2.6668
-			supply_consumption = 0.045950000000000005
-			surface_visibility = 1.589286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 28.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.059102156249999996
-			reliability = -0.068
-			naval_speed = -0.07522092021688435
-			fuel_consumption = 0.17813333333333334
-		}
-		build_cost_resources = {
-			steel = 1
-			chromium = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_3_2x1
-			convert_cost_ic = 640.493
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_3_2x2
-			convert_cost_ic = 640.493
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_3_2x3
-			convert_cost_ic = 640.493
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_3_2x4
-			convert_cost_ic = 640.493
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 2981.3999999999996
-
-	}
 	nrm_cruiser_battery_PB_12_3_3x1_CHL_010 = {
 		category = nrm_cruiser_battery_PB_12_3x1_CV
 		gui_category = nrm_cruiser_battery_PB_3x1
@@ -8517,9 +4618,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -8564,60 +4669,6 @@ equipment_modules = {
 		dismantle_cost_ic = 2945.7
 
 	}
-	nrm_cruiser_battery_PB_12_3_3x1_AHL_010 = {
-		category = nrm_cruiser_battery_PB_12_3x1_CV
-		gui_category = nrm_cruiser_battery_PB_3x1
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_12_2_3x1_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 251
-		add_stats = {
-			build_cost_ic = 1397.286
-			max_strength = 21.99998
-			hg_attack = 9.7
-			fuel_consumption = 2.6668
-			supply_consumption = 0.051750000000000004
-			surface_visibility = 1.9732859999999999
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 28.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.07422215625
-			reliability = -0.092
-			naval_speed = -0.091496961883551
-			fuel_consumption = 0.2645333333333333
-		}
-		build_cost_resources = {
-			steel = 1
-			chromium = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_3_3x1
-			convert_cost_ic = 611.693
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_3_3x2
-			convert_cost_ic = 611.693
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_3_3x3
-			convert_cost_ic = 611.693
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3019.8
-
-	}
 	nrm_cruiser_battery_PB_12_3_4x1_CHL_010 = {
 		category = nrm_cruiser_battery_PB_12_4x1_CV
 		gui_category = nrm_cruiser_battery_PB_4x1
@@ -8627,9 +4678,13 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 
 		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
 			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_ASW
 			}
 		}
 
@@ -8668,56 +4723,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 		dismantle_cost_ic = 2954.9
-
-	}
-	nrm_cruiser_battery_PB_12_3_4x1_AHL_010 = {
-		category = nrm_cruiser_battery_PB_12_4x1_CV
-		gui_category = nrm_cruiser_battery_PB_4x1
-		sfx = sfx_ui_sd_module_turret
-		parent = nrm_cruiser_battery_PB_12_2_4x1_AHL_010
-
-		add_equipment_type = capital_ship
-
-		allowed_module_categories = {
-			custom_slot_2 = {
-				Lic_short_deck_hanger_1
-				Lic_short_deck_asw_1
-			}
-		}
-
-		manpower = 287
-		add_stats = {
-			build_cost_ic = 1589.286
-			max_strength = 27.49998
-			hg_attack = 12.95
-			fuel_consumption = 2.6668
-			supply_consumption = 0.0575
-			surface_visibility = 2.357286
-			carrier_size = 8
-		}
-		add_average_stats = {
-			hg_armor_piercing = 28.0
-		}
-		multiply_stats = {
-			build_cost_ic = 0.08934215625
-			reliability = -0.116
-			naval_speed = -0.10777300355021752
-			fuel_consumption = 0.3509333333333333
-		}
-		build_cost_resources = {
-			steel = 1
-			chromium = 1
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_3_4x1
-			convert_cost_ic = 582.893
-		}
-		can_convert_from = {
-			module = nrm_cruiser_battery_PB_12_3_4x2
-			convert_cost_ic = 582.893
-		}
-		critical_parts = { damaged_heavy_guns }
-		dismantle_cost_ic = 3029.0
 
 	}
 }

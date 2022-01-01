@@ -6,28 +6,13 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_8_1_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_8_2_x02_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_8_2_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_8_3_x02_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_8_3_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -36,18 +21,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_11_1_2x2_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_PB_11_1_3x2_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_11_1_3x2_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -56,18 +31,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_11_2_2x2_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_PB_11_2_3x2_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_11_2_3x2_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -76,18 +41,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_11_3_2x2_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_PB_11_3_3x2_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_11_3_3x2_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -96,18 +51,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_12_1_2x2_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_PB_12_1_3x2_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_12_1_3x2_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -116,18 +61,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_12_2_2x2_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_PB_12_2_3x2_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_12_2_3x2_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -136,18 +71,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_12_3_2x2_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_PB_12_3_3x2_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_12_3_3x2_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -156,18 +81,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_5_1_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_5_1_x03_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_5_1_x03_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -176,18 +91,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_5_2_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_5_2_x03_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_5_2_x03_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -196,18 +101,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_5_3_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_5_3_x03_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_5_3_x03_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -216,18 +111,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_5h_1_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_5h_1_x03_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_5h_1_x03_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -236,18 +121,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_5h_2_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_5h_2_x03_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_5h_2_x03_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -256,18 +131,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_5h_3_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_5h_3_x03_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_5h_3_x03_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -276,18 +141,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_6_1_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_6_1_x03_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_6_1_x03_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -296,18 +151,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_6_2_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_6_2_x03_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_6_2_x03_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -316,18 +161,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_6_3_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_6_3_x03_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_6_3_x03_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -336,18 +171,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_6_4_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_6_4_x03_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_6_4_x03_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -356,18 +181,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_8_1_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_8_1_x03_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_8_1_x03_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -376,18 +191,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_8_2_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_8_2_x03_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_8_2_x03_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -396,18 +201,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_8_3_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_8_3_x03_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_8_3_x03_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -416,18 +211,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_8_4_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_8_4_x03_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_8_4_x03_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -436,18 +221,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_DP_5_2_x03_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_DP_5_2_x02_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_DP_5_2_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -456,18 +231,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_DP_5_3_x03_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_DP_5_3_x02_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_DP_5_3_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -476,18 +241,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_DP_5h_2_x03_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_DP_5h_2_x02_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_DP_5h_2_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -496,18 +251,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_DP_5h_3_x03_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_DP_5h_3_x02_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_DP_5h_3_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -516,18 +261,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_DP_6_3_x03_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_DP_6_3_x02_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_DP_6_3_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -536,18 +271,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_DP_6_4_x03_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_DP_6_4_x02_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_DP_6_4_x02_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -556,18 +281,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_11_1_2x1_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_PB_11_1_3x1_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_11_1_3x1_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -576,18 +291,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_11_1_4x1_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_PB_11_2_2x1_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_11_2_2x1_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -596,18 +301,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_11_2_3x1_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_PB_11_2_4x1_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_11_2_4x1_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -616,18 +311,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_11_3_2x1_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_PB_11_3_3x1_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_11_3_3x1_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -636,18 +321,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_11_3_4x1_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_PB_12_1_2x1_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_12_1_2x1_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -656,18 +331,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_12_1_3x1_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_PB_12_1_4x1_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_12_1_4x1_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -676,18 +341,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_12_2_2x1_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_PB_12_2_3x1_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_12_2_3x1_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -696,18 +351,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_12_2_4x1_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_PB_12_3_2x1_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_12_3_2x1_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 	spriteType = {
@@ -716,18 +361,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_12_3_3x1_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SMI_nrm_cruiser_battery_PB_12_3_4x1_CHL_010"
 		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_10.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_nrm_cruiser_battery_PB_12_3_4x1_AHL_010"
-		textureFile = "gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_a10.dds"
 	}
 
 }
