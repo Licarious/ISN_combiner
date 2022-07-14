@@ -14,6 +14,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -87,6 +88,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -160,6 +162,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -232,6 +235,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -294,6 +298,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -353,6 +358,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -416,6 +422,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -475,6 +482,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -539,6 +547,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -599,6 +608,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -662,6 +672,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -721,6 +732,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -784,6 +796,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -843,6 +856,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -907,6 +921,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -964,6 +979,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -1029,6 +1045,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -1095,6 +1112,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -1161,6 +1179,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -1227,6 +1246,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -1293,6 +1313,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -1358,6 +1379,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -1423,6 +1445,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -1489,6 +1512,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -1555,6 +1579,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -1621,6 +1646,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -1687,6 +1713,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -1752,6 +1779,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -1817,6 +1845,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -1883,6 +1912,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -1949,6 +1979,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -2015,6 +2046,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -2081,6 +2113,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -2147,6 +2180,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -2216,6 +2250,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -2286,6 +2321,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -2358,6 +2394,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -2431,6 +2468,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -2504,6 +2542,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -2577,6 +2616,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -2650,6 +2690,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -2723,6 +2764,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -2797,6 +2839,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -2868,6 +2911,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -2934,6 +2978,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -3001,6 +3046,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -3068,6 +3114,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -3134,6 +3181,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -3200,6 +3248,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -3267,6 +3316,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -3334,6 +3384,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -3400,6 +3451,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -3466,6 +3518,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -3533,6 +3586,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -3603,6 +3657,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -3674,6 +3729,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -3736,6 +3792,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -3794,6 +3851,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -3849,6 +3907,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -3912,6 +3971,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -3971,6 +4031,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -4026,6 +4087,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -4090,6 +4152,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -4150,6 +4213,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -4206,6 +4270,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -4269,6 +4334,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -4328,6 +4394,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -4383,6 +4450,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -4446,6 +4514,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -4505,6 +4574,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -4560,6 +4630,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -4624,6 +4695,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}
@@ -4684,6 +4756,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
 			}
 		}

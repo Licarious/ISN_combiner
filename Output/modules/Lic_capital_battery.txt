@@ -558,7 +558,7 @@ equipment_modules = {
 		category = nrm_capital_battery_11_3x1_2x1
 		gui_category = nrm_capital_battery_3x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_11_1_3x1_2x1
+		parent = nrm_capital_battery_11_1_a3x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -587,7 +587,7 @@ equipment_modules = {
 		category = nrm_capital_battery_11_4x1_2x1
 		gui_category = nrm_capital_battery_4x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_11_1_4x1_2x1
+		parent = nrm_capital_battery_11_1_a4x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -616,7 +616,7 @@ equipment_modules = {
 		category = nrm_capital_battery_11_3x1_2x1
 		gui_category = nrm_capital_battery_3x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_11_2_3x1_2x1
+		parent = nrm_capital_battery_11_2_a3x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -648,7 +648,7 @@ equipment_modules = {
 		category = nrm_capital_battery_11_4x1_2x1
 		gui_category = nrm_capital_battery_4x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_11_2_4x1_2x1
+		parent = nrm_capital_battery_11_2_a4x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -736,7 +736,7 @@ equipment_modules = {
 		category = nrm_capital_battery_12_3x1_2x1
 		gui_category = nrm_capital_battery_3x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_12_1_3x1_2x1
+		parent = nrm_capital_battery_12_1_a3x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -765,7 +765,7 @@ equipment_modules = {
 		category = nrm_capital_battery_12_4x1_2x1
 		gui_category = nrm_capital_battery_4x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_12_1_4x1_2x1
+		parent = nrm_capital_battery_12_1_a4x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -794,7 +794,7 @@ equipment_modules = {
 		category = nrm_capital_battery_12_3x1_2x1
 		gui_category = nrm_capital_battery_3x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_12_2_3x1_2x1
+		parent = nrm_capital_battery_12_2_a3x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -826,7 +826,7 @@ equipment_modules = {
 		category = nrm_capital_battery_12_4x1_2x1
 		gui_category = nrm_capital_battery_4x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_12_2_4x1_2x1
+		parent = nrm_capital_battery_12_2_a4x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -914,7 +914,7 @@ equipment_modules = {
 		category = nrm_capital_battery_13_3x1_2x1
 		gui_category = nrm_capital_battery_3x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_13_1_3x1_2x1
+		parent = nrm_capital_battery_13_1_a3x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -943,7 +943,7 @@ equipment_modules = {
 		category = nrm_capital_battery_13_4x1_2x1
 		gui_category = nrm_capital_battery_4x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_13_1_4x1_2x1
+		parent = nrm_capital_battery_13_1_a4x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -972,7 +972,7 @@ equipment_modules = {
 		category = nrm_capital_battery_13_3x1_2x1
 		gui_category = nrm_capital_battery_3x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_13_2_3x1_2x1
+		parent = nrm_capital_battery_13_2_a3x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -1004,7 +1004,7 @@ equipment_modules = {
 		category = nrm_capital_battery_13_4x1_2x1
 		gui_category = nrm_capital_battery_4x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_13_2_4x1_2x1
+		parent = nrm_capital_battery_13_2_a4x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -1092,7 +1092,7 @@ equipment_modules = {
 		category = nrm_capital_battery_14_3x1_2x1
 		gui_category = nrm_capital_battery_3x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_14_1_3x1_2x1
+		parent = nrm_capital_battery_14_1_a3x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -1121,7 +1121,7 @@ equipment_modules = {
 		category = nrm_capital_battery_14_4x1_2x1
 		gui_category = nrm_capital_battery_4x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_14_1_4x1_2x1
+		parent = nrm_capital_battery_14_1_a4x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -1150,7 +1150,7 @@ equipment_modules = {
 		category = nrm_capital_battery_14_3x1_2x1
 		gui_category = nrm_capital_battery_3x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_14_2_3x1_2x1
+		parent = nrm_capital_battery_14_2_a3x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -1182,7 +1182,7 @@ equipment_modules = {
 		category = nrm_capital_battery_14_4x1_2x1
 		gui_category = nrm_capital_battery_4x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_14_2_4x1_2x1
+		parent = nrm_capital_battery_14_2_a4x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -1276,7 +1276,7 @@ equipment_modules = {
 		category = nrm_capital_battery_15_3x1_2x1
 		gui_category = nrm_capital_battery_3x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_15_1_3x1_2x1
+		parent = nrm_capital_battery_15_1_a3x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -1308,7 +1308,7 @@ equipment_modules = {
 		category = nrm_capital_battery_15_4x1_2x1
 		gui_category = nrm_capital_battery_4x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_15_1_4x1_2x1
+		parent = nrm_capital_battery_15_1_a4x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -1340,7 +1340,7 @@ equipment_modules = {
 		category = nrm_capital_battery_15_3x1_2x1
 		gui_category = nrm_capital_battery_3x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_15_2_3x1_2x1
+		parent = nrm_capital_battery_15_2_a3x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -1373,7 +1373,7 @@ equipment_modules = {
 		category = nrm_capital_battery_15_4x1_2x1
 		gui_category = nrm_capital_battery_4x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_15_2_4x1_2x1
+		parent = nrm_capital_battery_15_2_a4x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -1468,7 +1468,7 @@ equipment_modules = {
 		category = nrm_capital_battery_16_3x1_2x1
 		gui_category = nrm_capital_battery_3x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_16_1_3x1_2x1
+		parent = nrm_capital_battery_16_1_a3x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -1500,7 +1500,7 @@ equipment_modules = {
 		category = nrm_capital_battery_16_4x1_2x1
 		gui_category = nrm_capital_battery_4x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_16_1_4x1_2x1
+		parent = nrm_capital_battery_16_1_a4x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -1532,7 +1532,7 @@ equipment_modules = {
 		category = nrm_capital_battery_16_3x1_2x1
 		gui_category = nrm_capital_battery_3x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_16_2_3x1_2x1
+		parent = nrm_capital_battery_16_2_a3x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -1565,7 +1565,7 @@ equipment_modules = {
 		category = nrm_capital_battery_16_4x1_2x1
 		gui_category = nrm_capital_battery_4x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_16_2_4x1_2x1
+		parent = nrm_capital_battery_16_2_a4x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -1660,7 +1660,7 @@ equipment_modules = {
 		category = nrm_capital_battery_18_3x1_2x1
 		gui_category = nrm_capital_battery_3x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_18_2_3x1_2x1
+		parent = nrm_capital_battery_18_2_a3x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -1693,7 +1693,7 @@ equipment_modules = {
 		category = nrm_capital_battery_18_4x1_2x1
 		gui_category = nrm_capital_battery_4x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_18_2_4x1_2x1
+		parent = nrm_capital_battery_18_2_a4x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -1788,7 +1788,7 @@ equipment_modules = {
 		category = nrm_capital_battery_20_3x1_2x1
 		gui_category = nrm_capital_battery_3x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_20_2_3x1_2x1
+		parent = nrm_capital_battery_20_2_a3x1_2x1
 
 		add_equipment_type = capital_ship
 
@@ -1821,7 +1821,7 @@ equipment_modules = {
 		category = nrm_capital_battery_20_4x1_2x1
 		gui_category = nrm_capital_battery_4x1_2x1
 		sfx = sfx_ui_sd_module_turret
-		parent = nrm_capital_battery_20_2_4x1_2x1
+		parent = nrm_capital_battery_20_2_a4x1_2x1
 
 		add_equipment_type = capital_ship
 

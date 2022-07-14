@@ -14,9 +14,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -42,7 +43,7 @@ equipment_modules = {
 			armor_value = -0.075
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_11_1_a3x1_2x1
+			module = nrm_capital_battery_11_1_3x1_2x1
 			convert_cost_ic = 574
 		}
 		can_convert_from = {
@@ -84,9 +85,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -112,7 +114,7 @@ equipment_modules = {
 			armor_value = -0.075
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_11_2_a3x1_2x1
+			module = nrm_capital_battery_11_2_3x1_2x1
 			convert_cost_ic = 574
 		}
 		can_convert_from = {
@@ -154,9 +156,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -185,7 +188,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_11_3_a3x1_2x1
+			module = nrm_capital_battery_11_3_3x1_2x1
 			convert_cost_ic = 574
 		}
 		can_convert_from = {
@@ -226,9 +229,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -254,7 +258,7 @@ equipment_modules = {
 			armor_value = -0.075
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_12_1_a3x1_2x1
+			module = nrm_capital_battery_12_1_3x1_2x1
 			convert_cost_ic = 553
 		}
 		can_convert_from = {
@@ -296,9 +300,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -324,7 +329,7 @@ equipment_modules = {
 			armor_value = -0.075
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_12_2_a3x1_2x1
+			module = nrm_capital_battery_12_2_3x1_2x1
 			convert_cost_ic = 553
 		}
 		can_convert_from = {
@@ -366,9 +371,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -397,7 +403,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_12_3_a3x1_2x1
+			module = nrm_capital_battery_12_3_3x1_2x1
 			convert_cost_ic = 553
 		}
 		can_convert_from = {
@@ -438,9 +444,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -466,7 +473,7 @@ equipment_modules = {
 			armor_value = -0.075
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_11_1_a3x1_2x1
+			module = nrm_capital_battery_11_1_3x1_2x1
 			convert_cost_ic = 370
 		}
 		can_convert_from = {
@@ -507,6 +514,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -514,6 +522,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -542,7 +551,7 @@ equipment_modules = {
 			armor_value = -0.15
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_11_1_a3x1_2x1
+			module = nrm_capital_battery_11_1_3x1_2x1
 			convert_cost_ic = 540
 		}
 		can_convert_from = {
@@ -583,9 +592,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -644,6 +654,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -651,6 +662,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -712,9 +724,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -770,9 +783,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -798,7 +812,7 @@ equipment_modules = {
 			armor_value = -0.075
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_11_2_a3x1_2x1
+			module = nrm_capital_battery_11_2_3x1_2x1
 			convert_cost_ic = 370
 		}
 		can_convert_from = {
@@ -840,6 +854,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -847,6 +862,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -875,7 +891,7 @@ equipment_modules = {
 			armor_value = -0.15
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_11_2_a3x1_2x1
+			module = nrm_capital_battery_11_2_3x1_2x1
 			convert_cost_ic = 540
 		}
 		can_convert_from = {
@@ -917,9 +933,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -979,6 +996,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -986,6 +1004,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -1048,9 +1067,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -1106,9 +1126,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -1137,7 +1158,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_11_3_a3x1_2x1
+			module = nrm_capital_battery_11_3_3x1_2x1
 			convert_cost_ic = 370
 		}
 		can_convert_from = {
@@ -1179,6 +1200,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -1186,6 +1208,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -1217,7 +1240,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_11_3_a3x1_2x1
+			module = nrm_capital_battery_11_3_3x1_2x1
 			convert_cost_ic = 540
 		}
 		can_convert_from = {
@@ -1259,9 +1282,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -1324,6 +1348,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -1331,6 +1356,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -1396,9 +1422,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -1456,9 +1483,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -1484,7 +1512,7 @@ equipment_modules = {
 			armor_value = -0.075
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_12_1_a3x1_2x1
+			module = nrm_capital_battery_12_1_3x1_2x1
 			convert_cost_ic = 289.5
 		}
 		can_convert_from = {
@@ -1525,6 +1553,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -1532,6 +1561,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -1560,7 +1590,7 @@ equipment_modules = {
 			armor_value = -0.15
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_12_1_a3x1_2x1
+			module = nrm_capital_battery_12_1_3x1_2x1
 			convert_cost_ic = 459.5
 		}
 		can_convert_from = {
@@ -1601,9 +1631,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -1662,6 +1693,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -1669,6 +1701,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -1730,9 +1763,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -1788,9 +1822,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -1816,7 +1851,7 @@ equipment_modules = {
 			armor_value = -0.075
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_12_2_a3x1_2x1
+			module = nrm_capital_battery_12_2_3x1_2x1
 			convert_cost_ic = 289.5
 		}
 		can_convert_from = {
@@ -1858,6 +1893,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -1865,6 +1901,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -1893,7 +1930,7 @@ equipment_modules = {
 			armor_value = -0.15
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_12_2_a3x1_2x1
+			module = nrm_capital_battery_12_2_3x1_2x1
 			convert_cost_ic = 459.5
 		}
 		can_convert_from = {
@@ -1935,9 +1972,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -1997,6 +2035,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -2004,6 +2043,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -2066,9 +2106,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -2124,9 +2165,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -2155,7 +2197,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_12_3_a3x1_2x1
+			module = nrm_capital_battery_12_3_3x1_2x1
 			convert_cost_ic = 289.5
 		}
 		can_convert_from = {
@@ -2197,6 +2239,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -2204,6 +2247,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -2235,7 +2279,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_12_3_a3x1_2x1
+			module = nrm_capital_battery_12_3_3x1_2x1
 			convert_cost_ic = 459.5
 		}
 		can_convert_from = {
@@ -2277,9 +2321,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -2342,6 +2387,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -2349,6 +2395,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -2414,9 +2461,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -2474,9 +2522,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -2502,7 +2551,7 @@ equipment_modules = {
 			armor_value = -0.075
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_13_1_a3x1_2x1
+			module = nrm_capital_battery_13_1_3x1_2x1
 			convert_cost_ic = 191.75
 		}
 		can_convert_from = {
@@ -2543,6 +2592,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -2550,6 +2600,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -2578,7 +2629,7 @@ equipment_modules = {
 			armor_value = -0.15
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_13_1_a3x1_2x1
+			module = nrm_capital_battery_13_1_3x1_2x1
 			convert_cost_ic = 361.75
 		}
 		can_convert_from = {
@@ -2619,9 +2670,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -2680,6 +2732,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -2687,6 +2740,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -2748,9 +2802,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -2806,9 +2861,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -2834,7 +2890,7 @@ equipment_modules = {
 			armor_value = -0.075
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_13_2_a3x1_2x1
+			module = nrm_capital_battery_13_2_3x1_2x1
 			convert_cost_ic = 191.75
 		}
 		can_convert_from = {
@@ -2876,6 +2932,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -2883,6 +2940,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -2911,7 +2969,7 @@ equipment_modules = {
 			armor_value = -0.15
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_13_2_a3x1_2x1
+			module = nrm_capital_battery_13_2_3x1_2x1
 			convert_cost_ic = 361.75
 		}
 		can_convert_from = {
@@ -2953,9 +3011,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -3015,6 +3074,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -3022,6 +3082,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -3084,9 +3145,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -3142,9 +3204,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -3173,7 +3236,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_13_3_a3x1_2x1
+			module = nrm_capital_battery_13_3_3x1_2x1
 			convert_cost_ic = 191.75
 		}
 		can_convert_from = {
@@ -3215,6 +3278,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -3222,6 +3286,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -3253,7 +3318,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_13_3_a3x1_2x1
+			module = nrm_capital_battery_13_3_3x1_2x1
 			convert_cost_ic = 361.75
 		}
 		can_convert_from = {
@@ -3295,9 +3360,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -3360,6 +3426,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -3367,6 +3434,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -3432,9 +3500,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -3492,9 +3561,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -3520,7 +3590,7 @@ equipment_modules = {
 			armor_value = -0.075
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_14_1_a3x1_2x1
+			module = nrm_capital_battery_14_1_3x1_2x1
 			convert_cost_ic = 76.75
 		}
 		can_convert_from = {
@@ -3561,6 +3631,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -3568,6 +3639,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -3596,7 +3668,7 @@ equipment_modules = {
 			armor_value = -0.15
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_14_1_a3x1_2x1
+			module = nrm_capital_battery_14_1_3x1_2x1
 			convert_cost_ic = 246.75
 		}
 		can_convert_from = {
@@ -3637,9 +3709,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -3698,6 +3771,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -3705,6 +3779,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -3766,9 +3841,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -3824,9 +3900,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -3852,7 +3929,7 @@ equipment_modules = {
 			armor_value = -0.075
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_14_2_a3x1_2x1
+			module = nrm_capital_battery_14_2_3x1_2x1
 			convert_cost_ic = 76.75
 		}
 		can_convert_from = {
@@ -3894,6 +3971,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -3901,6 +3979,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -3929,7 +4008,7 @@ equipment_modules = {
 			armor_value = -0.15
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_14_2_a3x1_2x1
+			module = nrm_capital_battery_14_2_3x1_2x1
 			convert_cost_ic = 246.75
 		}
 		can_convert_from = {
@@ -3971,9 +4050,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -4033,6 +4113,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -4040,6 +4121,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -4102,9 +4184,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -4160,9 +4243,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -4191,7 +4275,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_14_3_a3x1_2x1
+			module = nrm_capital_battery_14_3_3x1_2x1
 			convert_cost_ic = 76.75
 		}
 		can_convert_from = {
@@ -4233,6 +4317,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -4240,6 +4325,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -4271,7 +4357,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_14_3_a3x1_2x1
+			module = nrm_capital_battery_14_3_3x1_2x1
 			convert_cost_ic = 246.75
 		}
 		can_convert_from = {
@@ -4313,9 +4399,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -4378,6 +4465,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -4385,6 +4473,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -4450,9 +4539,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -4510,9 +4600,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -4541,7 +4632,7 @@ equipment_modules = {
 			steel = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_15_1_a3x1_2x1
+			module = nrm_capital_battery_15_1_3x1_2x1
 			convert_cost_ic = -52.625
 		}
 		can_convert_from = {
@@ -4582,6 +4673,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -4589,6 +4681,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -4620,7 +4713,7 @@ equipment_modules = {
 			steel = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_15_1_a3x1_2x1
+			module = nrm_capital_battery_15_1_3x1_2x1
 			convert_cost_ic = 117.375
 		}
 		can_convert_from = {
@@ -4661,9 +4754,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -4725,6 +4819,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -4732,6 +4827,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -4796,9 +4892,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -4857,9 +4954,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -4888,7 +4986,7 @@ equipment_modules = {
 			steel = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_15_2_a3x1_2x1
+			module = nrm_capital_battery_15_2_3x1_2x1
 			convert_cost_ic = -52.625
 		}
 		can_convert_from = {
@@ -4930,6 +5028,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -4937,6 +5036,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -4968,7 +5068,7 @@ equipment_modules = {
 			steel = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_15_2_a3x1_2x1
+			module = nrm_capital_battery_15_2_3x1_2x1
 			convert_cost_ic = 117.375
 		}
 		can_convert_from = {
@@ -5010,9 +5110,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -5075,6 +5176,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -5082,6 +5184,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -5147,9 +5250,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -5208,9 +5312,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -5240,7 +5345,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_15_3_a3x1_2x1
+			module = nrm_capital_battery_15_3_3x1_2x1
 			convert_cost_ic = -52.625
 		}
 		can_convert_from = {
@@ -5282,6 +5387,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -5289,6 +5395,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -5321,7 +5428,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_15_3_a3x1_2x1
+			module = nrm_capital_battery_15_3_3x1_2x1
 			convert_cost_ic = 117.375
 		}
 		can_convert_from = {
@@ -5363,9 +5470,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -5429,6 +5537,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -5436,6 +5545,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -5502,9 +5612,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -5563,9 +5674,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -5594,7 +5706,7 @@ equipment_modules = {
 			steel = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_16_1_a3x1_2x1
+			module = nrm_capital_battery_16_1_3x1_2x1
 			convert_cost_ic = -202.125
 		}
 		can_convert_from = {
@@ -5635,6 +5747,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -5642,6 +5755,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -5673,7 +5787,7 @@ equipment_modules = {
 			steel = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_16_1_a3x1_2x1
+			module = nrm_capital_battery_16_1_3x1_2x1
 			convert_cost_ic = -32.125
 		}
 		can_convert_from = {
@@ -5714,9 +5828,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -5778,6 +5893,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -5785,6 +5901,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -5849,9 +5966,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -5910,9 +6028,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -5941,7 +6060,7 @@ equipment_modules = {
 			steel = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_16_2_a3x1_2x1
+			module = nrm_capital_battery_16_2_3x1_2x1
 			convert_cost_ic = -202.125
 		}
 		can_convert_from = {
@@ -5983,6 +6102,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -5990,6 +6110,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -6021,7 +6142,7 @@ equipment_modules = {
 			steel = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_16_2_a3x1_2x1
+			module = nrm_capital_battery_16_2_3x1_2x1
 			convert_cost_ic = -32.125
 		}
 		can_convert_from = {
@@ -6063,9 +6184,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -6128,6 +6250,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -6135,6 +6258,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -6200,9 +6324,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -6261,9 +6386,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -6293,7 +6419,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_16_3_a3x1_2x1
+			module = nrm_capital_battery_16_3_3x1_2x1
 			convert_cost_ic = -202.125
 		}
 		can_convert_from = {
@@ -6335,6 +6461,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -6342,6 +6469,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -6374,7 +6502,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_16_3_a3x1_2x1
+			module = nrm_capital_battery_16_3_3x1_2x1
 			convert_cost_ic = -32.125
 		}
 		can_convert_from = {
@@ -6416,9 +6544,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -6482,6 +6611,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -6489,6 +6619,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -6555,9 +6686,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -6616,9 +6748,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -6647,7 +6780,7 @@ equipment_modules = {
 			steel = 2
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_18_2_a3x1_2x1
+			module = nrm_capital_battery_18_2_3x1_2x1
 			convert_cost_ic = -561.5
 		}
 		can_convert_from = {
@@ -6688,6 +6821,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -6695,6 +6829,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -6726,7 +6861,7 @@ equipment_modules = {
 			steel = 2
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_18_2_a3x1_2x1
+			module = nrm_capital_battery_18_2_3x1_2x1
 			convert_cost_ic = -391.5
 		}
 		can_convert_from = {
@@ -6767,9 +6902,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -6831,6 +6967,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -6838,6 +6975,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -6902,9 +7040,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -6963,9 +7102,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -6995,7 +7135,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_18_3_a3x1_2x1
+			module = nrm_capital_battery_18_3_3x1_2x1
 			convert_cost_ic = -561.5
 		}
 		can_convert_from = {
@@ -7037,6 +7177,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -7044,6 +7185,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -7076,7 +7218,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_18_3_a3x1_2x1
+			module = nrm_capital_battery_18_3_3x1_2x1
 			convert_cost_ic = -391.5
 		}
 		can_convert_from = {
@@ -7118,9 +7260,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -7184,6 +7327,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -7191,6 +7335,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -7257,9 +7402,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -7318,9 +7464,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -7349,7 +7496,7 @@ equipment_modules = {
 			steel = 2
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_20_2_a3x1_2x1
+			module = nrm_capital_battery_20_2_3x1_2x1
 			convert_cost_ic = -1010
 		}
 		can_convert_from = {
@@ -7390,6 +7537,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -7397,6 +7545,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -7428,7 +7577,7 @@ equipment_modules = {
 			steel = 2
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_20_2_a3x1_2x1
+			module = nrm_capital_battery_20_2_3x1_2x1
 			convert_cost_ic = -840
 		}
 		can_convert_from = {
@@ -7469,9 +7618,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -7533,6 +7683,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -7540,6 +7691,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -7604,9 +7756,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -7665,9 +7818,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -7697,7 +7851,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_20_3_a3x1_2x1
+			module = nrm_capital_battery_20_3_3x1_2x1
 			convert_cost_ic = -1010
 		}
 		can_convert_from = {
@@ -7739,6 +7893,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -7746,6 +7901,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -7778,7 +7934,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_20_3_a3x1_2x1
+			module = nrm_capital_battery_20_3_3x1_2x1
 			convert_cost_ic = -840
 		}
 		can_convert_from = {
@@ -7820,9 +7976,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -7886,6 +8043,7 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -7893,6 +8051,7 @@ equipment_modules = {
 			custom_slot_3 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_RC_L
 				nrm_carrier_airgroup_ASW
 				nrm_carrier_airgroup_ASW_L
@@ -7959,9 +8118,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -8020,9 +8180,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -8048,7 +8209,7 @@ equipment_modules = {
 			armor_value = -0.075
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_13_1_a3x1_2x1
+			module = nrm_capital_battery_13_1_3x1_2x1
 			convert_cost_ic = 527.5
 		}
 		can_convert_from = {
@@ -8090,9 +8251,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -8118,7 +8280,7 @@ equipment_modules = {
 			armor_value = -0.075
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_13_2_a3x1_2x1
+			module = nrm_capital_battery_13_2_3x1_2x1
 			convert_cost_ic = 527.5
 		}
 		can_convert_from = {
@@ -8160,9 +8322,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -8191,7 +8354,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_13_3_a3x1_2x1
+			module = nrm_capital_battery_13_3_3x1_2x1
 			convert_cost_ic = 527.5
 		}
 		can_convert_from = {
@@ -8232,9 +8395,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -8260,7 +8424,7 @@ equipment_modules = {
 			armor_value = -0.075
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_14_1_a3x1_2x1
+			module = nrm_capital_battery_14_1_3x1_2x1
 			convert_cost_ic = 497.5
 		}
 		can_convert_from = {
@@ -8302,9 +8466,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -8330,7 +8495,7 @@ equipment_modules = {
 			armor_value = -0.075
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_14_2_a3x1_2x1
+			module = nrm_capital_battery_14_2_3x1_2x1
 			convert_cost_ic = 497.5
 		}
 		can_convert_from = {
@@ -8372,9 +8537,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -8403,7 +8569,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_14_3_a3x1_2x1
+			module = nrm_capital_battery_14_3_3x1_2x1
 			convert_cost_ic = 497.5
 		}
 		can_convert_from = {
@@ -8444,9 +8610,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -8475,7 +8642,7 @@ equipment_modules = {
 			steel = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_15_1_a3x1_2x1
+			module = nrm_capital_battery_15_1_3x1_2x1
 			convert_cost_ic = 463.75
 		}
 		can_convert_from = {
@@ -8517,9 +8684,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -8548,7 +8716,7 @@ equipment_modules = {
 			steel = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_15_2_a3x1_2x1
+			module = nrm_capital_battery_15_2_3x1_2x1
 			convert_cost_ic = 463.75
 		}
 		can_convert_from = {
@@ -8590,9 +8758,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -8622,7 +8791,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_15_3_a3x1_2x1
+			module = nrm_capital_battery_15_3_3x1_2x1
 			convert_cost_ic = 463.75
 		}
 		can_convert_from = {
@@ -8663,9 +8832,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -8694,7 +8864,7 @@ equipment_modules = {
 			steel = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_16_1_a3x1_2x1
+			module = nrm_capital_battery_16_1_3x1_2x1
 			convert_cost_ic = 424.75
 		}
 		can_convert_from = {
@@ -8736,9 +8906,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -8767,7 +8938,7 @@ equipment_modules = {
 			steel = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_16_2_a3x1_2x1
+			module = nrm_capital_battery_16_2_3x1_2x1
 			convert_cost_ic = 424.75
 		}
 		can_convert_from = {
@@ -8809,9 +8980,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -8841,7 +9013,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_16_3_a3x1_2x1
+			module = nrm_capital_battery_16_3_3x1_2x1
 			convert_cost_ic = 424.75
 		}
 		can_convert_from = {
@@ -8882,9 +9054,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -8913,7 +9086,7 @@ equipment_modules = {
 			steel = 2
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_18_2_a3x1_2x1
+			module = nrm_capital_battery_18_2_3x1_2x1
 			convert_cost_ic = 331
 		}
 		can_convert_from = {
@@ -8955,9 +9128,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -8987,7 +9161,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_18_3_a3x1_2x1
+			module = nrm_capital_battery_18_3_3x1_2x1
 			convert_cost_ic = 331
 		}
 		can_convert_from = {
@@ -9028,9 +9202,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -9059,7 +9234,7 @@ equipment_modules = {
 			steel = 2
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_20_2_a3x1_2x1
+			module = nrm_capital_battery_20_2_3x1_2x1
 			convert_cost_ic = 214
 		}
 		can_convert_from = {
@@ -9101,9 +9276,10 @@ equipment_modules = {
 			custom_slot_2 = {
 				lic_hybrid_deck_hanger
 				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
 				nrm_carrier_airgroup_ASW
-				%nrm_carrier_airgroup_RC_L
-				%nrm_carrier_airgroup_AWS_L
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW_L
 			}
 		}
 
@@ -9133,7 +9309,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		can_convert_from = {
-			module = nrm_capital_battery_20_3_a3x1_2x1
+			module = nrm_capital_battery_20_3_3x1_2x1
 			convert_cost_ic = 214
 		}
 		can_convert_from = {

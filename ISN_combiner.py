@@ -51,6 +51,7 @@ class DefModule:
     numberTurrets = 0
     dualPurpse = False
     manpower = 0.0
+    xp_cost = 0
     #add_stats
     add_build_cost_ic = 0.0
     add_max_strength = 0.0
@@ -180,8 +181,8 @@ def Module_outputer(module_array, file):
             moduleGroup.write("\n\n\t\tadd_equipment_type = %s"%module.add_equipment_type)
 
         #allow module catagories
-        allowModuleListShort = ["lic_hybrid_deck_hanger","nrm_carrier_airgroup_RC","nrm_carrier_airgroup_ASW"]
-        allowModuleListLong = ["lic_hybrid_deck_hanger","nrm_carrier_airgroup_RC","nrm_carrier_airgroup_RC_L","nrm_carrier_airgroup_ASW","nrm_carrier_airgroup_ASW_L"]
+        allowModuleListShort = ["lic_hybrid_deck_hanger","nrm_carrier_airgroup_RC","nrm_carrier_airgroup_RC_E","nrm_carrier_airgroup_ASW"]
+        allowModuleListLong = ["lic_hybrid_deck_hanger","nrm_carrier_airgroup_RC","nrm_carrier_airgroup_RC_E","nrm_carrier_airgroup_RC_L","nrm_carrier_airgroup_ASW","nrm_carrier_airgroup_ASW_L"]
         if module.add_carrier_size > 0:
             moduleGroup.write("\n\n\t\tallowed_module_categories = {")
             moduleGroup.write("\n\t\t\tcustom_slot_1 = {")
@@ -202,8 +203,8 @@ def Module_outputer(module_array, file):
                 for e in allowModuleListShort:
                     moduleGroup.write("\n\t\t\t\t%s"%e)
                 if (module.add_carrier_size>16):
-                    moduleGroup.write("\n\t\t\t\t%nrm_carrier_airgroup_RC_L")
-                    moduleGroup.write("\n\t\t\t\t%nrm_carrier_airgroup_AWS_L")
+                    moduleGroup.write("\n\t\t\t\tnrm_carrier_airgroup_RC_L")
+                    moduleGroup.write("\n\t\t\t\tnrm_carrier_airgroup_ASW_L")
                 moduleGroup.write("\n\t\t\t}")
             moduleGroup.write("\n\t\t}")
 
@@ -263,7 +264,7 @@ def Module_outputer(module_array, file):
                 if "2x" in module.name:
                     # a3x2_2x1
                     moduleGroup.write("\n\t\tcan_convert_from = {")
-                    moduleGroup.write("\n\t\t\tmodule = %s%s"%(module.name[:-11],"a3x1_2x1"))
+                    moduleGroup.write("\n\t\t\tmodule = %s%s"%(module.name[:-11],"3x1_2x1"))
                     moduleGroup.write("\n\t\t\tconvert_cost_ic = %g"%(module.add_build_cost_ic*convertDiscount- module.ic_one_turret*2))
                     moduleGroup.write("\n\t\t}")
                     # a4x2_2x1
@@ -393,7 +394,7 @@ def Module_outputer(module_array, file):
         #Module Icons
         gfx_moduleGroup.write("\n\tspriteType = {")
         gfx_moduleGroup.write("\n\t\tname = \"GFX_SMI_%s\""%module.name)
-        gfx_moduleGroup.write("\n\t\ttextureFile = \"gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck_")
+        gfx_moduleGroup.write("\n\t\ttextureFile = \"gfx/interface/equipmentdesigner/naval/modules/icons/nrm_flightdeck_")
         if "_AHL_" in module.name:
             gfx_moduleGroup.write("a")
         gfx_moduleGroup.write("%s.dds\""%module.name[-2:])
@@ -495,19 +496,19 @@ def Module_sub_outputer(module_array, file):
         gfx_moduleGroup.write("\n\tspriteType = {")
         gfx_moduleGroup.write("\n\t\tname = \"GFX_SMI_%s\""%module.name)
         if module.dualPurpse:
-            gfx_moduleGroup.write("\n\t\ttextureFile = \"gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_")
+            gfx_moduleGroup.write("\n\t\ttextureFile = \"gfx/interface/equipmentdesigner/naval/modules/icons/nrm_cruiser_dp_")
             if module.caliber >5.9:
                 gfx_moduleGroup.write("heavy_")
             gfx_moduleGroup.write("battery_%g.dds\""%module.numberGuns)
         else:
             if module.caliber <10:
-                gfx_moduleGroup.write("\n\t\ttextureFile = \"gfx/interface/equipmentdesigner/modules/icons/nrm_")
+                gfx_moduleGroup.write("\n\t\ttextureFile = \"gfx/interface/equipmentdesigner/naval/modules/icons/nrm_")
                 if module.caliber >5.9:
                     gfx_moduleGroup.write("cruiser_heavy_")
                 else:
                     gfx_moduleGroup.write("dd_")
             else:
-                gfx_moduleGroup.write("\n\t\ttextureFile = \"gfx/interface/equipmentdesigner/modules/icons/nrm_capital_")
+                gfx_moduleGroup.write("\n\t\ttextureFile = \"gfx/interface/equipmentdesigner/naval/modules/icons/nrm_capital_")
 
             gfx_moduleGroup.write("battery_%g.dds\""%module.numberGuns)
         gfx_moduleGroup.write("\n\t}\n")
@@ -543,7 +544,8 @@ def Module_Guns_outputer(module_array, file):
     for module in module_array:
         if "3x1_2" in module.name or "4x1_2" in module.name:
             moduleGroup.write("\n\t%s = {"%(module.name[:module.name.find("x1_2")-1] + "a" + module.name[module.name.find("x1_2")-1:]))
-            #print(module.name[:module.name.find("x1_2")-1] + "a" + module.name[module.name.find("x1_2")-1:])
+            if module.parent != "":
+                module.parent = (module.parent[:module.parent.find("x1_2")-1] + "a" + module.parent[module.parent.find("x1_2")-1:])
         else:
             moduleGroup.write("\n\t%s = {"%module.name)
         moduleGroup.write("\n\t\tcategory = %s"%module.category)
@@ -616,7 +618,7 @@ def Module_Guns_outputer(module_array, file):
             gfx_moduleGroup.write("%s\""%module.name)
 
         if module.caliber > 10:
-            gfx_moduleGroup.write("\n\t\ttextureFile = \"gfx/interface/equipmentdesigner/modules/icons/nrm_capital_battery_")
+            gfx_moduleGroup.write("\n\t\ttextureFile = \"gfx/interface/equipmentdesigner/naval/modules/icons/nrm_capital_battery_")
             if "3x1_2" in module.name:    # a3x2_2x1
                 gfx_moduleGroup.write("3x1_2x1.dds\"")
             elif "4x1_2" in module.name:    # a4x2_2x1
@@ -625,13 +627,13 @@ def Module_Guns_outputer(module_array, file):
                 gfx_moduleGroup.write("%gx%g.dds\""%(int(module.numberGuns/module.numberTurrets), int(module.numberTurrets)))
 
         elif module.dualPurpse and module.caliber > 5.9:
-            gfx_moduleGroup.write("\n\t\ttextureFile = \"gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_heavy_battery_%g.dds\""%module.numberGuns)
+            gfx_moduleGroup.write("\n\t\ttextureFile = \"gfx/interface/equipmentdesigner/naval/modules/icons/nrm_cruiser_dp_heavy_battery_%g.dds\""%module.numberGuns)
         elif module.dualPurpse:
-            gfx_moduleGroup.write("\n\t\ttextureFile = \"gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_dp_battery_%g.dds\""%module.numberGuns)
+            gfx_moduleGroup.write("\n\t\ttextureFile = \"gfx/interface/equipmentdesigner/naval/modules/icons/nrm_cruiser_dp_battery_%g.dds\""%module.numberGuns)
         elif module.caliber > 5.9:
-            gfx_moduleGroup.write("\n\t\ttextureFile = \"gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_heavy_battery_%g.dds\""%module.numberGuns)
+            gfx_moduleGroup.write("\n\t\ttextureFile = \"gfx/interface/equipmentdesigner/naval/modules/icons/nrm_cruiser_heavy_battery_%g.dds\""%module.numberGuns)
         else:
-            gfx_moduleGroup.write("\n\t\ttextureFile = \"gfx/interface/equipmentdesigner/modules/icons/nrm_cruiser_battery_%g.dds\""%module.numberGuns)
+            gfx_moduleGroup.write("\n\t\ttextureFile = \"gfx/interface/equipmentdesigner/naval/modules/icons/nrm_cruiser_battery_%g.dds\""%module.numberGuns)
 
         gfx_moduleGroup.write("\n\t}\n")
 
@@ -971,11 +973,7 @@ def local_ship_modules_local_ger(module_set, file):
                         localModule.write("Hauptgeschütz")
                 #add aircraft numbers and armor type for hybrid modules
                 if module.add_carrier_size >0:
-                    localModule.write(" (%d Kapazität"%module.add_carrier_size)
-                    if module.name.find("_AHL_") >-1:
-                        localModule.write(" Gepanzerter)")
-                    else:
-                        localModule.write(" Umgebauter)")
+                    localModule.write(" (%d Kapazität)"%module.add_carrier_size)
                 #add submersable tag for sub gun batteries
                 elif module.add_sub_visibility >0:
                     localModule.write(" (Unterseeisch)")
@@ -1040,7 +1038,7 @@ def local_tech(tech_set, file):
         techgfx.write("\n\t\tname = \"GFX_%s_medium\""%tech)
         techgfx.write("\n\t\ttexturefile = \"") 
         if "converted" in tech or "armored" in tech:
-            techgfx.write("gfx/interface/equipmentdesigner/modules/icons/nrm_flightdeck.dds")
+            techgfx.write("gfx/interface/equipmentdesigner/naval/modules/icons/nrm_flightdeck.dds")
         elif "submarine_turret" in tech:
             techgfx.write("gfx/interface/technologies/")
             if "modern_" in tech:
@@ -1416,7 +1414,7 @@ def top_view_guns(module_set, module_set_rear, file, hybrid_set):
 
     cruiser_turret_gun_count_front= ["","","GFX_SM_nrm_cruiser_battery_twin","GFX_SM_nrm_cruiser_battery_triple"]
     #cruiser_turret_pos_front= ["","x=388 y=0","x=356 y=0","x=334 y=0"]
-    cruiser_turret_pos_front= ["","x=388 y=0","x=356 y=0","x=334 y=0","x=380 y=0","x=365 y=0","x=335 y=0","x=352 y=0","x=374 y=0"]
+    cruiser_turret_pos_front= ["","x=388 y=0","x=356 y=0","x=334 y=0","x=380 y=0","x=365 y=0","x=335 y=0","x=352 y=0","x=374 y=0", "x=344 y=0"]
     PB_turret_pos_front= ["x=345 y=2","x=366 y=2","x=338 y=2"]
     cruiser_turret_gun_count_rear= ["","","GFX_SM_nrm_cruiser_battery_twin_rear","GFX_SM_nrm_cruiser_battery_triple_rear"]
     cruiser_turret_pos_rear= ["x=90 y=0","x=102 y=0","x=132 y=0","x=140 y=0","x=160 y=0","x=170 y=0"]
@@ -1560,6 +1558,43 @@ def top_view_guns(module_set, module_set_rear, file, hybrid_set):
                     topView.write("\n\t\t\t\t\ticonType = {")
                     topView.write("\n\t\t\t\t\t\tname = \"image%i\""%(3))
                     topView.write("\n\t\t\t\t\t\tspriteType = \"GFX_SM_nrm_cruiser_battery_twin_light\"")
+                    topView.write("\n\t\t\t\t\t\tposition = { %s }"%cruiser_turret_pos_front[int(3)])
+                    topView.write("\n\t\t\t\t\t}")
+                elif num_guns == 8: #Tone
+                    #front
+                    topView.write("\n\t\t\t\t\ticonType = {")
+                    topView.write("\n\t\t\t\t\t\tname = \"image%i\""%(1))
+                    if module.caliber>7:
+                        topView.write("\n\t\t\t\t\t\tspriteType = \"GFX_SM_nrm_cruiser_battery_twin\"")
+                    else:
+                        topView.write("\n\t\t\t\t\t\tspriteType = \"GFX_SM_nrm_cruiser_battery_twin_light\"")
+                    topView.write("\n\t\t\t\t\t\tposition = { %s }"%cruiser_turret_pos_front[int(8)])
+                    topView.write("\n\t\t\t\t\t}")
+                    #mid back
+                    topView.write("\n\t\t\t\t\ticonType = {")
+                    topView.write("\n\t\t\t\t\t\tname = \"image%i\""%(2))
+                    if module.caliber>7:
+                        topView.write("\n\t\t\t\t\t\tspriteType = \"GFX_SM_nrm_cruiser_battery_twin_rear\"")
+                    else:
+                        topView.write("\n\t\t\t\t\t\tspriteType = \"GFX_SM_nrm_cruiser_battery_twin_light_rear\"")
+                    topView.write("\n\t\t\t\t\t\tposition = { %s }"%cruiser_turret_pos_front[int(9)])
+                    topView.write("\n\t\t\t\t\t}")
+                    #mid top
+                    topView.write("\n\t\t\t\t\ticonType = {")
+                    topView.write("\n\t\t\t\t\t\tname = \"image%i\""%(3))
+                    if module.caliber>7:
+                        topView.write("\n\t\t\t\t\t\tspriteType = \"GFX_SM_nrm_cruiser_battery_twin\"")
+                    else:
+                        topView.write("\n\t\t\t\t\t\tspriteType = \"GFX_SM_nrm_cruiser_battery_twin_light\"")
+                    topView.write("\n\t\t\t\t\t\tposition = { %s }"%cruiser_turret_pos_front[int(7)])
+                    topView.write("\n\t\t\t\t\t}")
+                    #rear
+                    topView.write("\n\t\t\t\t\ticonType = {")
+                    topView.write("\n\t\t\t\t\t\tname = \"image%i\""%(4))
+                    if module.caliber>7:
+                        topView.write("\n\t\t\t\t\t\tspriteType = \"GFX_SM_nrm_cruiser_battery_twin\"")
+                    else:
+                        topView.write("\n\t\t\t\t\t\tspriteType = \"GFX_SM_nrm_cruiser_battery_twin_light\"")
                     topView.write("\n\t\t\t\t\t\tposition = { %s }"%cruiser_turret_pos_front[int(3)])
                     topView.write("\n\t\t\t\t\t}")
                 elif num_guns%3 == 0:
@@ -2176,6 +2211,8 @@ def GetModuleData():
                             module.critical_parts = line.split("=")[1].replace("{","").replace("}","").strip()
                         elif line.strip().startswith("dismantle_cost_ic"):
                             module.dismantle_cost_ic = float(line.split("=")[1].strip())
+                        elif line.strip().startswith("xp_cost"):
+                            module.xp_cost = float(line.split("=")[1].strip())
                 if indintation == 3:
                     if newModule:
                         if add_stats_section:
@@ -3500,7 +3537,7 @@ for cal in range(5,9):
         pass
     else:
         for NumGuns in range(2,10):
-            if not(NumGuns%2 == 0 or NumGuns%3 == 0 or NumGuns == 5) or NumGuns ==8:
+            if not(NumGuns%2 == 0 or NumGuns%3 == 0 or NumGuns == 5):
                 pass
             else:
                 GunView = DefModule()
@@ -3509,7 +3546,7 @@ for cal in range(5,9):
                 GunView.category = "nrm_cruiser_battery_" + str(cal) + "_x0" + str(NumGuns)
                 cruiser_gun_view_complete.append(GunView)
                 cruiser_gun_view_front.append(GunView)
-                if not (NumGuns == 9):
+                if not (NumGuns >6):
                     cruiser_gun_view_rear.append(GunView)
                 #print(GunView.category)
                 x+=1
@@ -3520,7 +3557,7 @@ for cal in range(5,9):
                     GunView.category = "nrm_cruiser_battery_DP_" + str(cal) + "_x0" + str(NumGuns)
                     cruiser_gun_view_complete.append(GunView)
                     cruiser_gun_view_front.append(GunView)
-                    if not (NumGuns == 9):
+                    if not (NumGuns >6):
                         cruiser_gun_view_rear.append(GunView)
                     #print(GunView.category)
                     x+=1
@@ -3531,7 +3568,7 @@ for cal in range(5,9):
                     GunView.category = "nrm_cruiser_battery_" + str(cal) + "h_x0" + str(NumGuns)
                     cruiser_gun_view_complete.append(GunView)
                     cruiser_gun_view_front.append(GunView)
-                    if not (NumGuns == 9):
+                    if not (NumGuns >6):
                         cruiser_gun_view_rear.append(GunView)
                     #print(GunView.category)
                     x+=1
@@ -3541,7 +3578,7 @@ for cal in range(5,9):
                     GunView.category = "nrm_cruiser_battery_DP_" + str(cal) + "h_x0" + str(NumGuns)
                     cruiser_gun_view_complete.append(GunView)
                     cruiser_gun_view_front.append(GunView)
-                    if not (NumGuns == 9):
+                    if not (NumGuns >6):
                         cruiser_gun_view_rear.append(GunView)
                     #print(GunView.category)
                     x+=1
