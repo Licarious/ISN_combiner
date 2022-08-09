@@ -1261,3 +1261,60 @@ country_event = {
 		set_technology = { nrm_battery_basic_converted_small = 1 }
 	}
 }
+#surface_hybrid_flightdeck_converted_small
+country_event = {
+	id = lic_tech.64
+	title = lic_tech.64.t
+	desc = lic_tech.64.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = surface_hybrid_flightdeck_converted_small } 
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { surface_hybrid_flightdeck_converted_small = 1 }
+	}
+}
+#surface_hybrid_flightdeck_converted_large
+country_event = {
+	id = lic_tech.65
+	title = lic_tech.65.t
+	desc = lic_tech.65.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = surface_hybrid_flightdeck_converted_large } 
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { surface_hybrid_flightdeck_converted_large = 1 }
+	}
+}
+#surface_hybrid_flightdeck_converted_XL
+country_event = {
+	id = lic_tech.66
+	title = lic_tech.66.t
+	desc = lic_tech.66.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = surface_hybrid_flightdeck_converted_XL } 
+		has_tech = advanced_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { surface_hybrid_flightdeck_converted_XL = 1 }
+	}
+}

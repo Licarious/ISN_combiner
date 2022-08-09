@@ -1,0 +1,28 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_flightdeck_CHL_012"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/nrm_flightdeck_a15.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_capital_flightdeck_CHL_016"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/nrm_flightdeck_a20.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_capital_flightdeck_CHL_024"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/nrm_flightdeck_a30.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_cruiser_flightdeck_CHL_024"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/nrm_flightdeck_a30.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_nrm_capital_flightdeck_CHL_032"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/nrm_flightdeck_a40.dds"
+	}
+
+}

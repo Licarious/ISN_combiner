@@ -1,0 +1,6 @@
+
+nrm_cruiser_flightdeck_CHL_012 = 1
+nrm_capital_flightdeck_CHL_016 = 1
+nrm_capital_flightdeck_CHL_024 = 1
+nrm_cruiser_flightdeck_CHL_024 = 1
+nrm_capital_flightdeck_CHL_032 = 1

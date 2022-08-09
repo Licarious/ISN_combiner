@@ -1737,7 +1737,7 @@
 					}
 				}
 				containerWindowType = {
-					name = "nrm_cruiser_battery_8_x02_CV"
+					name = "nrm_cruiser_battery_8_x02_cv"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					iconType = {
@@ -1752,87 +1752,7 @@
 					}
 				}
 				containerWindowType = {
-					name = "nrm_cruiser_battery_PB_11_2x2_CV"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					iconType = {
-						name = "flight_deck"
-						spriteType = "GFX_SM_cruiser_flight_deck_short"
-						position = { x=0 y=0 }
-					}
-					iconType = {
-						name = "image1"
-						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
-						position = { x=175 y=2 }
-					}
-					iconType = {
-						name = "image2"
-						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
-						position = { x=175 y=2 }
-					}
-				}
-				containerWindowType = {
-					name = "nrm_cruiser_battery_PB_11_3x2_CV"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					iconType = {
-						name = "flight_deck"
-						spriteType = "GFX_SM_cruiser_flight_deck_short"
-						position = { x=0 y=0 }
-					}
-					iconType = {
-						name = "image1"
-						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
-						position = { x=175 y=2 }
-					}
-					iconType = {
-						name = "image2"
-						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
-						position = { x=175 y=2 }
-					}
-				}
-				containerWindowType = {
-					name = "nrm_cruiser_battery_PB_12_2x2_CV"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					iconType = {
-						name = "flight_deck"
-						spriteType = "GFX_SM_cruiser_flight_deck_short"
-						position = { x=0 y=0 }
-					}
-					iconType = {
-						name = "image1"
-						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
-						position = { x=175 y=2 }
-					}
-					iconType = {
-						name = "image2"
-						spriteType = "GFX_SM_nrm_capital_battery_twin_rear"
-						position = { x=175 y=2 }
-					}
-				}
-				containerWindowType = {
-					name = "nrm_cruiser_battery_PB_12_3x2_CV"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					iconType = {
-						name = "flight_deck"
-						spriteType = "GFX_SM_cruiser_flight_deck_short"
-						position = { x=0 y=0 }
-					}
-					iconType = {
-						name = "image1"
-						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
-						position = { x=175 y=2 }
-					}
-					iconType = {
-						name = "image2"
-						spriteType = "GFX_SM_nrm_capital_battery_triple_rear"
-						position = { x=175 y=2 }
-					}
-				}
-				containerWindowType = {
-					name = "nrm_cruiser_battery_5_x02_CV"
+					name = "nrm_cruiser_battery_5_x02_cv"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					iconType = {
@@ -1847,7 +1767,7 @@
 					}
 				}
 				containerWindowType = {
-					name = "nrm_cruiser_battery_5_x03_CV"
+					name = "nrm_cruiser_battery_5_x03_cv"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					iconType = {
@@ -1862,7 +1782,7 @@
 					}
 				}
 				containerWindowType = {
-					name = "nrm_cruiser_battery_5h_x02_CV"
+					name = "nrm_cruiser_battery_5h_x02_cv"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					iconType = {
@@ -1877,7 +1797,7 @@
 					}
 				}
 				containerWindowType = {
-					name = "nrm_cruiser_battery_5h_x03_CV"
+					name = "nrm_cruiser_battery_5h_x03_cv"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					iconType = {
@@ -1892,7 +1812,7 @@
 					}
 				}
 				containerWindowType = {
-					name = "nrm_cruiser_battery_6_x02_CV"
+					name = "nrm_cruiser_battery_6_x02_cv"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					iconType = {
@@ -1907,7 +1827,7 @@
 					}
 				}
 				containerWindowType = {
-					name = "nrm_cruiser_battery_6_x03_CV"
+					name = "nrm_cruiser_battery_6_x03_cv"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					iconType = {
@@ -1922,7 +1842,7 @@
 					}
 				}
 				containerWindowType = {
-					name = "nrm_cruiser_battery_8_x03_CV"
+					name = "nrm_cruiser_battery_8_x03_cv"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					iconType = {
@@ -1937,7 +1857,7 @@
 					}
 				}
 				containerWindowType = {
-					name = "nrm_cruiser_battery_DP_5_x03_CV"
+					name = "nrm_cruiser_battery_DP_5_x03_cv"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					iconType = {
@@ -1952,7 +1872,7 @@
 					}
 				}
 				containerWindowType = {
-					name = "nrm_cruiser_battery_DP_5_x02_CV"
+					name = "nrm_cruiser_battery_DP_5_x02_cv"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					iconType = {
@@ -1967,7 +1887,7 @@
 					}
 				}
 				containerWindowType = {
-					name = "nrm_cruiser_battery_DP_5h_x03_CV"
+					name = "nrm_cruiser_battery_DP_5h_x03_cv"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					iconType = {
@@ -1982,7 +1902,7 @@
 					}
 				}
 				containerWindowType = {
-					name = "nrm_cruiser_battery_DP_5h_x02_CV"
+					name = "nrm_cruiser_battery_DP_5h_x02_cv"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					iconType = {
@@ -1997,7 +1917,7 @@
 					}
 				}
 				containerWindowType = {
-					name = "nrm_cruiser_battery_DP_6_x03_CV"
+					name = "nrm_cruiser_battery_DP_6_x03_cv"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					iconType = {
@@ -2012,7 +1932,7 @@
 					}
 				}
 				containerWindowType = {
-					name = "nrm_cruiser_battery_DP_6_x02_CV"
+					name = "nrm_cruiser_battery_DP_6_x02_cv"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					iconType = {
@@ -2027,7 +1947,7 @@
 					}
 				}
 				containerWindowType = {
-					name = "nrm_cruiser_battery_PB_11_2x1_CV"
+					name = "nrm_cruiser_battery_PB_11_2x1_cv"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					iconType = {
@@ -2042,7 +1962,7 @@
 					}
 				}
 				containerWindowType = {
-					name = "nrm_cruiser_battery_PB_11_3x1_CV"
+					name = "nrm_cruiser_battery_PB_11_3x1_cv"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					iconType = {
@@ -2057,7 +1977,7 @@
 					}
 				}
 				containerWindowType = {
-					name = "nrm_cruiser_battery_PB_11_4x1_CV"
+					name = "nrm_cruiser_battery_PB_11_4x1_cv"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					iconType = {
@@ -2072,7 +1992,7 @@
 					}
 				}
 				containerWindowType = {
-					name = "nrm_cruiser_battery_PB_12_2x1_CV"
+					name = "nrm_cruiser_battery_PB_12_2x1_cv"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					iconType = {
@@ -2087,7 +2007,7 @@
 					}
 				}
 				containerWindowType = {
-					name = "nrm_cruiser_battery_PB_12_3x1_CV"
+					name = "nrm_cruiser_battery_PB_12_3x1_cv"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					iconType = {
@@ -2102,7 +2022,7 @@
 					}
 				}
 				containerWindowType = {
-					name = "nrm_cruiser_battery_PB_12_4x1_CV"
+					name = "nrm_cruiser_battery_PB_12_4x1_cv"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					iconType = {

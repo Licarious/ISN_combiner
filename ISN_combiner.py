@@ -102,7 +102,12 @@ def Matrix_combiner(gun, deck, array):
     hybrid = copy.deepcopy(gun)
     hybrid.name = hybrid.name + deck.name[-8:]
     #hybrid.category = hybrid.category + deck.category[-8:-4] #just throw them in with the regular modules
-    hybrid.category = hybrid.category + "_CV"    #Just merg the converted and armored together
+    if deck.add_carrier_size > 30:
+        hybrid.category = hybrid.category + "_cv_XL"
+    elif deck.add_carrier_size > 20:
+        hybrid.category = hybrid.category + "_cv_long"    #Just merg the converted and armored together
+    else:
+        hybrid.category = hybrid.category + "_cv"    #Just merg the converted and armored together
     hybrid.gui_category = hybrid.gui_category
     if hybrid.parent != "":
         hybrid.parent += deck.name[-8:]
@@ -121,27 +126,8 @@ def Matrix_combiner(gun, deck, array):
     hybrid.mp_max_strength += deck.mp_max_strength
     hybrid.add_fuel_consumption += deck.add_fuel_consumption
 
-    if "capital" in hybrid.name and hybrid.add_carrier_size > 21: #Added for long flight deck sprites
-        hybrid.category2 = hybrid.category + "_long"
-    elif "capital" in hybrid.name and hybrid.add_carrier_size < 21:
-        hybrid.category2 = hybrid.category
-    if "cruiser" in hybrid.name and hybrid.add_carrier_size > 16:
-        hybrid.category2 = hybrid.category + "_long"
-    elif "cruiser" in hybrid.name and hybrid.add_carrier_size < 16:
-        hybrid.category2 = hybrid.category
+    hybrid.mp_armor_value += deck.mp_armor_value
 
-    #bunch of conditions for hanger size and armor reduction
-    tmp_armor_mult = 1
-
-    if deck.name.find("_AHL_") >-1:
-        tmp_armor_mult = (tmp_armor_mult*.75)
-
-    if deck.name.find("030") >-1 or (gun.name.find("cruiser") >-1 and deck.name.find("020") >-1):
-        hybrid.mp_armor_value += deck.mp_armor_value*tmp_armor_mult
-    elif deck.name.find("025") >-1 or (gun.name.find("cruiser") >-1 and deck.name.find("015") >-1):
-        hybrid.mp_armor_value += deck.mp_armor_value*tmp_armor_mult*.75
-    else:
-        hybrid.mp_armor_value += deck.mp_armor_value*tmp_armor_mult*.5
     hybrid.dismantle_cost_ic += deck.dismantle_cost_ic
 
     array.append(hybrid)
@@ -169,8 +155,11 @@ def Module_outputer(module_array, file):
         #else:
         #    moduleGroup.write("\n\t\tcategory = %s"%module.gui_category)
 
-        if ("capital" in module.name and module.add_carrier_size > 21) or ("cruiser" in module.name and module.add_carrier_size > 16): #new category for long flight decks
-            moduleGroup.write("_long")
+        if False:
+            if "capital" in module.name and module.add_carrier_size > 30:
+                moduleGroup.write("_XL")
+            elif ("capital" in module.name and module.add_carrier_size > 21) or ("cruiser" in module.name and module.add_carrier_size > 16): #new category for long flight decks
+                moduleGroup.write("_long")
 
         moduleGroup.write("\n\t\tgui_category = %s"%module.gui_category)
         moduleGroup.write("\n\t\tsfx = sfx_ui_sd_module_turret")
@@ -395,9 +384,17 @@ def Module_outputer(module_array, file):
         gfx_moduleGroup.write("\n\tspriteType = {")
         gfx_moduleGroup.write("\n\t\tname = \"GFX_SMI_%s\""%module.name)
         gfx_moduleGroup.write("\n\t\ttextureFile = \"gfx/interface/equipmentdesigner/naval/modules/icons/nrm_flightdeck_")
-        if "_AHL_" in module.name:
-            gfx_moduleGroup.write("a")
-        gfx_moduleGroup.write("%s.dds\""%module.name[-2:])
+        #if "_AHL_" in module.name:
+        #    gfx_moduleGroup.write("a")
+        #gfx_moduleGroup.write("%s.dds\""%module.name[-2:])
+        if module.add_carrier_size > 30:
+            gfx_moduleGroup.write("a40.dds\"")
+        elif module.add_carrier_size > 20:
+            gfx_moduleGroup.write("a30.dds\"")
+        elif module.add_carrier_size > 15:
+            gfx_moduleGroup.write("a20.dds\"")
+        elif module.add_carrier_size > 10:
+            gfx_moduleGroup.write("a15.dds\"")
         gfx_moduleGroup.write("\n\t}\n")
 
         #Ship sub-Unit
@@ -760,16 +757,17 @@ def Event_outputer(techEvents, file, flag, namespace):
         eventGroup.write("\n\ttrigger = {")
         eventGroup.write("\n\t\thas_country_flag = %s"%flag)
         eventGroup.write("\n\t\tnot = { has_tech = %s } "%tech.name)
-        if tech.gunTech.find("|") >-1:
-            eventGroup.write("\n\t\tor = {")
-            eventGroup.write("\n\t\t\thas_tech = %s"%tech.gunTech.partition("|")[0])
-            eventGroup.write("\n\t\t\thas_tech = %s"%tech.gunTech.partition("|")[2])
-            eventGroup.write("\n\t\t }")
-        else:
-            eventGroup.write("\n\t\thas_tech = %s"%tech.gunTech)
-        if tech.launcherTech != "":
+        if tech.gunTech:
+            if tech.gunTech.find("|") >-1:
+                eventGroup.write("\n\t\tor = {")
+                eventGroup.write("\n\t\t\thas_tech = %s"%tech.gunTech.partition("|")[0])
+                eventGroup.write("\n\t\t\thas_tech = %s"%tech.gunTech.partition("|")[2])
+                eventGroup.write("\n\t\t }")
+            else:
+                eventGroup.write("\n\t\thas_tech = %s"%tech.gunTech)
+        if tech.launcherTech:
             eventGroup.write("\n\t\thas_tech = %s"%tech.launcherTech)
-        if tech.hangerTech != "":
+        if tech.hangerTech:
             eventGroup.write("\n\t\thas_tech = %s"%tech.hangerTech)
         if not tech.treatyCompliant:
             eventGroup.write("\n\t\tnot = { has_idea = MTG_naval_treaty_adherent }")
@@ -787,16 +785,17 @@ def Event_outputer(techEvents, file, flag, namespace):
         #handout event
         eventHandout.write("\n\t\tif = {")
         eventHandout.write("\n\t\t\tlimit = {")
-        if "|" in tech.gunTech:
-            eventHandout.write("\n\t\t\t\tor = {")
-            eventHandout.write("\n\t\t\t\t\thas_tech = %s"%tech.gunTech.partition("|")[0])
-            eventHandout.write("\n\t\t\t\t\thas_tech = %s"%tech.gunTech.partition("|")[2])
-            eventHandout.write("\n\t\t\t\t}")
-        else:
-            eventHandout.write("\n\t\t\t\thas_tech = %s"%tech.gunTech)
-        if tech.launcherTech != "":
+        if tech.gunTech:
+            if "|" in tech.gunTech:
+                eventHandout.write("\n\t\t\t\tor = {")
+                eventHandout.write("\n\t\t\t\t\thas_tech = %s"%tech.gunTech.partition("|")[0])
+                eventHandout.write("\n\t\t\t\t\thas_tech = %s"%tech.gunTech.partition("|")[2])
+                eventHandout.write("\n\t\t\t\t}")
+            else:
+                eventHandout.write("\n\t\t\t\thas_tech = %s"%tech.gunTech)
+        if tech.launcherTech:
             eventHandout.write("\n\t\t\t\thas_tech = %s"%tech.launcherTech)
-        if tech.hangerTech != "":
+        if tech.hangerTech:
             eventHandout.write("\n\t\t\t\thas_tech = %s"%tech.hangerTech)
         if not tech.treatyCompliant:
             eventHandout.write("\n\t\t\t\tnot = { has_idea = MTG_naval_treaty_adherent }")
@@ -1209,6 +1208,17 @@ def top_view_deck(file):
         topView.write("\n\t\t\t\t\t\tposition = { x=0 y=0 }")
         topView.write("\n\t\t\t\t\t}")
         topView.write("\n\t\t\t\t}")
+
+        topView.write("\n\t\t\t\tcontainerWindowType = {")
+        topView.write("\n\t\t\t\t\tname = \"nrm_capital_flightdeck_XL\"")
+        topView.write("\n\t\t\t\t\tposition = { x=0 y=0 }")
+        topView.write("\n\t\t\t\t\tsize = { width=100% height=100% }")
+        topView.write("\n\t\t\t\t\ticonType = {")
+        topView.write("\n\t\t\t\t\t\tname = \"flight_deck\"")
+        topView.write("\n\t\t\t\t\t\tspriteType = \"GFX_SM_heavy_flight_deck_XL\"")
+        topView.write("\n\t\t\t\t\t\tposition = { x=0 y=0 }")
+        topView.write("\n\t\t\t\t\t}")
+        topView.write("\n\t\t\t\t}")
     else:
         topView.write("\n\t\t\t\tcontainerWindowType = {")
         topView.write("\n\t\t\t\t\tname = \"nrm_cruiser_flightdeck\"")
@@ -1254,7 +1264,11 @@ def top_view_hybrid(module_set, file):
         if module.add_carrier_size > 0:
             if "capital" in module.name:
                 #print(module.category[-2:])
-                if "_long" in module.category2:
+                if "_XL" in module.name or "_long" in module.name:
+                    continue
+                elif module.add_carrier_size>30:
+                    tmp_catagory = module.category + "_XL"
+                elif module.add_carrier_size>20:
                     #tmp_catagory = module.gui_category + "_long"
                     tmp_catagory = module.category + "_long"
                 else:
@@ -1276,10 +1290,12 @@ def top_view_hybrid(module_set, file):
                     #flight deck
                     topView.write("\n\t\t\t\t\ticonType = {")
                     topView.write("\n\t\t\t\t\t\tname = \"flight_deck\"")
-                    if not "_long" in tmp_catagory:
-                        topView.write("\n\t\t\t\t\t\tspriteType = \"GFX_SM_heavy_flight_deck_short\"")
-                    else:
+                    if "_XL" in tmp_catagory:
+                        topView.write("\n\t\t\t\t\t\tspriteType = \"GFX_SM_heavy_flight_deck_XL\"")
+                    elif "_long" in tmp_catagory:
                         topView.write("\n\t\t\t\t\t\tspriteType = \"GFX_SM_heavy_flight_deck_long\"")
+                    else:
+                        topView.write("\n\t\t\t\t\t\tspriteType = \"GFX_SM_heavy_flight_deck_short\"")
                     topView.write("\n\t\t\t\t\t\tposition = { x=0 y=0 }")
                     topView.write("\n\t\t\t\t\t}")
 
@@ -1298,13 +1314,7 @@ def top_view_hybrid(module_set, file):
                     topView.write("\n\t\t\t\t}\n")
             i=0
             if "cruiser" in module.name:
-                if "_long" in module.category2:
-                    #if module.caliber <5.9:
-                    #    tmp_catagory = module.gui_category[:-3] + "L_" + module.gui_category[-3:] + "_long"
-                    #elif module.caliber >5.9 and module.caliber <8.1:
-                    #    tmp_catagory = module.gui_category[:-3] + "H_" + module.gui_category[-3:] + "_long"
-                    #else:
-                    #    tmp_catagory = module.gui_category + "_long"
+                if module.add_carrier_size>20:
                     tmp_catagory = module.category + "_long"
                 else:
                     #if module.caliber <5.9:
@@ -2037,6 +2047,7 @@ valid_cruiser_gun_batteries2 = ["_2x1 ", "_x02", "_x03", "_x04", "_x06"]
 exceptions_cruiser_gun_batteries = []
 #valid_carrier_flight_deck = ["CHL_010", "CHL_015", "CHL_020", "CHL_025", "CHL_030", "AHL_010", "AHL_015", "AHL_020", "AHL_025", "AHL_030"]
 valid_carrier_flight_deck = ["CHL_010", "CHL_020", "CHL_030"]
+math_valid_carrier_filght_deck = ["CHL_020", "CHL_040"]
 
 valid_module = False
 exception_gun = False
@@ -2157,7 +2168,7 @@ def GetModuleData():
                             else:
                                 module.level = int(line[line.find("_x")-1])
                     elif "nrm_carrier_flightdeck" in line:
-                        for m in valid_carrier_flight_deck:
+                        for m in math_valid_carrier_filght_deck:
                             if m in line:
                                 newModule = True
                                 break
@@ -2588,61 +2599,171 @@ for gun in cruiser_gun_batteries_array:
             cruiser_gun_batteries_array_temp.append(x09)
 i=0
 #create size 10 hangers
+while False:
+    for hanger in carrier_flight_deck_array:
+        if "_020" in hanger.name:
+            fligt_deck = copy.deepcopy(hanger)
+            fligt_deck.name = fligt_deck.name.replace("_020","_010")
+            fligt_deck.category = fligt_deck.category.replace("_020","_010")
+
+            fligt_deck.manpower = int(fligt_deck.manpower*0.569498)
+            fligt_deck.add_build_cost_ic = fligt_deck.add_build_cost_ic*0.6129
+            fligt_deck.add_max_strength = fligt_deck.add_max_strength*0.42857
+            fligt_deck.add_fuel_consumption = fligt_deck.add_fuel_consumption*0.6667
+            fligt_deck.add_supply_consumption = fligt_deck.add_supply_consumption*0.53
+            fligt_deck.add_surface_visibility = fligt_deck.add_surface_visibility*.6129
+            fligt_deck.add_carrier_size = int(fligt_deck.add_carrier_size*.51)
+
+            fligt_deck.mp_build_cost_ic = fligt_deck.mp_build_cost_ic*.3897
+            fligt_deck.mp_reliability = fligt_deck.mp_reliability*.5
+            fligt_deck.mp_naval_speed = fligt_deck.mp_naval_speed*.554
+            fligt_deck.mp_fuel_consumption = fligt_deck.mp_fuel_consumption*.25
+
+            fligt_deck.dismantle_cost_ic = fligt_deck.dismantle_cost_ic*.95
+
+            tmp_carrier_flight_deck_array.append(fligt_deck)
+    i=0
+
+
+#create size 12, 16, 24, 32 converted hangers
 for hanger in carrier_flight_deck_array:
     if "_020" in hanger.name:
+        print(hanger.name)
+        #12	nrm_flightdeck_a15.dds      15/25*20
         fligt_deck = copy.deepcopy(hanger)
-        fligt_deck.name = fligt_deck.name.replace("_020","_010")
-        fligt_deck.category = fligt_deck.category.replace("_020","_010")
+        fligt_deck.name = fligt_deck.name.replace("_020","_012")
+        fligt_deck.category = fligt_deck.category.replace("_020","_012")
 
-        fligt_deck.manpower = int(fligt_deck.manpower*0.569498)
-        fligt_deck.add_build_cost_ic = fligt_deck.add_build_cost_ic*0.6129
-        fligt_deck.add_max_strength = fligt_deck.add_max_strength*0.42857
-        fligt_deck.add_fuel_consumption = fligt_deck.add_fuel_consumption*0.6667
-        fligt_deck.add_supply_consumption = fligt_deck.add_supply_consumption*0.53
-        fligt_deck.add_surface_visibility = fligt_deck.add_surface_visibility*.6129
-        fligt_deck.add_carrier_size = int(fligt_deck.add_carrier_size*.51)
+        fligt_deck.manpower = int(fligt_deck.manpower*0.6885714286)
+        fligt_deck.add_build_cost_ic = fligt_deck.add_build_cost_ic*0.8113207547
+        fligt_deck.add_max_strength = fligt_deck.add_max_strength*0.652173913
+        fligt_deck.add_fuel_consumption = fligt_deck.add_fuel_consumption*0.7777777778
+        fligt_deck.add_supply_consumption = fligt_deck.add_supply_consumption*0.6352941176
+        fligt_deck.add_surface_visibility = fligt_deck.add_surface_visibility*0.8113207547
+        fligt_deck.add_carrier_size = int(fligt_deck.add_carrier_size*.61)
 
-        fligt_deck.mp_build_cost_ic = fligt_deck.mp_build_cost_ic*.3897
-        fligt_deck.mp_reliability = fligt_deck.mp_reliability*.5
-        fligt_deck.mp_naval_speed = fligt_deck.mp_naval_speed*.554
-        fligt_deck.mp_fuel_consumption = fligt_deck.mp_fuel_consumption*.25
+        fligt_deck.mp_build_cost_ic = fligt_deck.mp_build_cost_ic*0.5221053585
+        fligt_deck.mp_reliability = fligt_deck.mp_reliability*.6
+        fligt_deck.mp_naval_speed = fligt_deck.mp_naval_speed*0.687932833
+        fligt_deck.mp_fuel_consumption = fligt_deck.mp_fuel_consumption*0.36
 
-        fligt_deck.dismantle_cost_ic = fligt_deck.dismantle_cost_ic*.95
+        fligt_deck.dismantle_cost_ic = int(fligt_deck.dismantle_cost_ic*0.9819168174)
 
         tmp_carrier_flight_deck_array.append(fligt_deck)
+        
+        #16	nrm_flightdeck_a20.dds      20/25*20
+        fligt_deck = copy.deepcopy(hanger)
+        fligt_deck.name = fligt_deck.name.replace("_020","_016")
+        fligt_deck.category = fligt_deck.category.replace("_020","_016")
+
+        fligt_deck.manpower = int(fligt_deck.manpower*0.8428571429)
+        fligt_deck.add_build_cost_ic = fligt_deck.add_build_cost_ic*0.8962264151
+        fligt_deck.add_max_strength = fligt_deck.add_max_strength*0.7826086957
+        fligt_deck.add_fuel_consumption = fligt_deck.add_fuel_consumption*0.8888888889
+        fligt_deck.add_supply_consumption = fligt_deck.add_supply_consumption*0.8235294118
+        fligt_deck.add_surface_visibility = fligt_deck.add_surface_visibility*0.8962264151
+        fligt_deck.add_carrier_size = int(fligt_deck.add_carrier_size*.81)
+
+        fligt_deck.mp_build_cost_ic = fligt_deck.mp_build_cost_ic*0.7460194221
+        fligt_deck.mp_reliability = fligt_deck.mp_reliability*.8
+        fligt_deck.mp_naval_speed = fligt_deck.mp_naval_speed*0.8403604202
+        fligt_deck.mp_fuel_consumption = fligt_deck.mp_fuel_consumption*0.64
+
+        fligt_deck.dismantle_cost_ic = int(fligt_deck.dismantle_cost_ic*0.9900542495)
+
+        tmp_carrier_flight_deck_array.append(fligt_deck)
+
+    if "_040" in hanger.name:
+        print(hanger.name)
+        #24	nrm_flightdeck_a30.dds      15/25*40
+        fligt_deck = copy.deepcopy(hanger)
+        fligt_deck.name = fligt_deck.name.replace("_040","_024")
+        fligt_deck.category = fligt_deck.category.replace("_040","_024")
+
+        fligt_deck.manpower = int(fligt_deck.manpower*0.6885714286)
+        fligt_deck.add_build_cost_ic = fligt_deck.add_build_cost_ic*0.8113207547
+        fligt_deck.add_max_strength = fligt_deck.add_max_strength*0.652173913
+        fligt_deck.add_fuel_consumption = fligt_deck.add_fuel_consumption*0.7777777778
+        fligt_deck.add_supply_consumption = fligt_deck.add_supply_consumption*0.6352941176
+        fligt_deck.add_surface_visibility = fligt_deck.add_surface_visibility*0.8113207547
+        fligt_deck.add_carrier_size = int(fligt_deck.add_carrier_size*.61)
+
+        fligt_deck.mp_build_cost_ic = fligt_deck.mp_build_cost_ic*0.5221053585
+        fligt_deck.mp_reliability = fligt_deck.mp_reliability*.6
+        fligt_deck.mp_naval_speed = fligt_deck.mp_naval_speed*0.687932833
+        fligt_deck.mp_fuel_consumption = fligt_deck.mp_fuel_consumption*0.36
+
+        fligt_deck.dismantle_cost_ic = int(fligt_deck.dismantle_cost_ic*0.9819168174)
+
+        tmp_carrier_flight_deck_array.append(fligt_deck)
+
+        #32	nrm_flightdeck_a40.dds      20/25*40
+        fligt_deck = copy.deepcopy(hanger)
+        fligt_deck.name = fligt_deck.name.replace("_040","_032")
+        fligt_deck.category = fligt_deck.category.replace("_040","_032")
+
+        fligt_deck.manpower = int(fligt_deck.manpower*0.8428571429)
+        fligt_deck.add_build_cost_ic = fligt_deck.add_build_cost_ic*0.8962264151
+        fligt_deck.add_max_strength = fligt_deck.add_max_strength*0.7826086957
+        fligt_deck.add_fuel_consumption = fligt_deck.add_fuel_consumption*0.8888888889
+        fligt_deck.add_supply_consumption = fligt_deck.add_supply_consumption*0.8235294118
+        fligt_deck.add_surface_visibility = fligt_deck.add_surface_visibility*0.8962264151
+        fligt_deck.add_carrier_size = int(fligt_deck.add_carrier_size*.81)
+
+        fligt_deck.mp_build_cost_ic = fligt_deck.mp_build_cost_ic*0.7460194221
+        fligt_deck.mp_reliability = fligt_deck.mp_reliability*.8
+        fligt_deck.mp_naval_speed = fligt_deck.mp_naval_speed*0.8403604202
+        fligt_deck.mp_fuel_consumption = fligt_deck.mp_fuel_consumption*0.64
+
+        fligt_deck.dismantle_cost_ic = int(fligt_deck.dismantle_cost_ic*0.9900542495)
+
+        tmp_carrier_flight_deck_array.append(fligt_deck)
+
 i=0
+
+
 #Add tmp arrays together
 cruiser_gun_batteries_array += cruiser_gun_batteries_array_temp
-carrier_flight_deck_array += tmp_carrier_flight_deck_array
-
+#carrier_flight_deck_array = tmp_carrier_flight_deck_array
 x=0
 
 # Matrix Combiner Capital
 for gun in capital_gun_batteries_array:
-    for deck in carrier_flight_deck_array:
+    for deck in tmp_carrier_flight_deck_array:
         #Addes Exceptions to matrix        
         #NEW
-        if gun.name.endswith("2x4") or gun.name.endswith("2x3") or gun.name.endswith("3x2") or gun.name.endswith("4x2") or "x1_2x" in gun.name:
+        #make sure that 2x2 016 hybrid modules are made
+        if "_2x2" in gun.name and "_016" in deck.name:
+            Matrix_combiner(gun, deck, capital_hybrid_array)
+            x +=1
+        #no guns on capital deck XL and no cruiser deck small
+        if "_032" in deck.name or "_012" in deck.name:
             continue
-        elif (gun.name.endswith("2x2") or gun.name.endswith("4x1")) and deck.name.endswith("30"):
+        #only upto 3 guns on capital deck long
+        elif "_024" in deck.name and (gun.numberTurrets > 1 or gun.numberGuns>3):
             continue
-        elif deck.name.endswith("10"):
+        #only upto 4 guns on capital deck short 
+        elif "_016" in deck.name and ((gun.numberTurrets > 1 and gun.numberGuns>3) or (gun.numberTurrets > 2 and gun.numberGuns>2)):
+            continue
+        #no 4x1_2x1 or 3x1_2x1 mixed batteries on any deck
+        elif "4x1_2" in gun.name or "3x1_2" in gun.name:
             continue
         else:
             Matrix_combiner(gun, deck, capital_hybrid_array)
             x +=1
+
 i=0
 
 # Matrix Combiner Cruiser
 for gun in cruiser_gun_batteries_array:
-    for deck in carrier_flight_deck_array:
+    for deck in tmp_carrier_flight_deck_array:
         #Addes Exceptions to matrix
         #New
-        if gun.name.endswith("4x2") or gun.name.endswith("x08") or gun.name.endswith("x09") or "x06" in gun.name or "x04" in gun.name or "x05" in gun.name:
+        #no guns on cruiser deck long and no capitale decks
+        if "_016" in deck.name or "_024" in deck.name or "_032" in deck.name:
             continue
-        elif deck.name.endswith("25") or deck.name.endswith("30"):
-            continue
-        elif("x02" in gun.name or "x03" in gun.name or "_PB_" in gun.name) and deck.name.endswith("20"):
+        #only single turret on cruiser deck small
+        elif ("_PB_" in gun.name and gun.numberTurrets>1) or (gun.numberGuns>3 and gun.caliber<9):
             continue
         else:
             Matrix_combiner(gun, deck, cruiser_hybrid_array)
@@ -2654,9 +2775,42 @@ x+=len(capital_gun_batteries_array_Xx1_2x1)
 x+=len(capital_gun_batteries_array_singles)
 print("%s total surface modules"%x)
 
+pure_hybrid_flight_deck_array = []
+#create pure deck modules
+for deck in tmp_carrier_flight_deck_array:
+    module = copy.copy(deck)
+    if deck.add_carrier_size>30:
+        module.name = module.name.replace("carrier","capital")
+        module.category = "nrm_capital_flightdeck_XL"
+        module.gui_category = "nrm_capital_flightdeck"
+    elif deck.add_carrier_size>20:
+        module.name = module.name.replace("carrier","capital")
+        module.category = "nrm_capital_flightdeck_long"
+        module.gui_category = "nrm_capital_flightdeck"
+        pure_hybrid_flight_deck_array.append(module)
+
+        module = copy.copy(deck)
+        module.name = module.name.replace("carrier","cruiser")
+        module.category = "nrm_cruiser_flightdeck_long"
+        module.gui_category = "nrm_cruiser_flightdeck"
+    elif deck.add_carrier_size>15:
+        module.name = module.name.replace("carrier","capital")
+        module.category = "nrm_capital_flightdeck"
+        module.gui_category = "nrm_capital_flightdeck"
+    elif deck.add_carrier_size>10:
+        module.name = module.name.replace("carrier","cruiser")
+        module.category = "nrm_cruiser_flightdeck"
+        module.gui_category = "nrm_cruiser_flightdeck"
+    pure_hybrid_flight_deck_array.append(module)
+
+i=0
 #Output to File
 Module_outputer(capital_hybrid_array, "Output\\modules\\Lic_capital_hybrid.txt")
 Module_outputer(cruiser_hybrid_array, "Output\\modules\\Lic_cruiser_hybrid.txt")
+Module_outputer(pure_hybrid_flight_deck_array, "Output\\modules\\Lic_surface_flight_decks.txt")
+
+
+
 
 #Tech tree & Events
 #Create copy of capital_hybrid_array and cruiser_hybrid_array
@@ -2997,10 +3151,12 @@ i=0
 for module in merged_hybrid_array:
     #basic_ship_hull_carrier
     if module.name.find("_CHL_") >-1:
-        if module.name.find("_010") >-1 or (module.name.find("_020") >-1 and module.name.find("capital") >-1):
+        if "_012" in module.name or "_016" in module.name:
             hangerTechs_set["basic_ship_hull_carrier|airplane_launcher"].append(module)
-        elif module.name.find("_030") >-1 or (module.name.find("_020") >-1 and module.name.find("cruiser") >-1):
+        elif "_024" in module.name:
             hangerTechs_set["basic_ship_hull_carrier|improved_airplane_launcher"].append(module)
+        elif "_032" in module.name:
+            hangerTechs_set["basic_ship_hull_carrier|advanced_airplane_launcher"].append(module)
         if BICE:
             gun_selecor(module,gunTechs_set_BICE)
         else:
@@ -3056,6 +3212,8 @@ if BICE:
                                 eventStuf.launcherTech = "airplane_launcher"
                             elif "|improved_airplane_launcher" in key2:
                                 eventStuf.launcherTech = "improved_airplane_launcher"
+                            elif "|advanced_airplane_launcher" in key2:
+                                eventStuf.launcherTech = "advanced_airplane_launcher"
 
                             #print("%s\t-\t%s"%(techName,(i/total)*100))
                             techEvents.append(eventStuf)
@@ -3091,6 +3249,8 @@ else:
                                 eventStuf.launcherTech = "airplane_launcher"
                             elif "|improved_airplane_launcher" in key2:
                                 eventStuf.launcherTech = "improved_airplane_launcher"
+                            elif "|advanced_airplane_launcher" in key2:
+                                eventStuf.launcherTech = "advanced_airplane_launcher"
 
                             print("%s\t-\t%s"%(techName,(i/total)*100))
                             techEvents.append(eventStuf)
@@ -3099,9 +3259,9 @@ else:
 i=0
 
 # Submarine Turrets
-# x02 x03 in 5 5.5
-# x02 in 6 8
-# x01 in 13 14 15 16
+# x02 x03 in 4 5 5.5 6
+# x02 in 8
+# x01 in 11 12 13 14 15 16
 submarine_turrets = []
 subGun_list = []
 x=0
@@ -3291,6 +3451,34 @@ for gun in capital_gun_batteries_array:
                 x+=1
     pass
 i=0
+
+
+#add pure decks to techEvents
+if True:
+    #small Conversion Decks
+    es = DefTechEvents()
+    es.name = "surface_hybrid_flightdeck_converted_small"
+    es.gunTech = ""
+    es.hangerTech = "basic_ship_hull_carrier"
+    es.launcherTech = "airplane_launcher"
+    techEvents.append(es)
+    #Long Conversion Decks
+    es = DefTechEvents()
+    es.name = "surface_hybrid_flightdeck_converted_large"
+    es.gunTech = ""
+    es.hangerTech = "basic_ship_hull_carrier"
+    es.launcherTech = "improved_airplane_launcher"
+    techEvents.append(es)
+    #XL Conversion Decks
+    es = DefTechEvents()
+    es.name = "surface_hybrid_flightdeck_converted_XL"
+    es.gunTech = ""
+    es.hangerTech = "basic_ship_hull_carrier"
+    es.launcherTech = "advanced_airplane_launcher"
+    techEvents.append(es)
+
+i=0
+
 
 print("Tech Matrix Combiner Finished")
 Tech_outputer(mergedTech_set, "Output\\technologies\\Lic_MtG_Naval_Hybrid.txt")

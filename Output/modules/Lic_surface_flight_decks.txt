@@ -1,0 +1,273 @@
+equipment_modules = {
+
+	nrm_cruiser_flightdeck_CHL_012 = {
+		category = nrm_cruiser_flightdeck
+		gui_category = nrm_cruiser_flightdeck
+		sfx = sfx_ui_sd_module_turret
+
+		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
+			custom_slot_2 = {
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
+				nrm_carrier_airgroup_ASW
+			}
+		}
+
+		manpower = 203
+		add_stats = {
+			build_cost_ic = 770.754716965
+			max_strength = 11.739130434000002
+			fuel_consumption = 3.1111111112
+			supply_consumption = 0.044470588232
+			surface_visibility = 0.770754716965
+			carrier_size = 12
+		}
+		add_average_stats = {
+		}
+		multiply_stats = {
+			build_cost_ic = 0.051121971842264906
+			reliability = -0.036
+			naval_speed = -0.059910505526391135
+			fuel_consumption = 0.011999999999999986
+			max_strength = -0.4
+			armor_value = -0.15
+		}
+		can_convert_from = {
+			module = nrm_cruiser_flightdx02
+			convert_cost_ic = 655.142
+		}
+		can_convert_from = {
+			module = nrm_cruiser_flightdx03
+			convert_cost_ic = 655.142
+		}
+		can_convert_from = {
+			module = nrm_cruiser_flightdx04
+			convert_cost_ic = 655.142
+		}
+		can_convert_from = {
+			module = nrm_cruiser_flightdx05
+			convert_cost_ic = 655.142
+		}
+		can_convert_from = {
+			module = nrm_cruiser_flightdx06
+			convert_cost_ic = 655.142
+		}
+		can_convert_from = {
+			module = nrm_cruiser_flightdx09
+			convert_cost_ic = 655.142
+		}
+		critical_parts = {  }
+		dismantle_cost_ic = 2150
+
+	}
+	nrm_capital_flightdeck_CHL_016 = {
+		category = nrm_capital_flightdeck
+		gui_category = nrm_capital_flightdeck
+		sfx = sfx_ui_sd_module_turret
+
+		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
+			custom_slot_2 = {
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
+				nrm_carrier_airgroup_ASW
+			}
+		}
+
+		manpower = 248
+		add_stats = {
+			build_cost_ic = 851.415094345
+			max_strength = 14.086956522600001
+			fuel_consumption = 3.5555555556
+			supply_consumption = 0.05764705882600001
+			surface_visibility = 0.851415094345
+			carrier_size = 16
+		}
+		add_average_stats = {
+		}
+		multiply_stats = {
+			build_cost_ic = 0.07304652838643283
+			reliability = -0.048
+			naval_speed = -0.07318507735558608
+			fuel_consumption = 0.021333333333333312
+			max_strength = -0.4
+			armor_value = -0.15
+		}
+		critical_parts = {  }
+		dismantle_cost_ic = 2168
+
+	}
+	nrm_capital_flightdeck_CHL_024 = {
+		category = nrm_capital_flightdeck_long
+		gui_category = nrm_capital_flightdeck
+		sfx = sfx_ui_sd_module_turret
+
+		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
+			custom_slot_2 = {
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW
+				nrm_carrier_airgroup_ASW_L
+			}
+			custom_slot_3 = {
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW
+				nrm_carrier_airgroup_ASW_L
+			}
+		}
+
+		manpower = 356
+		add_stats = {
+			build_cost_ic = 1257.547169785
+			max_strength = 27.391304346000002
+			fuel_consumption = 4.6666666668
+			supply_consumption = 0.0838588235232
+			surface_visibility = 1.257547169785
+			carrier_size = 24
+		}
+		add_average_stats = {
+		}
+		multiply_stats = {
+			build_cost_ic = 0.13117026496181244
+			reliability = -0.072
+			naval_speed = -0.10812420595346083
+			fuel_consumption = 0.047999999999999876
+			max_strength = -0.4
+			armor_value = -0.15
+		}
+		critical_parts = {  }
+		dismantle_cost_ic = 2268
+
+	}
+	nrm_cruiser_flightdeck_CHL_024 = {
+		category = nrm_cruiser_flightdeck_long
+		gui_category = nrm_cruiser_flightdeck
+		sfx = sfx_ui_sd_module_turret
+
+		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
+			custom_slot_2 = {
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW
+				nrm_carrier_airgroup_ASW_L
+			}
+		}
+
+		manpower = 356
+		add_stats = {
+			build_cost_ic = 1257.547169785
+			max_strength = 27.391304346000002
+			fuel_consumption = 4.6666666668
+			supply_consumption = 0.0838588235232
+			surface_visibility = 1.257547169785
+			carrier_size = 24
+		}
+		add_average_stats = {
+		}
+		multiply_stats = {
+			build_cost_ic = 0.13117026496181244
+			reliability = -0.072
+			naval_speed = -0.10812420595346083
+			fuel_consumption = 0.047999999999999876
+			max_strength = -0.4
+			armor_value = -0.15
+		}
+		can_convert_from = {
+			module = nrm_cruiser_flightdx02
+			convert_cost_ic = 1068.92
+		}
+		can_convert_from = {
+			module = nrm_cruiser_flightdx03
+			convert_cost_ic = 1068.92
+		}
+		can_convert_from = {
+			module = nrm_cruiser_flightdx04
+			convert_cost_ic = 1068.92
+		}
+		can_convert_from = {
+			module = nrm_cruiser_flightdx05
+			convert_cost_ic = 1068.92
+		}
+		can_convert_from = {
+			module = nrm_cruiser_flightdx06
+			convert_cost_ic = 1068.92
+		}
+		can_convert_from = {
+			module = nrm_cruiser_flightdx09
+			convert_cost_ic = 1068.92
+		}
+		critical_parts = {  }
+		dismantle_cost_ic = 2268
+
+	}
+	nrm_capital_flightdeck_CHL_032 = {
+		category = nrm_capital_flightdeck_XL
+		gui_category = nrm_capital_flightdeck
+		sfx = sfx_ui_sd_module_turret
+
+		allowed_module_categories = {
+			custom_slot_1 = {
+				lic_hybrid_deck_style
+			}
+			custom_slot_2 = {
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW
+				nrm_carrier_airgroup_ASW_L
+			}
+			custom_slot_3 = {
+				lic_hybrid_deck_hanger
+				nrm_carrier_airgroup_RC
+				nrm_carrier_airgroup_RC_E
+				nrm_carrier_airgroup_RC_L
+				nrm_carrier_airgroup_ASW
+				nrm_carrier_airgroup_ASW_L
+			}
+		}
+
+		manpower = 436
+		add_stats = {
+			build_cost_ic = 1389.150943405
+			max_strength = 32.8695652194
+			fuel_consumption = 5.3333333334
+			supply_consumption = 0.10870588235760001
+			surface_visibility = 1.389150943405
+			carrier_size = 32
+		}
+		add_average_stats = {
+		}
+		multiply_stats = {
+			build_cost_ic = 0.1874249395651725
+			reliability = -0.096
+			naval_speed = -0.13208164923979096
+			fuel_consumption = 0.08533333333333312
+			max_strength = -0.4
+			armor_value = -0.15
+		}
+		critical_parts = {  }
+		dismantle_cost_ic = 2287
+
+	}
+}
